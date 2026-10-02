@@ -1,0 +1,3001 @@
+CustomerID,Region,ContractType,Churn,ChurnProbability,Predicted12MRevenueEGP,Segment,IsAnomaly,RetentionPriority
+CUST-00001,Alexandria,Month-to-month,Yes,0.639,5943.81,1,False,Normal
+CUST-00002,Upper Egypt,Month-to-month,No,0.321,4222.67,0,False,Normal
+CUST-00003,Giza,Month-to-month,No,0.302,4080.92,0,False,Normal
+CUST-00004,Giza,Month-to-month,No,0.245,4205.31,0,False,Normal
+CUST-00005,Delta,Month-to-month,No,0.425,4686.33,0,False,Normal
+CUST-00006,Giza,One year,No,0.114,5453.65,0,False,Normal
+CUST-00007,Delta,Month-to-month,Yes,0.707,3941.03,3,False,Normal
+CUST-00008,Giza,One year,No,0.052,5692.48,2,False,Normal
+CUST-00009,Cairo,Two year,No,0.16,3567.45,0,False,Normal
+CUST-00010,Delta,One year,No,0.157,4236.94,0,False,Normal
+CUST-00011,Cairo,Month-to-month,Yes,0.583,4941.11,2,False,Normal
+CUST-00012,Cairo,One year,No,0.159,7239.68,1,False,Normal
+CUST-00013,Alexandria,Month-to-month,Yes,0.425,5301.53,2,False,Normal
+CUST-00014,Delta,Month-to-month,No,0.382,4653.54,0,False,Normal
+CUST-00015,Upper Egypt,Month-to-month,No,0.503,4624.78,0,False,Normal
+CUST-00016,Cairo,Two year,No,0.056,5478.6,0,False,Normal
+CUST-00017,Cairo,One year,No,0.091,4991.24,0,False,Normal
+CUST-00018,Upper Egypt,Two year,No,0.051,6975.16,1,False,Normal
+CUST-00019,Cairo,One year,No,0.083,3729.54,0,False,Normal
+CUST-00020,Cairo,Month-to-month,No,0.471,5865.53,1,False,Normal
+CUST-00021,Cairo,Two year,No,0.081,5061.44,0,False,Normal
+CUST-00022,Alexandria,Two year,No,0.046,6049.23,2,False,Normal
+CUST-00023,Upper Egypt,Month-to-month,No,0.653,4675.47,0,False,Normal
+CUST-00024,Delta,Two year,No,0.047,4192.1,0,False,Normal
+CUST-00025,Delta,Two year,Yes,0.604,4628.31,0,False,Normal
+CUST-00026,Cairo,Month-to-month,No,0.327,4378.49,0,False,Normal
+CUST-00027,Giza,Month-to-month,Yes,0.66,6555.89,3,False,High
+CUST-00028,Giza,Month-to-month,No,0.393,4550.84,0,False,Normal
+CUST-00029,Cairo,One year,No,0.084,5662.18,0,False,Normal
+CUST-00030,Cairo,Month-to-month,Yes,0.545,3858.79,3,False,Normal
+CUST-00031,Cairo,Month-to-month,No,0.244,4738.07,2,False,Normal
+CUST-00032,Cairo,One year,No,0.066,7902.54,1,False,Normal
+CUST-00033,Alexandria,Two year,Yes,0.437,6981.29,1,False,Normal
+CUST-00034,Delta,Two year,Yes,0.45,8247.76,1,False,Normal
+CUST-00035,Cairo,One year,No,0.121,5796.56,1,False,Normal
+CUST-00036,Giza,Month-to-month,No,0.425,4637.55,0,False,Normal
+CUST-00037,Delta,Month-to-month,No,0.426,4012.52,0,False,Normal
+CUST-00038,Delta,One year,No,0.238,6323.3,1,False,Normal
+CUST-00039,Delta,Month-to-month,No,0.481,5510.96,1,False,Normal
+CUST-00040,Giza,One year,No,0.039,4345.0,0,False,Normal
+CUST-00041,Delta,Two year,No,0.065,7926.23,1,False,Normal
+CUST-00042,Cairo,One year,No,0.07,7886.89,1,False,Normal
+CUST-00043,Giza,One year,No,0.188,7957.12,1,False,Normal
+CUST-00044,Cairo,One year,No,0.076,6255.22,1,False,Normal
+CUST-00045,Giza,Two year,No,0.123,6905.8,1,False,Normal
+CUST-00046,Giza,Month-to-month,No,0.416,4122.8,0,False,Normal
+CUST-00047,Cairo,Month-to-month,No,0.368,3131.79,0,False,Normal
+CUST-00048,Delta,Month-to-month,No,0.535,3609.33,3,False,Normal
+CUST-00049,Cairo,One year,No,0.107,6134.42,1,False,Normal
+CUST-00050,Cairo,Month-to-month,Yes,0.736,4588.38,3,False,Normal
+CUST-00051,Cairo,Month-to-month,No,0.465,3673.9,0,False,Normal
+CUST-00052,Giza,One year,No,0.131,5757.75,3,False,Normal
+CUST-00053,Cairo,Month-to-month,Yes,0.675,4468.65,3,False,Normal
+CUST-00054,Giza,One year,No,0.125,7359.27,3,True,Normal
+CUST-00055,Cairo,Month-to-month,No,0.182,4092.93,3,False,Normal
+CUST-00056,Delta,Month-to-month,No,0.208,4138.67,2,False,Normal
+CUST-00057,Upper Egypt,Month-to-month,Yes,0.808,3742.36,3,False,Normal
+CUST-00058,Giza,Month-to-month,No,0.187,5485.58,3,False,Normal
+CUST-00059,Alexandria,Two year,No,0.084,7005.64,3,False,Normal
+CUST-00060,Upper Egypt,Two year,No,0.031,7612.8,1,False,Normal
+CUST-00061,Upper Egypt,One year,No,0.082,5102.42,0,False,Normal
+CUST-00062,Alexandria,One year,No,0.077,4797.05,3,False,Normal
+CUST-00063,Upper Egypt,One year,Yes,0.661,7774.9,1,False,High
+CUST-00064,Upper Egypt,Two year,No,0.096,6598.43,2,False,Normal
+CUST-00065,Delta,Month-to-month,No,0.274,5072.46,1,False,Normal
+CUST-00066,Giza,Month-to-month,No,0.398,6924.89,1,False,Normal
+CUST-00067,Cairo,One year,No,0.214,5093.57,0,False,Normal
+CUST-00068,Cairo,Two year,No,0.102,5739.5,0,False,Normal
+CUST-00069,Giza,Month-to-month,No,0.265,4857.16,2,False,Normal
+CUST-00070,Giza,Month-to-month,No,0.542,3393.91,0,False,Normal
+CUST-00071,Giza,Month-to-month,No,0.311,3040.61,0,False,Normal
+CUST-00072,Alexandria,Month-to-month,No,0.509,6994.51,1,False,Normal
+CUST-00073,Alexandria,One year,No,0.258,6621.43,3,False,Normal
+CUST-00074,Delta,Month-to-month,No,0.227,3874.72,0,False,Normal
+CUST-00075,Cairo,Two year,No,0.048,7117.38,1,False,Normal
+CUST-00076,Cairo,One year,No,0.16,7564.75,1,False,Normal
+CUST-00077,Delta,Month-to-month,No,0.613,5502.74,1,False,Normal
+CUST-00078,Delta,One year,No,0.159,4302.13,3,True,Normal
+CUST-00079,Upper Egypt,One year,No,0.129,7384.59,1,False,Normal
+CUST-00080,Upper Egypt,Month-to-month,No,0.192,3808.16,0,False,Normal
+CUST-00081,Upper Egypt,Month-to-month,No,0.48,3328.18,0,False,Normal
+CUST-00082,Cairo,Two year,No,0.023,6061.69,2,False,Normal
+CUST-00083,Giza,Month-to-month,No,0.629,6561.78,1,False,High
+CUST-00084,Cairo,Month-to-month,No,0.396,5468.39,3,False,Normal
+CUST-00085,Alexandria,Month-to-month,Yes,0.631,6042.07,1,False,Normal
+CUST-00086,Upper Egypt,Month-to-month,No,0.165,3223.83,0,False,Normal
+CUST-00087,Giza,One year,No,0.191,7896.28,1,False,Normal
+CUST-00088,Alexandria,Month-to-month,No,0.496,4151.85,0,False,Normal
+CUST-00089,Cairo,One year,No,0.094,6232.66,1,False,Normal
+CUST-00090,Cairo,Month-to-month,No,0.625,3606.6,3,False,Normal
+CUST-00091,Cairo,Two year,No,0.037,6237.74,3,False,Normal
+CUST-00092,Cairo,Month-to-month,No,0.552,4244.22,0,False,Normal
+CUST-00093,Upper Egypt,Two year,No,0.053,9508.16,1,False,Normal
+CUST-00094,Giza,Two year,No,0.061,6101.57,0,False,Normal
+CUST-00095,Delta,Month-to-month,Yes,0.721,6898.87,1,False,High
+CUST-00096,Delta,One year,Yes,0.635,7633.93,1,False,High
+CUST-00097,Cairo,Month-to-month,No,0.377,3943.63,0,False,Normal
+CUST-00098,Cairo,Two year,No,0.099,6801.86,3,True,Normal
+CUST-00099,Delta,One year,No,0.061,4470.86,0,False,Normal
+CUST-00100,Cairo,Month-to-month,Yes,0.723,2933.66,0,False,Normal
+CUST-00101,Upper Egypt,Month-to-month,Yes,0.755,2740.76,3,False,Normal
+CUST-00102,Cairo,Month-to-month,No,0.185,4524.72,2,False,Normal
+CUST-00103,Alexandria,One year,No,0.215,8400.44,1,False,Normal
+CUST-00104,Delta,One year,No,0.13,3478.14,0,False,Normal
+CUST-00105,Cairo,Month-to-month,Yes,0.675,4718.8,2,False,Normal
+CUST-00106,Cairo,Month-to-month,No,0.357,4721.78,3,False,Normal
+CUST-00107,Upper Egypt,Month-to-month,No,0.249,3136.73,2,False,Normal
+CUST-00108,Cairo,One year,No,0.072,6379.21,0,False,Normal
+CUST-00109,Giza,Month-to-month,No,0.364,6520.14,1,False,Normal
+CUST-00110,Giza,Month-to-month,No,0.273,6240.92,1,False,Normal
+CUST-00111,Cairo,Two year,No,0.092,8282.07,2,False,Normal
+CUST-00112,Delta,Month-to-month,No,0.38,2788.62,0,False,Normal
+CUST-00113,Delta,One year,No,0.05,9162.54,2,True,Normal
+CUST-00114,Giza,Month-to-month,No,0.485,4583.79,3,False,Normal
+CUST-00115,Delta,Month-to-month,No,0.204,4829.4,2,False,Normal
+CUST-00116,Cairo,One year,No,0.128,7105.01,1,False,Normal
+CUST-00117,Cairo,Month-to-month,No,0.337,6133.15,1,False,Normal
+CUST-00118,Alexandria,Month-to-month,No,0.594,3979.7,0,False,Normal
+CUST-00119,Upper Egypt,Two year,No,0.06,4700.18,0,False,Normal
+CUST-00120,Cairo,Two year,No,0.026,8108.67,1,False,Normal
+CUST-00121,Cairo,One year,No,0.035,3976.68,0,False,Normal
+CUST-00122,Giza,Month-to-month,No,0.453,6499.9,3,True,Normal
+CUST-00123,Delta,Month-to-month,Yes,0.83,4630.82,0,False,Normal
+CUST-00124,Cairo,Month-to-month,Yes,0.649,3144.75,0,False,Normal
+CUST-00125,Giza,Two year,No,0.108,7220.67,1,False,Normal
+CUST-00126,Delta,One year,No,0.117,7077.25,1,False,Normal
+CUST-00127,Giza,Month-to-month,No,0.49,6629.07,1,False,Normal
+CUST-00128,Cairo,Two year,No,0.054,6340.91,0,False,Normal
+CUST-00129,Cairo,Month-to-month,No,0.515,5610.6,1,False,Normal
+CUST-00130,Giza,One year,No,0.06,5041.19,0,False,Normal
+CUST-00131,Giza,Month-to-month,No,0.403,5279.86,0,False,Normal
+CUST-00132,Upper Egypt,Month-to-month,No,0.379,6715.08,1,False,Normal
+CUST-00133,Alexandria,Two year,No,0.092,4786.71,0,False,Normal
+CUST-00134,Delta,Two year,No,0.129,7218.78,3,False,Normal
+CUST-00135,Upper Egypt,Month-to-month,Yes,0.668,5950.89,1,False,Normal
+CUST-00136,Giza,Month-to-month,No,0.476,3538.29,0,False,Normal
+CUST-00137,Giza,One year,No,0.119,5733.63,0,False,Normal
+CUST-00138,Upper Egypt,Month-to-month,No,0.315,3723.45,0,False,Normal
+CUST-00139,Cairo,One year,No,0.06,6371.07,1,False,Normal
+CUST-00140,Delta,One year,No,0.049,7294.49,1,False,Normal
+CUST-00141,Delta,Month-to-month,No,0.32,4425.15,0,False,Normal
+CUST-00142,Cairo,Month-to-month,Yes,0.682,6653.48,1,False,High
+CUST-00143,Giza,Month-to-month,Yes,0.506,4338.13,0,False,Normal
+CUST-00144,Cairo,Two year,No,0.14,5716.67,3,False,Normal
+CUST-00145,Cairo,Month-to-month,Yes,0.61,4604.36,0,False,Normal
+CUST-00146,Giza,One year,No,0.132,6486.32,1,False,Normal
+CUST-00147,Cairo,Month-to-month,Yes,0.779,5808.97,1,False,Normal
+CUST-00148,Delta,One year,No,0.041,5791.57,2,False,Normal
+CUST-00149,Upper Egypt,Month-to-month,No,0.476,4800.63,0,False,Normal
+CUST-00150,Delta,Month-to-month,No,0.611,5567.79,1,False,Normal
+CUST-00151,Cairo,One year,No,0.089,3821.81,0,False,Normal
+CUST-00152,Cairo,One year,No,0.079,3243.7,0,True,Normal
+CUST-00153,Cairo,Month-to-month,Yes,0.672,4889.51,3,False,Normal
+CUST-00154,Cairo,Month-to-month,Yes,0.706,4270.67,0,False,Normal
+CUST-00155,Upper Egypt,Two year,No,0.062,4013.99,0,False,Normal
+CUST-00156,Giza,Month-to-month,Yes,0.686,4870.98,2,False,Normal
+CUST-00157,Cairo,Month-to-month,No,0.279,5888.55,2,False,Normal
+CUST-00158,Delta,Month-to-month,No,0.244,5510.9,1,False,Normal
+CUST-00159,Giza,Month-to-month,Yes,0.797,5964.11,1,False,Normal
+CUST-00160,Cairo,One year,No,0.071,5892.18,1,False,Normal
+CUST-00161,Cairo,One year,No,0.084,5408.37,3,False,Normal
+CUST-00162,Alexandria,Month-to-month,Yes,0.689,4996.39,1,False,Normal
+CUST-00163,Delta,One year,No,0.092,7668.77,3,False,Normal
+CUST-00164,Cairo,Month-to-month,No,0.514,5211.03,2,False,Normal
+CUST-00165,Upper Egypt,One year,No,0.171,6231.41,3,False,Normal
+CUST-00166,Delta,Month-to-month,No,0.447,5268.33,2,False,Normal
+CUST-00167,Delta,Month-to-month,Yes,0.717,6687.09,1,False,High
+CUST-00168,Cairo,One year,No,0.369,7342.22,1,False,Normal
+CUST-00169,Cairo,Month-to-month,No,0.528,4700.56,1,False,Normal
+CUST-00170,Upper Egypt,Month-to-month,No,0.357,5785.31,3,True,Normal
+CUST-00171,Cairo,Month-to-month,No,0.359,4801.85,0,False,Normal
+CUST-00172,Alexandria,One year,No,0.076,7303.54,1,False,Normal
+CUST-00173,Delta,Month-to-month,Yes,0.646,4483.87,0,False,Normal
+CUST-00174,Cairo,One year,No,0.038,7431.56,2,False,Normal
+CUST-00175,Delta,One year,No,0.159,6137.68,0,False,Normal
+CUST-00176,Upper Egypt,One year,No,0.154,6573.46,1,False,Normal
+CUST-00177,Delta,Month-to-month,No,0.204,4001.37,0,False,Normal
+CUST-00178,Giza,One year,No,0.15,5445.31,0,False,Normal
+CUST-00179,Upper Egypt,Month-to-month,No,0.221,4004.13,0,False,Normal
+CUST-00180,Alexandria,Two year,No,0.062,6435.2,1,False,Normal
+CUST-00181,Delta,One year,No,0.07,3683.78,0,False,Normal
+CUST-00182,Delta,Month-to-month,Yes,0.81,5787.57,1,False,Normal
+CUST-00183,Delta,One year,No,0.045,6827.72,1,False,Normal
+CUST-00184,Cairo,Month-to-month,No,0.339,6087.04,1,False,Normal
+CUST-00185,Cairo,Month-to-month,No,0.186,3494.89,2,False,Normal
+CUST-00186,Cairo,Month-to-month,No,0.588,5827.13,1,False,Normal
+CUST-00187,Giza,One year,No,0.1,2805.3,0,False,Normal
+CUST-00188,Giza,One year,No,0.093,6011.85,3,False,Normal
+CUST-00189,Alexandria,Two year,No,0.102,9206.47,1,False,Normal
+CUST-00190,Giza,Month-to-month,No,0.33,2376.35,0,False,Normal
+CUST-00191,Delta,One year,No,0.128,3542.28,0,False,Normal
+CUST-00192,Upper Egypt,One year,No,0.097,4229.1,0,False,Normal
+CUST-00193,Cairo,One year,No,0.106,7154.12,1,False,Normal
+CUST-00194,Delta,Month-to-month,No,0.157,4275.58,2,False,Normal
+CUST-00195,Alexandria,Month-to-month,Yes,0.688,6223.57,3,False,Normal
+CUST-00196,Alexandria,One year,No,0.038,4600.73,0,False,Normal
+CUST-00197,Cairo,Month-to-month,No,0.395,4759.86,0,False,Normal
+CUST-00198,Delta,Month-to-month,Yes,0.677,3174.47,0,False,Normal
+CUST-00199,Upper Egypt,Month-to-month,No,0.287,4835.38,3,False,Normal
+CUST-00200,Delta,Month-to-month,No,0.424,3601.98,0,False,Normal
+CUST-00201,Upper Egypt,Month-to-month,No,0.354,7043.81,1,False,Normal
+CUST-00202,Upper Egypt,Month-to-month,Yes,0.639,3675.92,0,False,Normal
+CUST-00203,Giza,One year,No,0.098,5541.08,0,False,Normal
+CUST-00204,Alexandria,Two year,No,0.092,7110.72,1,False,Normal
+CUST-00205,Giza,Month-to-month,Yes,0.74,5416.49,1,False,Normal
+CUST-00206,Upper Egypt,Month-to-month,Yes,0.725,5277.97,3,False,Normal
+CUST-00207,Cairo,One year,No,0.101,4436.29,3,False,Normal
+CUST-00208,Giza,Month-to-month,No,0.413,3696.75,0,False,Normal
+CUST-00209,Upper Egypt,Two year,No,0.035,5956.46,3,False,Normal
+CUST-00210,Cairo,One year,No,0.116,8241.84,1,False,Normal
+CUST-00211,Delta,Month-to-month,Yes,0.543,5738.17,2,False,Normal
+CUST-00212,Giza,Month-to-month,No,0.434,3172.33,0,False,Normal
+CUST-00213,Upper Egypt,Month-to-month,Yes,0.649,4747.07,3,False,Normal
+CUST-00214,Upper Egypt,One year,No,0.108,6523.35,1,False,Normal
+CUST-00215,Cairo,Month-to-month,No,0.574,4837.39,1,False,Normal
+CUST-00216,Delta,Two year,No,0.03,7441.27,2,True,Normal
+CUST-00217,Giza,One year,Yes,0.596,4936.27,3,False,Normal
+CUST-00218,Alexandria,Two year,No,0.069,8194.14,1,False,Normal
+CUST-00219,Alexandria,Two year,No,0.028,5877.41,2,False,Normal
+CUST-00220,Delta,Month-to-month,No,0.139,4246.45,0,False,Normal
+CUST-00221,Cairo,Month-to-month,Yes,0.768,5935.54,3,False,Normal
+CUST-00222,Cairo,Two year,No,0.023,6192.92,2,True,Normal
+CUST-00223,Delta,Month-to-month,Yes,0.528,4660.26,0,False,Normal
+CUST-00224,Alexandria,Month-to-month,Yes,0.791,4851.93,1,False,Normal
+CUST-00225,Giza,Month-to-month,No,0.545,3862.62,0,False,Normal
+CUST-00226,Cairo,Month-to-month,No,0.455,4699.7,1,False,Normal
+CUST-00227,Giza,Two year,No,0.026,6296.66,2,False,Normal
+CUST-00228,Upper Egypt,Month-to-month,No,0.274,4569.48,1,False,Normal
+CUST-00229,Cairo,One year,No,0.113,8294.43,1,False,Normal
+CUST-00230,Giza,Two year,No,0.082,7111.42,3,False,Normal
+CUST-00231,Upper Egypt,Month-to-month,No,0.394,5413.77,2,False,Normal
+CUST-00232,Cairo,One year,No,0.151,8177.11,1,False,Normal
+CUST-00233,Delta,Month-to-month,No,0.291,4813.63,3,False,Normal
+CUST-00234,Cairo,Month-to-month,No,0.116,5678.82,2,False,Normal
+CUST-00235,Upper Egypt,Month-to-month,No,0.359,6190.16,1,False,Normal
+CUST-00236,Delta,Month-to-month,No,0.522,5322.62,1,False,Normal
+CUST-00237,Upper Egypt,Month-to-month,No,0.532,5490.06,1,False,Normal
+CUST-00238,Cairo,Month-to-month,Yes,0.65,5648.42,1,False,Normal
+CUST-00239,Alexandria,Month-to-month,No,0.399,4637.2,0,False,Normal
+CUST-00240,Delta,Month-to-month,No,0.563,4640.63,0,False,Normal
+CUST-00241,Cairo,One year,No,0.075,4966.04,0,False,Normal
+CUST-00242,Cairo,Month-to-month,No,0.301,5108.15,2,False,Normal
+CUST-00243,Cairo,One year,No,0.139,5475.19,1,False,Normal
+CUST-00244,Upper Egypt,Two year,No,0.086,7068.76,3,False,Normal
+CUST-00245,Delta,One year,No,0.129,5131.16,0,False,Normal
+CUST-00246,Alexandria,One year,No,0.048,7310.57,2,False,Normal
+CUST-00247,Delta,One year,No,0.085,3744.79,0,False,Normal
+CUST-00248,Alexandria,One year,No,0.066,6735.63,1,False,Normal
+CUST-00249,Giza,Two year,No,0.047,7872.08,1,False,Normal
+CUST-00250,Giza,Two year,No,0.142,4438.43,0,False,Normal
+CUST-00251,Alexandria,Month-to-month,No,0.363,4631.15,3,False,Normal
+CUST-00252,Cairo,One year,No,0.092,6324.26,3,False,Normal
+CUST-00253,Upper Egypt,One year,No,0.075,5580.62,3,False,Normal
+CUST-00254,Delta,Month-to-month,No,0.261,4200.92,0,False,Normal
+CUST-00255,Giza,Month-to-month,No,0.231,3920.89,0,False,Normal
+CUST-00256,Alexandria,One year,No,0.069,6569.47,1,False,Normal
+CUST-00257,Cairo,One year,No,0.066,5815.12,1,False,Normal
+CUST-00258,Upper Egypt,Month-to-month,No,0.458,5701.21,1,False,Normal
+CUST-00259,Upper Egypt,Month-to-month,No,0.351,5476.8,2,False,Normal
+CUST-00260,Upper Egypt,Month-to-month,No,0.149,3382.68,0,False,Normal
+CUST-00261,Giza,One year,No,0.143,5502.23,3,False,Normal
+CUST-00262,Cairo,Two year,No,0.071,8346.11,1,False,Normal
+CUST-00263,Cairo,Two year,Yes,0.457,4447.13,0,False,Normal
+CUST-00264,Cairo,Month-to-month,No,0.177,4505.39,2,False,Normal
+CUST-00265,Cairo,Month-to-month,Yes,0.649,3333.52,0,False,Normal
+CUST-00266,Cairo,One year,No,0.082,5228.31,0,False,Normal
+CUST-00267,Upper Egypt,One year,No,0.058,5647.16,0,False,Normal
+CUST-00268,Cairo,Month-to-month,No,0.443,4587.55,1,False,Normal
+CUST-00269,Cairo,Month-to-month,No,0.46,5365.06,1,False,Normal
+CUST-00270,Delta,Month-to-month,No,0.202,3659.06,0,False,Normal
+CUST-00271,Alexandria,One year,No,0.065,6707.22,2,False,Normal
+CUST-00272,Delta,One year,No,0.088,3654.05,3,True,Normal
+CUST-00273,Alexandria,Month-to-month,No,0.128,5550.42,2,False,Normal
+CUST-00274,Upper Egypt,Two year,No,0.033,8716.79,1,False,Normal
+CUST-00275,Alexandria,One year,No,0.106,4352.72,0,False,Normal
+CUST-00276,Alexandria,Two year,No,0.093,5103.03,0,False,Normal
+CUST-00277,Delta,Month-to-month,No,0.23,2951.45,0,False,Normal
+CUST-00278,Giza,Month-to-month,No,0.452,5554.0,3,False,Normal
+CUST-00279,Giza,Two year,No,0.088,7623.37,1,False,Normal
+CUST-00280,Giza,Two year,No,0.028,6243.42,2,False,Normal
+CUST-00281,Cairo,Two year,No,0.112,4813.93,0,False,Normal
+CUST-00282,Delta,One year,No,0.043,3752.51,0,False,Normal
+CUST-00283,Cairo,Month-to-month,No,0.41,4187.07,0,False,Normal
+CUST-00284,Cairo,Month-to-month,Yes,0.605,2838.44,0,False,Normal
+CUST-00285,Cairo,Month-to-month,No,0.432,5648.86,1,False,Normal
+CUST-00286,Delta,Two year,No,0.065,7415.0,1,False,Normal
+CUST-00287,Giza,Month-to-month,No,0.518,5423.87,3,False,Normal
+CUST-00288,Delta,One year,No,0.078,6194.17,1,False,Normal
+CUST-00289,Delta,Two year,No,0.048,6957.43,3,False,Normal
+CUST-00290,Cairo,Two year,No,0.066,5632.83,0,False,Normal
+CUST-00291,Delta,Two year,No,0.078,7323.88,1,False,Normal
+CUST-00292,Cairo,One year,No,0.1,8070.07,1,False,Normal
+CUST-00293,Cairo,Month-to-month,No,0.293,3532.74,0,False,Normal
+CUST-00294,Delta,Two year,No,0.077,5420.77,3,False,Normal
+CUST-00295,Upper Egypt,Month-to-month,Yes,0.775,5727.48,1,False,Normal
+CUST-00296,Cairo,Month-to-month,No,0.277,5566.67,2,False,Normal
+CUST-00297,Alexandria,Two year,No,0.092,6169.93,3,False,Normal
+CUST-00298,Cairo,One year,No,0.13,6754.47,1,False,Normal
+CUST-00299,Alexandria,Month-to-month,Yes,0.727,6256.64,1,False,High
+CUST-00300,Alexandria,Month-to-month,Yes,0.597,4830.63,3,False,Normal
+CUST-00301,Alexandria,Month-to-month,Yes,0.813,4283.57,3,False,Normal
+CUST-00302,Alexandria,Two year,No,0.026,5895.2,1,False,Normal
+CUST-00303,Cairo,One year,No,0.097,6782.24,1,False,Normal
+CUST-00304,Delta,Month-to-month,Yes,0.646,4571.85,3,False,Normal
+CUST-00305,Alexandria,One year,No,0.11,6521.62,1,False,Normal
+CUST-00306,Delta,Two year,No,0.083,8986.95,1,False,Normal
+CUST-00307,Cairo,Two year,No,0.069,7448.15,1,False,Normal
+CUST-00308,Giza,Month-to-month,Yes,0.656,5018.92,1,False,Normal
+CUST-00309,Giza,One year,No,0.112,5365.28,3,False,Normal
+CUST-00310,Cairo,Month-to-month,No,0.369,3453.22,0,False,Normal
+CUST-00311,Cairo,Month-to-month,Yes,0.63,5696.91,3,False,Normal
+CUST-00312,Giza,Month-to-month,No,0.192,3284.29,0,False,Normal
+CUST-00313,Delta,Month-to-month,No,0.348,3659.92,0,False,Normal
+CUST-00314,Cairo,One year,No,0.096,4776.31,3,False,Normal
+CUST-00315,Delta,Month-to-month,No,0.561,4821.23,1,False,Normal
+CUST-00316,Alexandria,Month-to-month,Yes,0.606,5920.23,1,False,Normal
+CUST-00317,Delta,Month-to-month,No,0.244,4896.0,2,False,Normal
+CUST-00318,Giza,Month-to-month,No,0.294,5496.7,2,False,Normal
+CUST-00319,Giza,One year,Yes,0.639,6804.21,1,False,High
+CUST-00320,Alexandria,Month-to-month,No,0.455,4642.07,3,False,Normal
+CUST-00321,Upper Egypt,Month-to-month,No,0.413,4899.69,3,False,Normal
+CUST-00322,Giza,Two year,No,0.048,5404.46,3,False,Normal
+CUST-00323,Alexandria,Month-to-month,Yes,0.682,5836.16,1,False,Normal
+CUST-00324,Alexandria,Two year,No,0.076,10821.63,1,True,Normal
+CUST-00325,Delta,One year,No,0.174,4926.28,0,False,Normal
+CUST-00326,Cairo,One year,No,0.103,4762.76,3,False,Normal
+CUST-00327,Giza,One year,No,0.078,3544.43,0,False,Normal
+CUST-00328,Giza,Month-to-month,No,0.388,7168.23,3,False,Normal
+CUST-00329,Upper Egypt,Two year,No,0.056,7499.96,2,False,Normal
+CUST-00330,Giza,Two year,No,0.145,9362.71,1,False,Normal
+CUST-00331,Giza,Month-to-month,No,0.605,4591.55,3,False,Normal
+CUST-00332,Upper Egypt,One year,No,0.059,7823.79,1,False,Normal
+CUST-00333,Giza,Month-to-month,No,0.277,4882.02,2,False,Normal
+CUST-00334,Cairo,Two year,No,0.055,6627.45,0,False,Normal
+CUST-00335,Cairo,One year,No,0.12,4164.33,0,False,Normal
+CUST-00336,Cairo,Month-to-month,No,0.29,4720.68,1,False,Normal
+CUST-00337,Cairo,Two year,No,0.148,4789.95,0,False,Normal
+CUST-00338,Giza,Two year,No,0.117,4526.95,0,False,Normal
+CUST-00339,Delta,One year,No,0.119,4814.0,0,False,Normal
+CUST-00340,Delta,Month-to-month,Yes,0.655,6444.27,1,False,High
+CUST-00341,Cairo,One year,Yes,0.562,5125.14,3,False,Normal
+CUST-00342,Alexandria,One year,No,0.185,2742.2,3,True,Normal
+CUST-00343,Cairo,Month-to-month,No,0.159,4104.44,2,False,Normal
+CUST-00344,Upper Egypt,Two year,No,0.039,6166.13,2,False,Normal
+CUST-00345,Cairo,One year,No,0.202,4115.28,0,False,Normal
+CUST-00346,Alexandria,Two year,No,0.112,8211.61,1,False,Normal
+CUST-00347,Giza,One year,No,0.144,4372.82,0,False,Normal
+CUST-00348,Alexandria,Month-to-month,Yes,0.803,5689.92,1,False,Normal
+CUST-00349,Giza,Two year,No,0.122,6804.78,1,False,Normal
+CUST-00350,Delta,One year,No,0.194,5411.11,0,False,Normal
+CUST-00351,Cairo,Month-to-month,Yes,0.62,5279.68,1,False,Normal
+CUST-00352,Upper Egypt,Month-to-month,Yes,0.649,3643.31,0,False,Normal
+CUST-00353,Giza,Month-to-month,No,0.43,3222.22,0,False,Normal
+CUST-00354,Delta,One year,Yes,0.574,7236.13,1,False,Normal
+CUST-00355,Delta,Month-to-month,No,0.137,3155.33,0,False,Normal
+CUST-00356,Upper Egypt,Two year,No,0.054,6605.36,0,False,Normal
+CUST-00357,Cairo,Two year,No,0.069,6391.64,1,False,Normal
+CUST-00358,Cairo,One year,No,0.087,5467.55,3,False,Normal
+CUST-00359,Cairo,Month-to-month,No,0.599,5432.79,3,False,Normal
+CUST-00360,Cairo,One year,Yes,0.433,4554.65,0,False,Normal
+CUST-00361,Alexandria,Month-to-month,No,0.288,5865.39,1,False,Normal
+CUST-00362,Upper Egypt,Two year,No,0.084,6088.35,1,False,Normal
+CUST-00363,Upper Egypt,Month-to-month,No,0.391,5444.63,3,False,Normal
+CUST-00364,Alexandria,Two year,No,0.052,6300.65,2,False,Normal
+CUST-00365,Alexandria,Month-to-month,No,0.444,6766.05,1,False,Normal
+CUST-00366,Delta,Month-to-month,No,0.653,4923.29,1,False,Normal
+CUST-00367,Upper Egypt,Two year,No,0.055,6612.74,1,False,Normal
+CUST-00368,Cairo,Month-to-month,No,0.488,6345.23,1,False,Normal
+CUST-00369,Alexandria,Two year,No,0.049,4960.44,0,False,Normal
+CUST-00370,Delta,Two year,No,0.04,7951.31,1,False,Normal
+CUST-00371,Cairo,Month-to-month,No,0.446,5520.38,1,False,Normal
+CUST-00372,Giza,Month-to-month,No,0.419,4739.81,0,False,Normal
+CUST-00373,Upper Egypt,One year,No,0.095,4859.91,0,False,Normal
+CUST-00374,Upper Egypt,Two year,No,0.057,3936.68,0,False,Normal
+CUST-00375,Upper Egypt,Two year,No,0.061,4009.09,0,False,Normal
+CUST-00376,Delta,Month-to-month,No,0.257,6895.32,1,True,Normal
+CUST-00377,Cairo,One year,No,0.08,3895.32,0,False,Normal
+CUST-00378,Giza,Month-to-month,No,0.53,5181.18,1,False,Normal
+CUST-00379,Alexandria,One year,No,0.065,2765.58,0,False,Normal
+CUST-00380,Alexandria,One year,No,0.046,3602.98,2,False,Normal
+CUST-00381,Giza,Two year,No,0.075,6136.76,0,False,Normal
+CUST-00382,Alexandria,Month-to-month,No,0.276,6460.98,2,False,Normal
+CUST-00383,Giza,Month-to-month,Yes,0.51,3906.84,0,False,Normal
+CUST-00384,Delta,Month-to-month,No,0.401,4536.51,3,False,Normal
+CUST-00385,Giza,Month-to-month,No,0.468,5558.58,3,False,Normal
+CUST-00386,Giza,Month-to-month,No,0.295,5330.46,1,False,Normal
+CUST-00387,Cairo,Two year,No,0.074,4289.03,0,False,Normal
+CUST-00388,Cairo,Month-to-month,No,0.142,5011.08,2,False,Normal
+CUST-00389,Delta,Month-to-month,Yes,0.674,6443.15,1,False,High
+CUST-00390,Giza,One year,No,0.169,8406.5,1,False,Normal
+CUST-00391,Cairo,Month-to-month,No,0.382,3530.0,0,False,Normal
+CUST-00392,Delta,Month-to-month,No,0.411,4859.42,2,False,Normal
+CUST-00393,Alexandria,Two year,No,0.066,9082.84,1,False,Normal
+CUST-00394,Cairo,Month-to-month,No,0.18,4254.21,2,False,Normal
+CUST-00395,Cairo,Month-to-month,No,0.183,4180.02,2,False,Normal
+CUST-00396,Cairo,One year,No,0.147,5636.09,3,False,Normal
+CUST-00397,Alexandria,Month-to-month,No,0.432,2846.3,0,False,Normal
+CUST-00398,Cairo,Month-to-month,No,0.438,6265.19,1,False,Normal
+CUST-00399,Cairo,Month-to-month,No,0.554,5974.89,1,False,Normal
+CUST-00400,Cairo,Month-to-month,No,0.26,3107.58,0,True,Normal
+CUST-00401,Alexandria,Two year,No,0.056,6892.03,1,False,Normal
+CUST-00402,Cairo,Month-to-month,No,0.589,4381.01,3,False,Normal
+CUST-00403,Delta,Month-to-month,No,0.521,4830.08,0,False,Normal
+CUST-00404,Cairo,Month-to-month,No,0.344,5451.96,1,False,Normal
+CUST-00405,Alexandria,Two year,No,0.053,8301.78,1,False,Normal
+CUST-00406,Giza,Month-to-month,Yes,0.665,5368.55,1,False,Normal
+CUST-00407,Giza,Two year,No,0.136,7248.19,1,False,Normal
+CUST-00408,Cairo,Month-to-month,No,0.273,3740.4,0,False,Normal
+CUST-00409,Delta,Two year,No,0.089,10428.77,1,False,Normal
+CUST-00410,Upper Egypt,Month-to-month,Yes,0.65,4793.23,0,False,Normal
+CUST-00411,Cairo,Month-to-month,No,0.379,3802.07,0,False,Normal
+CUST-00412,Cairo,Month-to-month,No,0.514,5347.01,1,False,Normal
+CUST-00413,Upper Egypt,Month-to-month,No,0.3,3324.21,0,False,Normal
+CUST-00414,Alexandria,One year,No,0.125,3556.12,0,False,Normal
+CUST-00415,Cairo,One year,No,0.125,4733.9,0,False,Normal
+CUST-00416,Cairo,One year,No,0.057,4543.56,2,False,Normal
+CUST-00417,Alexandria,Month-to-month,No,0.451,3859.45,3,False,Normal
+CUST-00418,Delta,One year,No,0.174,8147.17,1,False,Normal
+CUST-00419,Alexandria,Month-to-month,No,0.259,2364.53,0,False,Normal
+CUST-00420,Upper Egypt,Two year,No,0.057,8949.35,1,False,Normal
+CUST-00421,Giza,One year,No,0.16,5364.33,3,False,Normal
+CUST-00422,Cairo,One year,No,0.241,7958.44,1,False,Normal
+CUST-00423,Giza,Two year,No,0.097,4021.9,0,False,Normal
+CUST-00424,Giza,One year,No,0.057,6599.98,2,False,Normal
+CUST-00425,Cairo,One year,No,0.143,2123.44,0,False,Normal
+CUST-00426,Cairo,Month-to-month,Yes,0.615,4553.18,0,False,Normal
+CUST-00427,Giza,One year,No,0.125,6183.03,1,False,Normal
+CUST-00428,Delta,Month-to-month,No,0.624,4485.76,0,False,Normal
+CUST-00429,Cairo,Month-to-month,No,0.258,6094.01,1,False,Normal
+CUST-00430,Giza,One year,No,0.1,7193.22,1,False,Normal
+CUST-00431,Alexandria,Month-to-month,No,0.35,1851.68,0,True,Normal
+CUST-00432,Alexandria,One year,No,0.091,6005.33,1,False,Normal
+CUST-00433,Delta,Month-to-month,No,0.604,5530.1,1,False,Normal
+CUST-00434,Delta,Month-to-month,No,0.117,4178.97,2,False,Normal
+CUST-00435,Delta,Two year,No,0.039,10753.54,1,True,Normal
+CUST-00436,Cairo,Month-to-month,No,0.462,6306.23,1,False,Normal
+CUST-00437,Giza,One year,No,0.099,5785.06,0,False,Normal
+CUST-00438,Alexandria,One year,No,0.097,4427.1,0,False,Normal
+CUST-00439,Cairo,Two year,No,0.066,5028.48,0,False,Normal
+CUST-00440,Cairo,Month-to-month,Yes,0.744,4221.82,0,False,Normal
+CUST-00441,Cairo,One year,No,0.118,5380.04,1,False,Normal
+CUST-00442,Giza,Month-to-month,Yes,0.789,3990.59,0,False,Normal
+CUST-00443,Giza,Month-to-month,No,0.466,3928.67,0,False,Normal
+CUST-00444,Cairo,Month-to-month,No,0.564,4879.4,1,False,Normal
+CUST-00445,Delta,Month-to-month,No,0.444,6120.26,1,False,Normal
+CUST-00446,Upper Egypt,Month-to-month,No,0.443,5618.12,1,False,Normal
+CUST-00447,Cairo,Month-to-month,No,0.627,3779.55,0,False,Normal
+CUST-00448,Upper Egypt,Month-to-month,Yes,0.736,4049.49,0,False,Normal
+CUST-00449,Cairo,One year,No,0.125,4489.52,0,False,Normal
+CUST-00450,Upper Egypt,Month-to-month,No,0.498,4189.12,3,False,Normal
+CUST-00451,Upper Egypt,Month-to-month,No,0.362,4390.21,3,False,Normal
+CUST-00452,Cairo,Month-to-month,No,0.217,6699.58,1,False,Normal
+CUST-00453,Delta,Month-to-month,No,0.483,4984.5,1,False,Normal
+CUST-00454,Upper Egypt,One year,Yes,0.486,5284.99,0,False,Normal
+CUST-00455,Upper Egypt,Two year,No,0.051,7049.24,1,False,Normal
+CUST-00456,Upper Egypt,One year,No,0.14,5364.02,0,True,Normal
+CUST-00457,Alexandria,One year,No,0.057,4600.93,0,False,Normal
+CUST-00458,Cairo,Month-to-month,No,0.368,5456.96,1,False,Normal
+CUST-00459,Delta,Two year,No,0.089,4460.18,0,False,Normal
+CUST-00460,Alexandria,Month-to-month,No,0.138,6570.61,2,False,Normal
+CUST-00461,Alexandria,Month-to-month,No,0.41,2927.65,0,True,Normal
+CUST-00462,Giza,Month-to-month,No,0.246,3860.38,2,False,Normal
+CUST-00463,Alexandria,Month-to-month,No,0.286,5190.85,1,False,Normal
+CUST-00464,Cairo,One year,No,0.066,5075.69,0,False,Normal
+CUST-00465,Delta,Month-to-month,No,0.419,5546.56,1,False,Normal
+CUST-00466,Cairo,Month-to-month,Yes,0.629,6327.77,1,False,High
+CUST-00467,Delta,Month-to-month,Yes,0.769,3956.48,0,False,Normal
+CUST-00468,Delta,Two year,Yes,0.583,3135.22,0,False,Normal
+CUST-00469,Giza,One year,No,0.122,6653.6,1,False,Normal
+CUST-00470,Giza,Two year,No,0.1,5042.41,0,False,Normal
+CUST-00471,Cairo,Two year,No,0.08,7228.42,2,False,Normal
+CUST-00472,Upper Egypt,Two year,No,0.12,7003.93,3,False,Normal
+CUST-00473,Delta,Month-to-month,No,0.315,6724.7,1,False,Normal
+CUST-00474,Giza,Month-to-month,Yes,0.455,4830.61,1,False,Normal
+CUST-00475,Cairo,Month-to-month,No,0.44,5638.95,2,False,Normal
+CUST-00476,Cairo,Month-to-month,Yes,0.665,4821.11,2,False,Normal
+CUST-00477,Giza,One year,Yes,0.647,6497.43,1,False,High
+CUST-00478,Upper Egypt,Month-to-month,No,0.445,5324.34,3,False,Normal
+CUST-00479,Delta,Month-to-month,No,0.447,3917.03,0,False,Normal
+CUST-00480,Cairo,One year,No,0.134,6558.75,1,False,Normal
+CUST-00481,Delta,Month-to-month,No,0.375,5057.56,0,False,Normal
+CUST-00482,Giza,Month-to-month,No,0.293,5123.56,1,False,Normal
+CUST-00483,Delta,Month-to-month,No,0.343,4799.06,1,False,Normal
+CUST-00484,Cairo,One year,No,0.141,4070.03,3,False,Normal
+CUST-00485,Alexandria,Month-to-month,No,0.293,4992.47,2,False,Normal
+CUST-00486,Upper Egypt,Month-to-month,No,0.347,6964.58,1,False,Normal
+CUST-00487,Cairo,Month-to-month,Yes,0.779,4189.04,3,True,Normal
+CUST-00488,Delta,One year,No,0.085,6432.19,1,False,Normal
+CUST-00489,Upper Egypt,Month-to-month,Yes,0.858,5742.43,1,False,Normal
+CUST-00490,Cairo,Month-to-month,Yes,0.565,4443.63,2,False,Normal
+CUST-00491,Cairo,Two year,No,0.038,6879.92,2,False,Normal
+CUST-00492,Alexandria,Two year,No,0.043,5226.96,2,False,Normal
+CUST-00493,Giza,Month-to-month,No,0.364,3308.31,0,False,Normal
+CUST-00494,Cairo,Month-to-month,No,0.466,4431.21,3,False,Normal
+CUST-00495,Giza,Month-to-month,No,0.224,5130.64,3,False,Normal
+CUST-00496,Delta,One year,Yes,0.645,4982.1,3,False,Normal
+CUST-00497,Cairo,Month-to-month,No,0.135,4216.06,2,False,Normal
+CUST-00498,Giza,Two year,No,0.17,7476.61,1,False,Normal
+CUST-00499,Delta,Two year,No,0.107,3860.78,0,False,Normal
+CUST-00500,Alexandria,One year,No,0.043,4294.89,2,False,Normal
+CUST-00501,Delta,Month-to-month,No,0.531,5515.97,1,False,Normal
+CUST-00502,Giza,Two year,No,0.069,6030.93,3,False,Normal
+CUST-00503,Upper Egypt,One year,No,0.14,3095.07,3,False,Normal
+CUST-00504,Alexandria,One year,No,0.129,5881.18,1,False,Normal
+CUST-00505,Cairo,Month-to-month,No,0.416,4293.37,3,False,Normal
+CUST-00506,Upper Egypt,One year,No,0.062,3913.51,0,False,Normal
+CUST-00507,Giza,One year,No,0.103,5630.52,3,False,Normal
+CUST-00508,Cairo,Two year,No,0.047,5430.36,3,False,Normal
+CUST-00509,Cairo,One year,No,0.155,5425.64,3,False,Normal
+CUST-00510,Delta,Month-to-month,No,0.431,5534.55,1,False,Normal
+CUST-00511,Cairo,Month-to-month,No,0.267,5635.6,1,False,Normal
+CUST-00512,Cairo,One year,No,0.139,3701.21,0,False,Normal
+CUST-00513,Cairo,Two year,No,0.076,5676.07,0,False,Normal
+CUST-00514,Giza,One year,No,0.104,4879.54,2,False,Normal
+CUST-00515,Giza,Month-to-month,Yes,0.603,2982.0,0,False,Normal
+CUST-00516,Alexandria,Month-to-month,No,0.195,4048.77,2,False,Normal
+CUST-00517,Cairo,One year,No,0.083,3754.09,0,False,Normal
+CUST-00518,Cairo,Two year,No,0.091,7707.98,1,False,Normal
+CUST-00519,Alexandria,Month-to-month,No,0.264,3284.13,0,False,Normal
+CUST-00520,Giza,Month-to-month,No,0.368,5211.55,1,False,Normal
+CUST-00521,Alexandria,Two year,No,0.065,5066.88,0,False,Normal
+CUST-00522,Cairo,Month-to-month,No,0.371,6673.32,3,False,Normal
+CUST-00523,Cairo,Month-to-month,Yes,0.658,5782.74,1,False,Normal
+CUST-00524,Cairo,Month-to-month,No,0.472,5575.27,1,False,Normal
+CUST-00525,Giza,Month-to-month,No,0.655,5077.74,0,False,Normal
+CUST-00526,Giza,Month-to-month,No,0.39,5934.47,1,False,Normal
+CUST-00527,Delta,One year,No,0.213,5526.58,0,False,Normal
+CUST-00528,Giza,One year,Yes,0.542,6554.64,1,False,Normal
+CUST-00529,Alexandria,One year,No,0.13,5391.05,1,False,Normal
+CUST-00530,Alexandria,One year,No,0.093,4998.87,0,False,Normal
+CUST-00531,Cairo,Month-to-month,Yes,0.7,3887.7,0,True,Normal
+CUST-00532,Giza,Month-to-month,No,0.303,4893.19,1,False,Normal
+CUST-00533,Giza,Month-to-month,No,0.218,5611.83,2,False,Normal
+CUST-00534,Giza,Month-to-month,No,0.308,4917.33,1,False,Normal
+CUST-00535,Cairo,One year,No,0.024,5588.32,2,False,Normal
+CUST-00536,Delta,Month-to-month,Yes,0.748,6127.3,1,False,Normal
+CUST-00537,Upper Egypt,One year,No,0.146,4219.27,0,False,Normal
+CUST-00538,Cairo,Month-to-month,No,0.155,4014.29,0,False,Normal
+CUST-00539,Alexandria,Month-to-month,No,0.386,3289.42,0,False,Normal
+CUST-00540,Delta,Month-to-month,No,0.52,3713.36,0,False,Normal
+CUST-00541,Cairo,Month-to-month,Yes,0.786,5956.8,3,False,Normal
+CUST-00542,Delta,One year,No,0.048,6881.91,1,False,Normal
+CUST-00543,Alexandria,One year,No,0.056,8059.21,1,False,Normal
+CUST-00544,Upper Egypt,Month-to-month,No,0.386,5103.51,3,False,Normal
+CUST-00545,Upper Egypt,One year,No,0.078,5797.58,1,False,Normal
+CUST-00546,Cairo,One year,No,0.121,5925.06,1,False,Normal
+CUST-00547,Giza,Month-to-month,Yes,0.791,5244.51,3,False,Normal
+CUST-00548,Alexandria,Month-to-month,No,0.274,7472.12,1,False,Normal
+CUST-00549,Cairo,Month-to-month,No,0.512,5219.4,1,False,Normal
+CUST-00550,Giza,Month-to-month,No,0.423,5436.64,1,False,Normal
+CUST-00551,Upper Egypt,Two year,No,0.039,6639.96,2,False,Normal
+CUST-00552,Cairo,Month-to-month,No,0.35,4876.98,2,False,Normal
+CUST-00553,Giza,Month-to-month,Yes,0.747,5501.47,1,False,Normal
+CUST-00554,Delta,One year,No,0.116,6379.87,0,False,Normal
+CUST-00555,Giza,Month-to-month,No,0.36,7032.99,1,False,Normal
+CUST-00556,Giza,One year,No,0.061,4686.73,0,False,Normal
+CUST-00557,Upper Egypt,Month-to-month,Yes,0.82,4603.98,0,False,Normal
+CUST-00558,Giza,Month-to-month,Yes,0.66,4369.58,0,False,Normal
+CUST-00559,Cairo,Month-to-month,No,0.563,4233.29,0,False,Normal
+CUST-00560,Cairo,Month-to-month,Yes,0.751,3652.38,3,False,Normal
+CUST-00561,Upper Egypt,Month-to-month,Yes,0.85,4099.27,0,False,Normal
+CUST-00562,Cairo,One year,No,0.112,7224.3,1,False,Normal
+CUST-00563,Giza,One year,No,0.131,7896.87,1,False,Normal
+CUST-00564,Cairo,One year,No,0.059,5030.63,0,False,Normal
+CUST-00565,Giza,Month-to-month,No,0.701,4315.59,3,False,Normal
+CUST-00566,Upper Egypt,Two year,No,0.073,7997.97,1,False,Normal
+CUST-00567,Giza,Month-to-month,Yes,0.704,5497.55,3,False,Normal
+CUST-00568,Upper Egypt,Two year,No,0.026,9741.27,3,False,Normal
+CUST-00569,Cairo,One year,No,0.051,6303.34,1,False,Normal
+CUST-00570,Giza,One year,No,0.1,8050.36,3,True,Normal
+CUST-00571,Delta,Month-to-month,No,0.299,7241.26,1,False,Normal
+CUST-00572,Giza,One year,No,0.084,2988.51,0,False,Normal
+CUST-00573,Cairo,One year,No,0.271,7137.62,3,False,Normal
+CUST-00574,Delta,Month-to-month,Yes,0.655,6354.32,1,False,High
+CUST-00575,Giza,One year,Yes,0.616,3387.49,0,False,Normal
+CUST-00576,Alexandria,Month-to-month,No,0.406,5545.42,3,False,Normal
+CUST-00577,Upper Egypt,Month-to-month,Yes,0.692,5316.09,3,False,Normal
+CUST-00578,Cairo,One year,No,0.056,6464.23,1,False,Normal
+CUST-00579,Cairo,Two year,Yes,0.514,6864.05,1,False,Normal
+CUST-00580,Cairo,Month-to-month,No,0.216,5108.05,0,False,Normal
+CUST-00581,Giza,Month-to-month,Yes,0.703,2386.91,0,False,Normal
+CUST-00582,Cairo,Month-to-month,No,0.206,6230.21,2,False,Normal
+CUST-00583,Delta,Month-to-month,No,0.409,6698.88,1,False,Normal
+CUST-00584,Cairo,Month-to-month,Yes,0.589,3810.13,0,False,Normal
+CUST-00585,Alexandria,Month-to-month,Yes,0.753,4816.19,3,False,Normal
+CUST-00586,Cairo,One year,Yes,0.49,5232.23,0,False,Normal
+CUST-00587,Giza,Month-to-month,No,0.194,4171.82,0,False,Normal
+CUST-00588,Giza,Month-to-month,No,0.286,4529.26,0,False,Normal
+CUST-00589,Delta,Month-to-month,No,0.284,5882.08,2,False,Normal
+CUST-00590,Giza,Month-to-month,No,0.235,5781.92,1,False,Normal
+CUST-00591,Giza,Month-to-month,No,0.436,6711.73,1,False,Normal
+CUST-00592,Delta,Month-to-month,No,0.194,3680.23,2,True,Normal
+CUST-00593,Alexandria,Month-to-month,No,0.316,3249.26,0,False,Normal
+CUST-00594,Cairo,Month-to-month,No,0.208,4370.37,2,False,Normal
+CUST-00595,Upper Egypt,One year,No,0.117,5532.68,3,False,Normal
+CUST-00596,Giza,Two year,No,0.073,6043.56,2,False,Normal
+CUST-00597,Cairo,Month-to-month,No,0.481,4257.45,0,False,Normal
+CUST-00598,Giza,Month-to-month,Yes,0.765,3847.02,0,False,Normal
+CUST-00599,Cairo,Month-to-month,No,0.171,4115.86,0,False,Normal
+CUST-00600,Cairo,Month-to-month,No,0.419,4874.0,2,False,Normal
+CUST-00601,Delta,One year,Yes,0.482,7107.34,1,False,Normal
+CUST-00602,Cairo,One year,No,0.064,7582.7,1,False,Normal
+CUST-00603,Delta,Month-to-month,No,0.456,4516.12,3,False,Normal
+CUST-00604,Upper Egypt,Month-to-month,No,0.289,6286.92,1,False,Normal
+CUST-00605,Alexandria,Month-to-month,No,0.283,4485.16,2,False,Normal
+CUST-00606,Delta,Month-to-month,No,0.251,5918.97,1,False,Normal
+CUST-00607,Delta,Two year,No,0.053,3999.95,0,False,Normal
+CUST-00608,Upper Egypt,Month-to-month,No,0.52,5119.25,3,False,Normal
+CUST-00609,Giza,Month-to-month,No,0.182,7929.43,2,True,Normal
+CUST-00610,Cairo,Month-to-month,Yes,0.647,3690.67,0,False,Normal
+CUST-00611,Giza,Month-to-month,No,0.352,6818.33,1,False,Normal
+CUST-00612,Alexandria,Month-to-month,Yes,0.735,3303.41,0,False,Normal
+CUST-00613,Cairo,Month-to-month,No,0.614,5602.37,1,False,Normal
+CUST-00614,Alexandria,Month-to-month,No,0.223,3967.17,0,False,Normal
+CUST-00615,Cairo,Month-to-month,No,0.612,5525.31,1,False,Normal
+CUST-00616,Upper Egypt,One year,No,0.042,7644.88,1,False,Normal
+CUST-00617,Cairo,Month-to-month,No,0.249,5533.65,1,False,Normal
+CUST-00618,Cairo,Month-to-month,No,0.376,4702.01,0,False,Normal
+CUST-00619,Cairo,Two year,No,0.04,9097.57,2,True,Normal
+CUST-00620,Cairo,Month-to-month,No,0.416,4991.35,0,False,Normal
+CUST-00621,Cairo,Two year,No,0.098,5647.34,1,False,Normal
+CUST-00622,Cairo,Two year,No,0.03,6310.36,1,False,Normal
+CUST-00623,Cairo,Month-to-month,No,0.206,6753.41,1,False,Normal
+CUST-00624,Cairo,Month-to-month,No,0.512,4197.36,2,False,Normal
+CUST-00625,Giza,Two year,No,0.113,5723.01,3,False,Normal
+CUST-00626,Giza,Month-to-month,No,0.493,4794.36,0,False,Normal
+CUST-00627,Giza,Month-to-month,No,0.162,3641.13,0,False,Normal
+CUST-00628,Giza,One year,No,0.198,7455.75,1,False,Normal
+CUST-00629,Cairo,Month-to-month,No,0.63,4030.97,0,False,Normal
+CUST-00630,Cairo,Two year,Yes,0.451,5652.47,2,False,Normal
+CUST-00631,Cairo,One year,No,0.052,7964.35,1,False,Normal
+CUST-00632,Delta,Two year,No,0.069,9652.74,1,False,Normal
+CUST-00633,Upper Egypt,One year,No,0.105,6744.81,1,False,Normal
+CUST-00634,Upper Egypt,One year,No,0.222,5301.43,3,False,Normal
+CUST-00635,Giza,Month-to-month,Yes,0.581,6619.25,1,False,Normal
+CUST-00636,Alexandria,Two year,No,0.069,6243.65,3,False,Normal
+CUST-00637,Cairo,Two year,No,0.045,4514.73,0,False,Normal
+CUST-00638,Delta,Two year,No,0.056,4587.25,0,False,Normal
+CUST-00639,Delta,One year,No,0.107,4989.77,0,False,Normal
+CUST-00640,Delta,One year,No,0.168,5058.8,0,False,Normal
+CUST-00641,Upper Egypt,Month-to-month,No,0.421,3816.56,3,False,Normal
+CUST-00642,Giza,Two year,No,0.06,4857.4,0,False,Normal
+CUST-00643,Delta,Month-to-month,Yes,0.62,3848.24,3,False,Normal
+CUST-00644,Delta,Month-to-month,Yes,0.649,3344.84,0,False,Normal
+CUST-00645,Cairo,Month-to-month,No,0.374,5763.01,1,False,Normal
+CUST-00646,Upper Egypt,One year,No,0.094,5288.13,3,False,Normal
+CUST-00647,Cairo,One year,No,0.112,5475.03,1,False,Normal
+CUST-00648,Upper Egypt,Month-to-month,No,0.242,4265.73,0,False,Normal
+CUST-00649,Delta,Month-to-month,No,0.432,4291.84,0,False,Normal
+CUST-00650,Cairo,Month-to-month,No,0.369,3945.12,0,False,Normal
+CUST-00651,Alexandria,Month-to-month,No,0.228,4100.08,0,False,Normal
+CUST-00652,Cairo,Month-to-month,No,0.245,3952.16,2,False,Normal
+CUST-00653,Delta,One year,No,0.103,5565.92,3,False,Normal
+CUST-00654,Delta,Month-to-month,No,0.193,4986.79,2,False,Normal
+CUST-00655,Alexandria,Month-to-month,No,0.416,5458.49,3,False,Normal
+CUST-00656,Delta,Month-to-month,No,0.192,1961.84,0,False,Normal
+CUST-00657,Cairo,Month-to-month,Yes,0.582,4899.52,1,False,Normal
+CUST-00658,Cairo,Two year,No,0.037,5404.58,0,False,Normal
+CUST-00659,Giza,Month-to-month,No,0.379,4920.27,1,False,Normal
+CUST-00660,Cairo,Month-to-month,No,0.204,5385.95,1,False,Normal
+CUST-00661,Giza,One year,Yes,0.587,4398.24,0,False,Normal
+CUST-00662,Cairo,Month-to-month,No,0.447,5004.23,2,False,Normal
+CUST-00663,Giza,Two year,No,0.059,8337.44,1,False,Normal
+CUST-00664,Giza,Two year,No,0.115,8048.43,3,False,Normal
+CUST-00665,Upper Egypt,One year,No,0.057,4979.92,0,False,Normal
+CUST-00666,Cairo,Two year,No,0.084,4854.14,0,False,Normal
+CUST-00667,Upper Egypt,Month-to-month,No,0.448,5141.72,0,False,Normal
+CUST-00668,Giza,Month-to-month,Yes,0.576,5346.22,3,False,Normal
+CUST-00669,Giza,Month-to-month,No,0.463,4904.23,0,False,Normal
+CUST-00670,Giza,Month-to-month,Yes,0.641,3414.63,0,False,Normal
+CUST-00671,Giza,Month-to-month,No,0.409,5279.71,0,False,Normal
+CUST-00672,Cairo,Month-to-month,Yes,0.784,3172.01,3,False,Normal
+CUST-00673,Giza,Month-to-month,No,0.397,4428.1,2,False,Normal
+CUST-00674,Cairo,Month-to-month,No,0.347,5249.87,1,False,Normal
+CUST-00675,Giza,One year,No,0.062,5618.23,2,False,Normal
+CUST-00676,Alexandria,Month-to-month,No,0.422,6967.57,1,False,Normal
+CUST-00677,Giza,Month-to-month,No,0.297,4654.44,0,False,Normal
+CUST-00678,Delta,Month-to-month,Yes,0.701,5850.2,1,False,Normal
+CUST-00679,Cairo,One year,No,0.084,8166.63,1,False,Normal
+CUST-00680,Upper Egypt,Month-to-month,No,0.297,5506.17,0,False,Normal
+CUST-00681,Delta,One year,No,0.054,8049.49,1,False,Normal
+CUST-00682,Upper Egypt,Month-to-month,No,0.401,5255.44,1,False,Normal
+CUST-00683,Delta,Month-to-month,No,0.29,3044.91,0,False,Normal
+CUST-00684,Cairo,Two year,No,0.163,6886.98,1,False,Normal
+CUST-00685,Alexandria,Month-to-month,No,0.257,5699.2,2,False,Normal
+CUST-00686,Cairo,Month-to-month,Yes,0.746,4197.03,3,False,Normal
+CUST-00687,Delta,Month-to-month,Yes,0.672,3243.9,0,False,Normal
+CUST-00688,Alexandria,Month-to-month,Yes,0.604,5311.43,1,False,Normal
+CUST-00689,Cairo,Month-to-month,No,0.137,3827.88,2,False,Normal
+CUST-00690,Upper Egypt,Month-to-month,Yes,0.614,4515.27,0,False,Normal
+CUST-00691,Cairo,Month-to-month,No,0.342,4945.02,0,False,Normal
+CUST-00692,Alexandria,Two year,No,0.047,6431.76,1,False,Normal
+CUST-00693,Delta,Month-to-month,No,0.358,3837.47,0,False,Normal
+CUST-00694,Cairo,Month-to-month,No,0.408,5766.95,2,False,Normal
+CUST-00695,Alexandria,Two year,No,0.082,5594.63,0,False,Normal
+CUST-00696,Delta,Month-to-month,No,0.225,3563.63,2,False,Normal
+CUST-00697,Cairo,Two year,No,0.051,4415.17,0,False,Normal
+CUST-00698,Giza,Month-to-month,No,0.145,5780.32,2,False,Normal
+CUST-00699,Cairo,One year,No,0.155,4887.14,0,False,Normal
+CUST-00700,Alexandria,Two year,No,0.04,7243.43,1,False,Normal
+CUST-00701,Cairo,Month-to-month,Yes,0.818,2234.85,0,True,Normal
+CUST-00702,Upper Egypt,One year,No,0.04,5519.08,2,False,Normal
+CUST-00703,Upper Egypt,One year,No,0.239,6181.93,3,False,Normal
+CUST-00704,Cairo,One year,No,0.105,5318.82,2,False,Normal
+CUST-00705,Giza,Month-to-month,No,0.477,2926.92,0,False,Normal
+CUST-00706,Alexandria,Month-to-month,Yes,0.636,5423.25,1,False,Normal
+CUST-00707,Delta,Month-to-month,No,0.157,4818.09,2,False,Normal
+CUST-00708,Giza,Two year,No,0.061,7472.89,3,False,Normal
+CUST-00709,Cairo,Month-to-month,Yes,0.727,5738.99,1,True,Normal
+CUST-00710,Cairo,Month-to-month,No,0.499,4017.54,0,False,Normal
+CUST-00711,Upper Egypt,Two year,No,0.073,7425.85,1,False,Normal
+CUST-00712,Giza,Month-to-month,Yes,0.823,3914.76,0,False,Normal
+CUST-00713,Upper Egypt,One year,No,0.114,5372.33,0,False,Normal
+CUST-00714,Giza,Month-to-month,No,0.153,2848.72,2,False,Normal
+CUST-00715,Upper Egypt,One year,No,0.11,4629.35,3,False,Normal
+CUST-00716,Cairo,Month-to-month,No,0.315,4763.64,2,False,Normal
+CUST-00717,Cairo,Month-to-month,No,0.512,4002.71,0,False,Normal
+CUST-00718,Upper Egypt,Month-to-month,No,0.461,5991.52,1,False,Normal
+CUST-00719,Upper Egypt,Month-to-month,No,0.422,4918.52,3,False,Normal
+CUST-00720,Cairo,Month-to-month,No,0.427,3666.97,0,False,Normal
+CUST-00721,Giza,Month-to-month,Yes,0.704,4493.31,3,False,Normal
+CUST-00722,Giza,One year,No,0.076,5691.63,2,False,Normal
+CUST-00723,Giza,Month-to-month,Yes,0.821,6404.18,3,False,High
+CUST-00724,Cairo,Month-to-month,Yes,0.81,4479.72,3,True,Normal
+CUST-00725,Upper Egypt,Month-to-month,No,0.434,4467.32,3,False,Normal
+CUST-00726,Cairo,Month-to-month,Yes,0.659,4735.75,3,False,Normal
+CUST-00727,Delta,One year,No,0.048,6971.73,2,False,Normal
+CUST-00728,Cairo,Month-to-month,No,0.28,3888.18,0,False,Normal
+CUST-00729,Cairo,Two year,No,0.055,4027.54,0,False,Normal
+CUST-00730,Alexandria,One year,No,0.12,7776.59,1,False,Normal
+CUST-00731,Giza,Two year,No,0.061,5274.25,2,False,Normal
+CUST-00732,Alexandria,One year,No,0.08,5199.4,2,False,Normal
+CUST-00733,Cairo,Month-to-month,No,0.221,5204.41,2,False,Normal
+CUST-00734,Upper Egypt,Two year,No,0.03,6177.06,2,False,Normal
+CUST-00735,Delta,One year,No,0.079,3250.71,0,True,Normal
+CUST-00736,Upper Egypt,One year,No,0.158,4234.06,0,False,Normal
+CUST-00737,Cairo,Month-to-month,No,0.571,4573.81,3,False,Normal
+CUST-00738,Giza,Month-to-month,No,0.324,6346.17,1,False,Normal
+CUST-00739,Giza,One year,No,0.046,4747.44,2,False,Normal
+CUST-00740,Alexandria,Month-to-month,No,0.498,5618.4,1,False,Normal
+CUST-00741,Cairo,One year,No,0.167,5475.12,3,False,Normal
+CUST-00742,Cairo,Month-to-month,No,0.32,4772.15,0,False,Normal
+CUST-00743,Giza,Month-to-month,Yes,0.659,5735.49,1,False,Normal
+CUST-00744,Cairo,Month-to-month,No,0.538,5018.55,1,False,Normal
+CUST-00745,Giza,Month-to-month,No,0.461,5344.27,1,False,Normal
+CUST-00746,Cairo,Month-to-month,Yes,0.571,3301.55,0,False,Normal
+CUST-00747,Cairo,One year,No,0.126,5492.81,0,False,Normal
+CUST-00748,Alexandria,One year,No,0.18,6808.71,1,False,Normal
+CUST-00749,Giza,Two year,No,0.061,2833.9,0,False,Normal
+CUST-00750,Giza,One year,No,0.074,4609.83,2,False,Normal
+CUST-00751,Alexandria,One year,Yes,0.597,3727.87,0,False,Normal
+CUST-00752,Delta,Month-to-month,No,0.159,5817.37,1,False,Normal
+CUST-00753,Giza,One year,No,0.141,7499.11,1,False,Normal
+CUST-00754,Alexandria,Two year,No,0.162,9126.89,1,False,Normal
+CUST-00755,Upper Egypt,One year,No,0.092,6417.61,3,False,Normal
+CUST-00756,Alexandria,Month-to-month,No,0.35,4493.79,3,False,Normal
+CUST-00757,Upper Egypt,One year,No,0.064,4945.46,0,False,Normal
+CUST-00758,Delta,Month-to-month,No,0.261,5033.8,1,False,Normal
+CUST-00759,Cairo,Month-to-month,No,0.413,5706.5,3,False,Normal
+CUST-00760,Giza,One year,No,0.144,4785.59,0,False,Normal
+CUST-00761,Delta,Two year,No,0.064,8139.64,2,False,Normal
+CUST-00762,Upper Egypt,Month-to-month,No,0.374,5389.91,1,False,Normal
+CUST-00763,Giza,Month-to-month,No,0.44,4829.21,2,False,Normal
+CUST-00764,Cairo,Two year,No,0.063,5895.23,2,False,Normal
+CUST-00765,Alexandria,Month-to-month,Yes,0.758,4164.67,0,False,Normal
+CUST-00766,Cairo,Month-to-month,No,0.441,4439.18,0,False,Normal
+CUST-00767,Delta,One year,No,0.153,3984.24,0,False,Normal
+CUST-00768,Giza,Two year,No,0.045,6127.06,0,False,Normal
+CUST-00769,Delta,Month-to-month,Yes,0.573,3991.91,0,False,Normal
+CUST-00770,Upper Egypt,Month-to-month,No,0.188,6125.24,2,True,Normal
+CUST-00771,Alexandria,Month-to-month,No,0.402,4220.25,0,False,Normal
+CUST-00772,Alexandria,Month-to-month,No,0.379,5407.69,1,False,Normal
+CUST-00773,Delta,One year,No,0.094,5997.02,2,False,Normal
+CUST-00774,Delta,Two year,No,0.069,3667.39,0,False,Normal
+CUST-00775,Upper Egypt,Month-to-month,No,0.366,3247.97,0,False,Normal
+CUST-00776,Cairo,Month-to-month,No,0.311,3929.53,0,False,Normal
+CUST-00777,Alexandria,Month-to-month,No,0.438,4534.89,0,False,Normal
+CUST-00778,Cairo,Month-to-month,No,0.383,3907.38,0,False,Normal
+CUST-00779,Upper Egypt,Month-to-month,No,0.638,3665.77,0,False,Normal
+CUST-00780,Alexandria,Month-to-month,Yes,0.632,5324.18,1,False,Normal
+CUST-00781,Giza,One year,No,0.072,4420.97,2,False,Normal
+CUST-00782,Cairo,Month-to-month,No,0.151,3204.41,0,False,Normal
+CUST-00783,Giza,One year,No,0.086,6248.38,2,False,Normal
+CUST-00784,Delta,Month-to-month,No,0.217,3815.69,0,False,Normal
+CUST-00785,Cairo,Two year,No,0.075,6255.6,0,False,Normal
+CUST-00786,Cairo,Two year,No,0.08,7355.04,1,False,Normal
+CUST-00787,Upper Egypt,Month-to-month,No,0.318,4222.84,0,False,Normal
+CUST-00788,Delta,Month-to-month,No,0.357,5690.44,1,False,Normal
+CUST-00789,Cairo,One year,No,0.055,5773.67,2,False,Normal
+CUST-00790,Cairo,Month-to-month,No,0.223,5336.49,2,False,Normal
+CUST-00791,Upper Egypt,Month-to-month,Yes,0.719,3691.03,0,False,Normal
+CUST-00792,Delta,Month-to-month,No,0.399,4932.04,3,False,Normal
+CUST-00793,Alexandria,Two year,No,0.086,5172.11,0,False,Normal
+CUST-00794,Cairo,Month-to-month,Yes,0.707,5878.43,1,False,Normal
+CUST-00795,Cairo,Month-to-month,No,0.364,4404.51,3,False,Normal
+CUST-00796,Cairo,Month-to-month,No,0.383,4489.43,3,False,Normal
+CUST-00797,Delta,One year,No,0.172,5553.55,0,False,Normal
+CUST-00798,Cairo,Month-to-month,No,0.286,3588.74,3,False,Normal
+CUST-00799,Cairo,Two year,No,0.048,8227.45,1,False,Normal
+CUST-00800,Delta,One year,No,0.171,6546.42,1,False,Normal
+CUST-00801,Upper Egypt,Month-to-month,No,0.299,3678.73,0,False,Normal
+CUST-00802,Delta,Month-to-month,No,0.314,3680.65,3,False,Normal
+CUST-00803,Giza,One year,No,0.074,8444.93,1,True,Normal
+CUST-00804,Giza,One year,Yes,0.49,4500.42,0,False,Normal
+CUST-00805,Giza,Month-to-month,Yes,0.677,6048.66,1,False,Normal
+CUST-00806,Giza,Month-to-month,No,0.392,5376.4,3,False,Normal
+CUST-00807,Alexandria,Month-to-month,No,0.405,4602.1,3,False,Normal
+CUST-00808,Giza,Month-to-month,No,0.295,6113.48,1,False,Normal
+CUST-00809,Alexandria,Month-to-month,Yes,0.82,4533.97,3,False,Normal
+CUST-00810,Upper Egypt,Month-to-month,No,0.432,6680.88,1,False,Normal
+CUST-00811,Upper Egypt,Month-to-month,No,0.509,5065.28,0,False,Normal
+CUST-00812,Cairo,Two year,No,0.028,6053.5,0,False,Normal
+CUST-00813,Giza,One year,Yes,0.435,5443.42,0,False,Normal
+CUST-00814,Cairo,Two year,No,0.075,7367.07,1,False,Normal
+CUST-00815,Giza,One year,No,0.105,5764.51,2,False,Normal
+CUST-00816,Cairo,One year,No,0.086,6543.62,1,False,Normal
+CUST-00817,Cairo,Month-to-month,Yes,0.736,3279.47,0,False,Normal
+CUST-00818,Delta,One year,No,0.103,7180.7,1,False,Normal
+CUST-00819,Giza,Month-to-month,No,0.526,3170.62,0,False,Normal
+CUST-00820,Upper Egypt,Month-to-month,No,0.107,3032.61,0,False,Normal
+CUST-00821,Cairo,Two year,No,0.065,7287.3,3,False,Normal
+CUST-00822,Cairo,Two year,No,0.045,7390.56,2,True,Normal
+CUST-00823,Giza,Month-to-month,No,0.457,5738.63,3,False,Normal
+CUST-00824,Cairo,One year,Yes,0.519,7092.99,1,False,Normal
+CUST-00825,Cairo,Month-to-month,No,0.472,5310.09,1,False,Normal
+CUST-00826,Upper Egypt,Month-to-month,No,0.178,4459.95,2,False,Normal
+CUST-00827,Cairo,Month-to-month,Yes,0.732,4523.97,3,False,Normal
+CUST-00828,Cairo,Month-to-month,No,0.279,5390.21,1,False,Normal
+CUST-00829,Alexandria,One year,No,0.066,6787.2,1,False,Normal
+CUST-00830,Giza,Month-to-month,Yes,0.661,5423.29,1,False,Normal
+CUST-00831,Alexandria,Month-to-month,Yes,0.784,3653.79,0,False,Normal
+CUST-00832,Giza,Two year,No,0.071,6217.73,1,False,Normal
+CUST-00833,Delta,Month-to-month,Yes,0.428,3886.27,0,False,Normal
+CUST-00834,Cairo,Month-to-month,Yes,0.706,2995.95,3,True,Normal
+CUST-00835,Giza,Month-to-month,No,0.521,6321.75,1,False,Normal
+CUST-00836,Delta,Month-to-month,Yes,0.62,4106.23,0,False,Normal
+CUST-00837,Upper Egypt,Month-to-month,Yes,0.687,4728.19,1,False,Normal
+CUST-00838,Giza,One year,No,0.15,5467.6,3,False,Normal
+CUST-00839,Alexandria,Two year,No,0.084,5627.78,2,False,Normal
+CUST-00840,Cairo,Month-to-month,No,0.267,3396.97,0,False,Normal
+CUST-00841,Cairo,Month-to-month,No,0.445,4764.89,0,False,Normal
+CUST-00842,Cairo,Month-to-month,No,0.491,3932.49,0,False,Normal
+CUST-00843,Delta,Two year,No,0.033,7399.36,3,False,Normal
+CUST-00844,Cairo,Month-to-month,No,0.512,5877.99,1,False,Normal
+CUST-00845,Delta,Month-to-month,No,0.188,3751.14,2,False,Normal
+CUST-00846,Cairo,Two year,No,0.053,5325.8,2,True,Normal
+CUST-00847,Upper Egypt,One year,No,0.089,4844.02,3,False,Normal
+CUST-00848,Delta,Month-to-month,Yes,0.697,4993.48,1,False,Normal
+CUST-00849,Cairo,Month-to-month,No,0.355,3390.7,0,False,Normal
+CUST-00850,Cairo,Month-to-month,No,0.321,5666.11,1,False,Normal
+CUST-00851,Cairo,Two year,No,0.072,4817.15,2,False,Normal
+CUST-00852,Delta,Month-to-month,No,0.337,4833.0,0,False,Normal
+CUST-00853,Cairo,Month-to-month,No,0.295,5634.54,1,False,Normal
+CUST-00854,Alexandria,One year,No,0.054,5091.76,0,False,Normal
+CUST-00855,Giza,Month-to-month,No,0.272,6350.73,1,False,Normal
+CUST-00856,Delta,Month-to-month,No,0.307,4793.09,2,False,Normal
+CUST-00857,Giza,Two year,No,0.082,5868.02,0,False,Normal
+CUST-00858,Giza,Month-to-month,No,0.628,4725.93,1,False,Normal
+CUST-00859,Upper Egypt,Two year,No,0.044,7550.22,3,False,Normal
+CUST-00860,Cairo,One year,No,0.093,5385.09,0,False,Normal
+CUST-00861,Delta,Month-to-month,No,0.143,5026.64,2,False,Normal
+CUST-00862,Cairo,One year,No,0.122,8444.33,1,False,Normal
+CUST-00863,Giza,One year,No,0.104,6468.08,1,False,Normal
+CUST-00864,Upper Egypt,One year,No,0.168,7172.46,3,False,Normal
+CUST-00865,Alexandria,One year,No,0.12,7926.02,1,False,Normal
+CUST-00866,Delta,Month-to-month,Yes,0.58,4642.07,3,False,Normal
+CUST-00867,Cairo,Month-to-month,No,0.323,4679.91,2,False,Normal
+CUST-00868,Giza,One year,Yes,0.463,5835.08,2,False,Normal
+CUST-00869,Giza,Month-to-month,No,0.44,4812.84,1,False,Normal
+CUST-00870,Alexandria,Month-to-month,No,0.24,5080.56,2,False,Normal
+CUST-00871,Giza,Month-to-month,No,0.201,5346.56,2,False,Normal
+CUST-00872,Giza,Month-to-month,No,0.411,4769.97,0,False,Normal
+CUST-00873,Cairo,One year,No,0.081,4540.7,0,False,Normal
+CUST-00874,Cairo,One year,No,0.073,4987.98,0,False,Normal
+CUST-00875,Giza,Two year,No,0.105,8106.88,1,False,Normal
+CUST-00876,Cairo,Month-to-month,No,0.446,3279.68,0,False,Normal
+CUST-00877,Upper Egypt,Month-to-month,No,0.107,5196.85,2,False,Normal
+CUST-00878,Alexandria,Two year,No,0.024,5977.74,2,False,Normal
+CUST-00879,Cairo,Month-to-month,Yes,0.596,5718.54,1,False,Normal
+CUST-00880,Delta,One year,No,0.128,5427.76,0,False,Normal
+CUST-00881,Delta,One year,No,0.152,5270.69,3,False,Normal
+CUST-00882,Cairo,Month-to-month,Yes,0.783,5504.25,1,False,Normal
+CUST-00883,Cairo,Month-to-month,No,0.508,6111.84,0,False,Normal
+CUST-00884,Cairo,One year,No,0.059,5172.24,2,False,Normal
+CUST-00885,Cairo,Month-to-month,No,0.459,7085.06,1,False,Normal
+CUST-00886,Delta,Two year,No,0.085,9016.34,1,False,Normal
+CUST-00887,Upper Egypt,One year,No,0.088,5103.59,0,False,Normal
+CUST-00888,Cairo,Month-to-month,Yes,0.758,5323.8,1,False,Normal
+CUST-00889,Delta,One year,No,0.045,5066.97,2,False,Normal
+CUST-00890,Cairo,Month-to-month,No,0.263,5411.72,3,False,Normal
+CUST-00891,Alexandria,Month-to-month,No,0.373,4868.38,1,False,Normal
+CUST-00892,Delta,Two year,No,0.038,8088.21,2,False,Normal
+CUST-00893,Giza,One year,Yes,0.563,7588.52,1,False,Normal
+CUST-00894,Cairo,One year,No,0.097,6549.8,2,False,Normal
+CUST-00895,Alexandria,Two year,No,0.035,4016.96,0,False,Normal
+CUST-00896,Upper Egypt,Month-to-month,No,0.704,5257.67,1,False,Normal
+CUST-00897,Cairo,Month-to-month,Yes,0.707,3615.68,0,False,Normal
+CUST-00898,Cairo,Month-to-month,Yes,0.62,3633.87,3,False,Normal
+CUST-00899,Cairo,Month-to-month,No,0.262,5463.48,1,False,Normal
+CUST-00900,Alexandria,Month-to-month,No,0.349,4851.79,2,False,Normal
+CUST-00901,Alexandria,Month-to-month,No,0.265,5484.54,1,False,Normal
+CUST-00902,Delta,One year,Yes,0.642,8394.37,3,True,High
+CUST-00903,Delta,Month-to-month,Yes,0.57,5007.61,0,False,Normal
+CUST-00904,Upper Egypt,One year,No,0.078,6647.19,1,False,Normal
+CUST-00905,Delta,Two year,No,0.054,5217.82,0,False,Normal
+CUST-00906,Cairo,Two year,No,0.092,7052.63,1,False,Normal
+CUST-00907,Alexandria,Month-to-month,No,0.172,7162.05,1,False,Normal
+CUST-00908,Cairo,Two year,No,0.078,7820.92,1,False,Normal
+CUST-00909,Giza,One year,No,0.112,7075.61,1,False,Normal
+CUST-00910,Upper Egypt,Month-to-month,Yes,0.598,4788.77,2,False,Normal
+CUST-00911,Delta,Month-to-month,No,0.353,3630.55,2,False,Normal
+CUST-00912,Upper Egypt,Month-to-month,Yes,0.797,5857.23,1,False,Normal
+CUST-00913,Giza,One year,No,0.099,5635.82,2,False,Normal
+CUST-00914,Alexandria,One year,No,0.042,5047.06,3,True,Normal
+CUST-00915,Giza,Month-to-month,No,0.243,3283.59,0,True,Normal
+CUST-00916,Cairo,One year,No,0.107,4532.0,0,False,Normal
+CUST-00917,Cairo,Month-to-month,No,0.297,3009.33,2,False,Normal
+CUST-00918,Alexandria,Month-to-month,Yes,0.674,4498.01,3,False,Normal
+CUST-00919,Cairo,Two year,No,0.109,5063.76,0,False,Normal
+CUST-00920,Upper Egypt,Two year,No,0.088,8523.48,1,False,Normal
+CUST-00921,Cairo,One year,No,0.118,6105.05,1,False,Normal
+CUST-00922,Cairo,Month-to-month,No,0.548,4372.22,0,False,Normal
+CUST-00923,Delta,Month-to-month,No,0.421,3206.11,3,False,Normal
+CUST-00924,Cairo,Month-to-month,No,0.32,4307.93,0,False,Normal
+CUST-00925,Upper Egypt,Month-to-month,Yes,0.602,3567.73,0,False,Normal
+CUST-00926,Delta,Month-to-month,No,0.389,6335.2,1,False,Normal
+CUST-00927,Cairo,Two year,No,0.042,7385.36,2,False,Normal
+CUST-00928,Delta,One year,No,0.329,6290.92,1,False,Normal
+CUST-00929,Alexandria,Month-to-month,No,0.185,8191.44,1,False,Normal
+CUST-00930,Delta,Month-to-month,No,0.405,4402.42,0,False,Normal
+CUST-00931,Delta,Month-to-month,Yes,0.689,5769.76,2,True,Normal
+CUST-00932,Delta,Month-to-month,No,0.435,4830.72,3,False,Normal
+CUST-00933,Alexandria,One year,No,0.093,5563.79,2,False,Normal
+CUST-00934,Giza,Month-to-month,No,0.501,3826.75,3,False,Normal
+CUST-00935,Delta,Two year,Yes,0.661,8153.0,1,False,High
+CUST-00936,Upper Egypt,Month-to-month,No,0.449,4779.6,0,False,Normal
+CUST-00937,Alexandria,Month-to-month,No,0.233,3771.83,0,False,Normal
+CUST-00938,Alexandria,Two year,No,0.073,4405.73,0,False,Normal
+CUST-00939,Giza,Month-to-month,No,0.256,3046.57,0,False,Normal
+CUST-00940,Delta,Month-to-month,No,0.336,4811.52,3,False,Normal
+CUST-00941,Upper Egypt,One year,No,0.075,5031.52,0,False,Normal
+CUST-00942,Cairo,Month-to-month,Yes,0.663,2246.53,0,False,Normal
+CUST-00943,Cairo,Month-to-month,No,0.194,4118.87,0,False,Normal
+CUST-00944,Alexandria,Month-to-month,No,0.475,4428.95,0,False,Normal
+CUST-00945,Giza,Month-to-month,No,0.293,6578.43,1,False,Normal
+CUST-00946,Alexandria,Month-to-month,Yes,0.683,5585.95,1,False,Normal
+CUST-00947,Cairo,Month-to-month,Yes,0.492,5511.87,2,False,Normal
+CUST-00948,Giza,One year,No,0.037,5370.24,3,False,Normal
+CUST-00949,Alexandria,Two year,No,0.1,6935.29,1,False,Normal
+CUST-00950,Alexandria,Month-to-month,No,0.227,6329.81,2,False,Normal
+CUST-00951,Alexandria,Month-to-month,No,0.466,5256.06,0,False,Normal
+CUST-00952,Delta,Month-to-month,No,0.413,3516.69,0,False,Normal
+CUST-00953,Alexandria,Month-to-month,No,0.397,4913.32,1,False,Normal
+CUST-00954,Delta,Month-to-month,No,0.541,5532.19,1,False,Normal
+CUST-00955,Alexandria,One year,No,0.247,4276.62,0,False,Normal
+CUST-00956,Alexandria,Month-to-month,No,0.153,4962.34,2,False,Normal
+CUST-00957,Alexandria,Month-to-month,No,0.15,7290.15,1,False,Normal
+CUST-00958,Cairo,One year,No,0.13,7109.24,1,False,Normal
+CUST-00959,Cairo,Two year,No,0.134,7277.1,3,False,Normal
+CUST-00960,Alexandria,Month-to-month,Yes,0.558,5035.02,1,False,Normal
+CUST-00961,Upper Egypt,Month-to-month,No,0.479,5555.37,3,False,Normal
+CUST-00962,Alexandria,Two year,No,0.089,3979.06,0,False,Normal
+CUST-00963,Cairo,Month-to-month,No,0.295,4000.92,2,False,Normal
+CUST-00964,Alexandria,One year,No,0.148,4775.02,0,False,Normal
+CUST-00965,Cairo,One year,No,0.119,4568.84,0,False,Normal
+CUST-00966,Delta,Month-to-month,No,0.397,6693.35,1,True,Normal
+CUST-00967,Delta,Month-to-month,Yes,0.769,4382.01,0,False,Normal
+CUST-00968,Alexandria,Month-to-month,Yes,0.642,4828.67,1,False,Normal
+CUST-00969,Alexandria,Month-to-month,No,0.326,2896.25,0,False,Normal
+CUST-00970,Giza,Month-to-month,Yes,0.648,3879.47,0,False,Normal
+CUST-00971,Giza,One year,No,0.137,4153.18,2,False,Normal
+CUST-00972,Upper Egypt,One year,No,0.179,5611.63,0,False,Normal
+CUST-00973,Delta,Two year,No,0.102,7594.61,1,False,Normal
+CUST-00974,Giza,Two year,No,0.044,6107.88,0,False,Normal
+CUST-00975,Giza,One year,No,0.057,5487.13,2,False,Normal
+CUST-00976,Cairo,Month-to-month,No,0.368,3220.93,0,False,Normal
+CUST-00977,Cairo,Month-to-month,No,0.426,5485.17,3,False,Normal
+CUST-00978,Cairo,One year,No,0.08,7821.24,1,False,Normal
+CUST-00979,Giza,One year,No,0.148,6052.15,3,False,Normal
+CUST-00980,Upper Egypt,Month-to-month,No,0.425,5947.58,1,False,Normal
+CUST-00981,Giza,One year,No,0.102,6567.62,1,False,Normal
+CUST-00982,Cairo,Month-to-month,No,0.328,4114.07,2,True,Normal
+CUST-00983,Cairo,Month-to-month,No,0.282,6906.84,1,False,Normal
+CUST-00984,Giza,Two year,No,0.029,7010.45,1,False,Normal
+CUST-00985,Delta,Month-to-month,No,0.167,4764.06,3,False,Normal
+CUST-00986,Giza,Month-to-month,No,0.401,6630.03,1,False,Normal
+CUST-00987,Delta,One year,Yes,0.623,4560.74,0,True,Normal
+CUST-00988,Delta,One year,No,0.172,6466.26,1,False,Normal
+CUST-00989,Cairo,Month-to-month,Yes,0.684,3341.57,0,False,Normal
+CUST-00990,Alexandria,One year,No,0.048,5820.34,2,False,Normal
+CUST-00991,Upper Egypt,Month-to-month,No,0.212,4353.25,2,False,Normal
+CUST-00992,Giza,One year,No,0.086,7054.65,1,False,Normal
+CUST-00993,Cairo,Month-to-month,No,0.51,5640.03,1,False,Normal
+CUST-00994,Upper Egypt,Two year,No,0.05,5219.29,0,False,Normal
+CUST-00995,Upper Egypt,One year,No,0.103,3749.33,0,False,Normal
+CUST-00996,Alexandria,Month-to-month,Yes,0.748,5829.43,3,True,Normal
+CUST-00997,Alexandria,Month-to-month,Yes,0.808,5886.27,1,False,Normal
+CUST-00998,Cairo,Month-to-month,Yes,0.571,4076.92,2,False,Normal
+CUST-00999,Delta,One year,No,0.106,4622.92,0,False,Normal
+CUST-01000,Giza,One year,Yes,0.554,5505.65,0,False,Normal
+CUST-01001,Cairo,One year,No,0.136,3353.55,0,False,Normal
+CUST-01002,Delta,Two year,No,0.109,5696.84,0,False,Normal
+CUST-01003,Upper Egypt,Month-to-month,Yes,0.53,4482.82,0,False,Normal
+CUST-01004,Delta,One year,No,0.154,4623.46,0,False,Normal
+CUST-01005,Cairo,Month-to-month,No,0.332,4403.75,0,False,Normal
+CUST-01006,Cairo,One year,Yes,0.618,7949.14,3,False,High
+CUST-01007,Upper Egypt,Month-to-month,Yes,0.652,3978.22,1,False,Normal
+CUST-01008,Upper Egypt,One year,No,0.023,7735.34,3,True,Normal
+CUST-01009,Alexandria,Month-to-month,Yes,0.55,6551.28,1,False,Normal
+CUST-01010,Alexandria,Month-to-month,Yes,0.617,3478.48,0,False,Normal
+CUST-01011,Giza,Month-to-month,No,0.202,2638.57,0,False,Normal
+CUST-01012,Giza,Two year,No,0.063,7615.28,1,False,Normal
+CUST-01013,Cairo,Month-to-month,No,0.272,3551.8,0,False,Normal
+CUST-01014,Cairo,Month-to-month,Yes,0.614,4973.12,2,False,Normal
+CUST-01015,Cairo,Month-to-month,No,0.22,4076.86,2,False,Normal
+CUST-01016,Delta,Month-to-month,Yes,0.563,3846.19,0,False,Normal
+CUST-01017,Cairo,Two year,No,0.046,7528.31,1,False,Normal
+CUST-01018,Cairo,Two year,No,0.06,9465.18,1,False,Normal
+CUST-01019,Alexandria,Two year,No,0.033,4765.9,0,False,Normal
+CUST-01020,Cairo,Two year,No,0.071,4998.84,2,False,Normal
+CUST-01021,Cairo,Month-to-month,Yes,0.774,5728.11,1,False,Normal
+CUST-01022,Alexandria,Month-to-month,No,0.281,3872.21,0,False,Normal
+CUST-01023,Giza,One year,No,0.139,6681.1,1,False,Normal
+CUST-01024,Alexandria,One year,No,0.04,5792.94,2,False,Normal
+CUST-01025,Upper Egypt,Month-to-month,No,0.208,7089.64,1,False,Normal
+CUST-01026,Cairo,One year,No,0.101,8017.71,1,False,Normal
+CUST-01027,Upper Egypt,Month-to-month,Yes,0.57,4936.79,2,False,Normal
+CUST-01028,Upper Egypt,Month-to-month,Yes,0.56,3506.08,0,False,Normal
+CUST-01029,Delta,Month-to-month,No,0.382,5933.22,2,False,Normal
+CUST-01030,Alexandria,Two year,No,0.094,4588.2,0,False,Normal
+CUST-01031,Alexandria,One year,No,0.034,5593.7,2,False,Normal
+CUST-01032,Alexandria,Month-to-month,No,0.49,4583.6,3,False,Normal
+CUST-01033,Delta,One year,No,0.118,5337.77,3,False,Normal
+CUST-01034,Cairo,One year,No,0.097,5921.72,3,False,Normal
+CUST-01035,Upper Egypt,Month-to-month,No,0.261,4149.77,0,False,Normal
+CUST-01036,Alexandria,One year,No,0.043,8027.63,1,False,Normal
+CUST-01037,Delta,Month-to-month,No,0.215,2923.98,0,False,Normal
+CUST-01038,Giza,Month-to-month,No,0.437,3660.86,3,False,Normal
+CUST-01039,Cairo,Month-to-month,No,0.415,6889.55,1,False,Normal
+CUST-01040,Giza,Month-to-month,No,0.157,7665.36,2,True,Normal
+CUST-01041,Giza,Month-to-month,No,0.249,6273.86,1,False,Normal
+CUST-01042,Giza,Month-to-month,No,0.443,6533.77,1,False,Normal
+CUST-01043,Giza,Month-to-month,No,0.453,4598.38,0,False,Normal
+CUST-01044,Cairo,One year,No,0.197,4623.14,3,False,Normal
+CUST-01045,Alexandria,One year,No,0.101,5063.7,0,False,Normal
+CUST-01046,Giza,Month-to-month,No,0.629,4969.63,3,False,Normal
+CUST-01047,Upper Egypt,Month-to-month,No,0.398,3543.08,0,False,Normal
+CUST-01048,Cairo,Month-to-month,No,0.357,4653.85,2,False,Normal
+CUST-01049,Cairo,Two year,No,0.044,7330.66,1,False,Normal
+CUST-01050,Cairo,Two year,No,0.063,7548.54,3,False,Normal
+CUST-01051,Alexandria,Month-to-month,No,0.207,4324.02,2,False,Normal
+CUST-01052,Giza,One year,Yes,0.577,4521.52,0,False,Normal
+CUST-01053,Alexandria,One year,No,0.08,3933.34,0,False,Normal
+CUST-01054,Upper Egypt,Two year,No,0.092,6091.12,0,False,Normal
+CUST-01055,Cairo,Month-to-month,No,0.277,3986.57,0,False,Normal
+CUST-01056,Delta,Month-to-month,No,0.147,8197.85,1,False,Normal
+CUST-01057,Cairo,One year,No,0.044,5228.44,2,False,Normal
+CUST-01058,Cairo,Month-to-month,Yes,0.603,6364.58,1,False,High
+CUST-01059,Giza,Month-to-month,Yes,0.798,4014.47,0,False,Normal
+CUST-01060,Cairo,Month-to-month,No,0.445,3094.61,0,False,Normal
+CUST-01061,Alexandria,Month-to-month,Yes,0.519,3333.85,0,False,Normal
+CUST-01062,Alexandria,One year,No,0.073,6498.07,1,False,Normal
+CUST-01063,Delta,One year,No,0.148,6536.38,3,False,Normal
+CUST-01064,Giza,Month-to-month,No,0.598,6476.08,1,False,Normal
+CUST-01065,Alexandria,Two year,No,0.112,7356.0,1,False,Normal
+CUST-01066,Giza,Month-to-month,No,0.212,3716.13,0,False,Normal
+CUST-01067,Cairo,Two year,No,0.105,7934.74,1,False,Normal
+CUST-01068,Cairo,Month-to-month,No,0.202,3848.74,0,False,Normal
+CUST-01069,Alexandria,Two year,No,0.019,6360.52,2,False,Normal
+CUST-01070,Upper Egypt,Two year,No,0.059,5920.29,2,False,Normal
+CUST-01071,Cairo,Two year,No,0.029,6534.3,1,False,Normal
+CUST-01072,Alexandria,One year,No,0.063,5503.43,2,False,Normal
+CUST-01073,Delta,Month-to-month,Yes,0.821,5375.39,3,False,Normal
+CUST-01074,Delta,One year,No,0.099,4397.06,0,False,Normal
+CUST-01075,Alexandria,One year,No,0.176,4801.28,3,False,Normal
+CUST-01076,Alexandria,Month-to-month,No,0.436,5113.14,3,False,Normal
+CUST-01077,Delta,Two year,No,0.14,7487.0,1,False,Normal
+CUST-01078,Delta,Month-to-month,No,0.489,3545.31,0,False,Normal
+CUST-01079,Cairo,Month-to-month,No,0.432,4190.74,0,False,Normal
+CUST-01080,Upper Egypt,Two year,No,0.111,5953.77,3,False,Normal
+CUST-01081,Cairo,Month-to-month,Yes,0.618,6630.08,1,False,High
+CUST-01082,Delta,Month-to-month,Yes,0.8,5321.88,1,False,Normal
+CUST-01083,Cairo,Month-to-month,No,0.273,2895.51,0,False,Normal
+CUST-01084,Cairo,One year,No,0.1,4965.97,0,False,Normal
+CUST-01085,Cairo,Two year,No,0.027,5560.57,0,False,Normal
+CUST-01086,Giza,Month-to-month,Yes,0.771,6925.33,1,False,High
+CUST-01087,Giza,One year,No,0.151,8262.9,1,False,Normal
+CUST-01088,Cairo,One year,No,0.034,5145.69,2,False,Normal
+CUST-01089,Giza,One year,No,0.3,7602.58,1,False,Normal
+CUST-01090,Giza,One year,No,0.282,6189.57,3,False,Normal
+CUST-01091,Delta,Two year,No,0.035,5448.38,2,False,Normal
+CUST-01092,Upper Egypt,Month-to-month,No,0.293,5371.92,1,False,Normal
+CUST-01093,Alexandria,Month-to-month,Yes,0.487,3734.95,0,False,Normal
+CUST-01094,Cairo,One year,No,0.103,5460.29,0,False,Normal
+CUST-01095,Cairo,Month-to-month,No,0.371,3462.88,0,False,Normal
+CUST-01096,Upper Egypt,Month-to-month,No,0.484,4144.21,0,False,Normal
+CUST-01097,Cairo,Month-to-month,Yes,0.696,5672.35,1,False,Normal
+CUST-01098,Giza,Month-to-month,No,0.417,6386.89,1,False,Normal
+CUST-01099,Upper Egypt,Two year,No,0.068,6117.43,0,False,Normal
+CUST-01100,Upper Egypt,Month-to-month,No,0.373,4693.83,3,False,Normal
+CUST-01101,Giza,One year,No,0.065,4061.88,0,False,Normal
+CUST-01102,Alexandria,One year,Yes,0.614,6973.1,1,False,High
+CUST-01103,Giza,Month-to-month,Yes,0.792,5334.3,3,False,Normal
+CUST-01104,Delta,Month-to-month,No,0.381,4818.56,0,False,Normal
+CUST-01105,Cairo,Month-to-month,No,0.519,4307.56,2,False,Normal
+CUST-01106,Cairo,Month-to-month,No,0.251,4639.51,0,False,Normal
+CUST-01107,Alexandria,Month-to-month,No,0.231,6562.5,1,False,Normal
+CUST-01108,Cairo,One year,No,0.114,4900.48,0,False,Normal
+CUST-01109,Alexandria,Month-to-month,No,0.29,2330.47,0,False,Normal
+CUST-01110,Giza,Month-to-month,No,0.303,7853.93,1,False,Normal
+CUST-01111,Upper Egypt,Month-to-month,No,0.102,4996.24,2,False,Normal
+CUST-01112,Delta,Month-to-month,No,0.558,4202.07,0,False,Normal
+CUST-01113,Giza,Month-to-month,No,0.387,5506.95,2,False,Normal
+CUST-01114,Delta,Two year,No,0.053,4987.63,3,False,Normal
+CUST-01115,Cairo,Month-to-month,No,0.26,4065.06,2,False,Normal
+CUST-01116,Giza,Month-to-month,Yes,0.745,2678.56,0,False,Normal
+CUST-01117,Cairo,One year,No,0.08,4092.46,0,False,Normal
+CUST-01118,Upper Egypt,One year,No,0.224,7517.94,1,False,Normal
+CUST-01119,Delta,One year,No,0.068,7962.47,1,False,Normal
+CUST-01120,Upper Egypt,Month-to-month,Yes,0.894,4434.59,3,False,Normal
+CUST-01121,Upper Egypt,One year,Yes,0.651,3573.18,0,False,Normal
+CUST-01122,Upper Egypt,Month-to-month,No,0.52,3704.12,0,False,Normal
+CUST-01123,Cairo,One year,No,0.111,4604.29,0,False,Normal
+CUST-01124,Upper Egypt,Month-to-month,No,0.267,5639.88,1,False,Normal
+CUST-01125,Alexandria,One year,No,0.245,6587.33,1,False,Normal
+CUST-01126,Giza,One year,No,0.094,6223.21,1,False,Normal
+CUST-01127,Alexandria,One year,No,0.127,6354.89,3,False,Normal
+CUST-01128,Giza,Month-to-month,No,0.515,5950.71,1,False,Normal
+CUST-01129,Cairo,One year,No,0.051,5694.47,2,False,Normal
+CUST-01130,Cairo,One year,No,0.286,4444.1,3,False,Normal
+CUST-01131,Cairo,Month-to-month,No,0.312,3486.18,0,False,Normal
+CUST-01132,Giza,Month-to-month,No,0.422,5100.74,1,False,Normal
+CUST-01133,Upper Egypt,Month-to-month,No,0.227,3474.3,0,False,Normal
+CUST-01134,Alexandria,Month-to-month,No,0.19,3400.24,2,False,Normal
+CUST-01135,Alexandria,One year,No,0.156,5196.13,0,False,Normal
+CUST-01136,Giza,Month-to-month,No,0.293,4475.72,3,False,Normal
+CUST-01137,Giza,One year,No,0.109,5297.3,0,False,Normal
+CUST-01138,Cairo,One year,No,0.16,6762.83,1,False,Normal
+CUST-01139,Delta,One year,No,0.111,5670.44,0,False,Normal
+CUST-01140,Cairo,One year,No,0.157,4559.2,0,False,Normal
+CUST-01141,Delta,One year,No,0.06,3447.41,2,False,Normal
+CUST-01142,Delta,Month-to-month,No,0.313,4262.64,0,False,Normal
+CUST-01143,Alexandria,Month-to-month,No,0.17,3544.52,0,False,Normal
+CUST-01144,Upper Egypt,Two year,No,0.08,5966.11,2,False,Normal
+CUST-01145,Cairo,Two year,No,0.107,8770.15,1,False,Normal
+CUST-01146,Upper Egypt,Month-to-month,No,0.484,5656.35,1,False,Normal
+CUST-01147,Delta,Two year,No,0.069,3983.17,0,False,Normal
+CUST-01148,Delta,Two year,No,0.024,5895.47,2,False,Normal
+CUST-01149,Alexandria,Month-to-month,No,0.494,6918.87,1,False,Normal
+CUST-01150,Delta,One year,No,0.258,7153.24,1,False,Normal
+CUST-01151,Upper Egypt,One year,No,0.084,6347.49,1,False,Normal
+CUST-01152,Giza,Month-to-month,No,0.416,4226.59,0,False,Normal
+CUST-01153,Delta,Month-to-month,Yes,0.781,3458.38,0,False,Normal
+CUST-01154,Delta,Month-to-month,Yes,0.796,5392.32,1,False,Normal
+CUST-01155,Giza,One year,No,0.188,5432.74,0,False,Normal
+CUST-01156,Upper Egypt,Month-to-month,Yes,0.582,5713.13,1,False,Normal
+CUST-01157,Giza,One year,No,0.13,5058.25,0,False,Normal
+CUST-01158,Alexandria,One year,No,0.052,3657.75,3,False,Normal
+CUST-01159,Cairo,One year,No,0.038,4613.8,2,False,Normal
+CUST-01160,Cairo,Month-to-month,No,0.509,5938.28,1,False,Normal
+CUST-01161,Delta,Month-to-month,No,0.47,3621.78,3,False,Normal
+CUST-01162,Giza,Month-to-month,No,0.583,5364.5,3,False,Normal
+CUST-01163,Giza,Month-to-month,Yes,0.742,6438.21,3,False,High
+CUST-01164,Cairo,Month-to-month,No,0.172,5137.7,2,False,Normal
+CUST-01165,Giza,Month-to-month,No,0.587,4003.64,0,False,Normal
+CUST-01166,Delta,Month-to-month,No,0.183,4671.54,0,False,Normal
+CUST-01167,Upper Egypt,One year,No,0.095,6241.33,1,False,Normal
+CUST-01168,Cairo,Month-to-month,Yes,0.612,4505.86,2,False,Normal
+CUST-01169,Alexandria,Month-to-month,No,0.181,4686.56,2,False,Normal
+CUST-01170,Giza,Two year,No,0.058,5716.17,0,False,Normal
+CUST-01171,Alexandria,Month-to-month,Yes,0.65,3278.87,0,False,Normal
+CUST-01172,Giza,Two year,No,0.053,9774.18,2,False,Normal
+CUST-01173,Giza,One year,No,0.173,6640.91,1,False,Normal
+CUST-01174,Giza,Month-to-month,No,0.307,3134.2,0,False,Normal
+CUST-01175,Alexandria,Two year,No,0.117,7225.47,1,False,Normal
+CUST-01176,Giza,Two year,No,0.053,6129.18,0,False,Normal
+CUST-01177,Giza,One year,No,0.089,5216.87,0,False,Normal
+CUST-01178,Delta,Month-to-month,No,0.341,6252.52,1,False,Normal
+CUST-01179,Delta,Month-to-month,No,0.275,4109.94,2,False,Normal
+CUST-01180,Giza,Month-to-month,Yes,0.709,3826.2,0,False,Normal
+CUST-01181,Delta,One year,No,0.207,8237.96,1,False,Normal
+CUST-01182,Delta,Month-to-month,No,0.516,4865.76,3,False,Normal
+CUST-01183,Cairo,Month-to-month,No,0.225,5387.16,2,False,Normal
+CUST-01184,Alexandria,Month-to-month,No,0.451,4846.67,3,False,Normal
+CUST-01185,Cairo,Month-to-month,Yes,0.71,2569.3,0,False,Normal
+CUST-01186,Delta,Month-to-month,No,0.519,4110.67,0,False,Normal
+CUST-01187,Cairo,Month-to-month,No,0.28,2595.9,2,False,Normal
+CUST-01188,Alexandria,Two year,No,0.061,6368.17,2,False,Normal
+CUST-01189,Cairo,Month-to-month,No,0.331,5942.23,1,False,Normal
+CUST-01190,Giza,Month-to-month,No,0.371,4007.24,0,False,Normal
+CUST-01191,Upper Egypt,Month-to-month,No,0.233,3206.81,0,False,Normal
+CUST-01192,Giza,Month-to-month,No,0.579,5753.59,1,False,Normal
+CUST-01193,Upper Egypt,One year,No,0.203,5985.67,0,False,Normal
+CUST-01194,Upper Egypt,Month-to-month,No,0.31,2483.4,0,False,Normal
+CUST-01195,Upper Egypt,Two year,No,0.106,8590.31,1,False,Normal
+CUST-01196,Cairo,Two year,No,0.059,7161.83,3,False,Normal
+CUST-01197,Delta,Two year,No,0.074,6007.54,3,False,Normal
+CUST-01198,Cairo,One year,No,0.143,6039.86,3,False,Normal
+CUST-01199,Giza,Month-to-month,No,0.317,4400.21,0,False,Normal
+CUST-01200,Upper Egypt,One year,No,0.104,5717.4,3,False,Normal
+CUST-01201,Delta,Month-to-month,No,0.39,5242.0,1,False,Normal
+CUST-01202,Alexandria,One year,No,0.256,9132.19,1,False,Normal
+CUST-01203,Giza,Month-to-month,No,0.361,2298.62,0,False,Normal
+CUST-01204,Delta,Month-to-month,No,0.517,5983.28,1,False,Normal
+CUST-01205,Delta,Month-to-month,Yes,0.679,4675.85,3,False,Normal
+CUST-01206,Giza,One year,No,0.091,5962.26,1,False,Normal
+CUST-01207,Upper Egypt,One year,No,0.018,5587.69,2,False,Normal
+CUST-01208,Cairo,Month-to-month,No,0.181,5539.27,3,False,Normal
+CUST-01209,Cairo,Month-to-month,No,0.35,3681.43,0,False,Normal
+CUST-01210,Alexandria,Month-to-month,No,0.194,4310.05,0,False,Normal
+CUST-01211,Upper Egypt,One year,No,0.065,3852.27,0,False,Normal
+CUST-01212,Cairo,Month-to-month,No,0.476,4101.03,0,False,Normal
+CUST-01213,Cairo,Month-to-month,No,0.366,3889.95,0,False,Normal
+CUST-01214,Cairo,One year,No,0.243,7189.09,1,False,Normal
+CUST-01215,Upper Egypt,One year,Yes,0.572,5625.44,2,True,Normal
+CUST-01216,Cairo,Two year,No,0.088,7440.93,1,False,Normal
+CUST-01217,Giza,One year,No,0.176,5393.48,0,False,Normal
+CUST-01218,Upper Egypt,Two year,No,0.036,5293.57,0,False,Normal
+CUST-01219,Cairo,Month-to-month,No,0.406,3772.99,0,False,Normal
+CUST-01220,Alexandria,Month-to-month,No,0.285,5112.76,2,False,Normal
+CUST-01221,Giza,Two year,No,0.052,5435.04,0,False,Normal
+CUST-01222,Delta,Month-to-month,No,0.253,3398.93,0,False,Normal
+CUST-01223,Giza,One year,No,0.079,7059.43,2,False,Normal
+CUST-01224,Giza,Month-to-month,No,0.174,4240.6,2,False,Normal
+CUST-01225,Cairo,Month-to-month,No,0.272,5541.63,2,False,Normal
+CUST-01226,Delta,Month-to-month,No,0.39,5668.11,1,False,Normal
+CUST-01227,Delta,One year,No,0.125,4896.32,0,False,Normal
+CUST-01228,Cairo,One year,No,0.042,3964.27,2,False,Normal
+CUST-01229,Giza,Month-to-month,No,0.37,3102.08,0,False,Normal
+CUST-01230,Upper Egypt,Month-to-month,Yes,0.678,3031.43,0,False,Normal
+CUST-01231,Cairo,Month-to-month,Yes,0.716,5577.36,1,False,Normal
+CUST-01232,Cairo,Month-to-month,No,0.434,6163.13,1,False,Normal
+CUST-01233,Alexandria,Month-to-month,Yes,0.635,6626.77,2,True,High
+CUST-01234,Giza,Two year,No,0.092,4875.11,0,False,Normal
+CUST-01235,Cairo,Month-to-month,No,0.19,5414.81,2,False,Normal
+CUST-01236,Giza,Month-to-month,Yes,0.651,5795.63,1,False,Normal
+CUST-01237,Cairo,Month-to-month,Yes,0.715,6689.61,1,False,High
+CUST-01238,Alexandria,Month-to-month,No,0.303,5995.21,1,False,Normal
+CUST-01239,Delta,Month-to-month,No,0.221,6145.23,2,False,Normal
+CUST-01240,Alexandria,One year,No,0.058,5528.36,2,False,Normal
+CUST-01241,Cairo,One year,No,0.086,6628.51,1,False,Normal
+CUST-01242,Delta,One year,No,0.093,6243.55,1,False,Normal
+CUST-01243,Cairo,Month-to-month,No,0.37,3946.55,0,False,Normal
+CUST-01244,Delta,One year,No,0.095,4012.48,0,False,Normal
+CUST-01245,Giza,Two year,No,0.067,5946.64,0,False,Normal
+CUST-01246,Delta,Two year,No,0.057,5880.47,0,False,Normal
+CUST-01247,Cairo,Two year,No,0.038,8346.69,1,False,Normal
+CUST-01248,Cairo,Month-to-month,No,0.513,5505.07,1,False,Normal
+CUST-01249,Giza,Two year,No,0.066,5193.29,0,False,Normal
+CUST-01250,Cairo,One year,No,0.169,4915.94,3,False,Normal
+CUST-01251,Cairo,One year,No,0.047,6193.01,2,False,Normal
+CUST-01252,Delta,One year,No,0.137,5722.44,0,False,Normal
+CUST-01253,Delta,Two year,No,0.077,3836.79,3,False,Normal
+CUST-01254,Cairo,Month-to-month,No,0.644,5910.79,1,False,Normal
+CUST-01255,Upper Egypt,One year,Yes,0.597,4239.66,0,False,Normal
+CUST-01256,Delta,One year,No,0.125,6605.41,1,False,Normal
+CUST-01257,Upper Egypt,One year,No,0.103,5627.12,0,False,Normal
+CUST-01258,Delta,One year,No,0.088,4685.7,0,False,Normal
+CUST-01259,Alexandria,Month-to-month,No,0.424,4582.8,0,False,Normal
+CUST-01260,Alexandria,Month-to-month,Yes,0.698,3179.32,0,False,Normal
+CUST-01261,Alexandria,Month-to-month,No,0.392,6836.58,1,False,Normal
+CUST-01262,Upper Egypt,One year,No,0.14,5053.61,0,False,Normal
+CUST-01263,Cairo,One year,No,0.089,3620.2,0,False,Normal
+CUST-01264,Cairo,Two year,No,0.076,5489.15,0,False,Normal
+CUST-01265,Cairo,One year,No,0.045,8466.62,1,False,Normal
+CUST-01266,Upper Egypt,One year,No,0.084,6232.16,1,False,Normal
+CUST-01267,Giza,Month-to-month,No,0.364,6809.49,1,False,Normal
+CUST-01268,Alexandria,One year,No,0.251,7785.49,1,False,Normal
+CUST-01269,Delta,Two year,No,0.149,6160.75,0,False,Normal
+CUST-01270,Upper Egypt,One year,No,0.094,7605.31,3,False,Normal
+CUST-01271,Cairo,Two year,No,0.099,6089.09,3,False,Normal
+CUST-01272,Delta,Two year,No,0.035,6100.32,2,False,Normal
+CUST-01273,Upper Egypt,Month-to-month,No,0.296,3606.59,0,False,Normal
+CUST-01274,Cairo,One year,No,0.193,4896.9,0,False,Normal
+CUST-01275,Delta,Month-to-month,Yes,0.738,6817.77,1,False,High
+CUST-01276,Giza,Month-to-month,Yes,0.775,5714.98,1,False,Normal
+CUST-01277,Alexandria,Month-to-month,No,0.399,2504.39,0,False,Normal
+CUST-01278,Giza,Month-to-month,No,0.247,5705.79,2,False,Normal
+CUST-01279,Cairo,Month-to-month,No,0.271,5363.61,2,False,Normal
+CUST-01280,Cairo,One year,No,0.098,5980.12,2,True,Normal
+CUST-01281,Cairo,Month-to-month,Yes,0.592,4755.69,2,False,Normal
+CUST-01282,Cairo,Month-to-month,No,0.234,4195.45,3,False,Normal
+CUST-01283,Alexandria,Month-to-month,No,0.39,5254.73,1,False,Normal
+CUST-01284,Giza,Month-to-month,No,0.353,4775.84,0,False,Normal
+CUST-01285,Cairo,Two year,No,0.121,5609.17,0,False,Normal
+CUST-01286,Delta,Month-to-month,No,0.454,5247.82,3,False,Normal
+CUST-01287,Delta,Month-to-month,No,0.142,5163.18,2,False,Normal
+CUST-01288,Alexandria,Two year,Yes,0.602,9609.84,1,False,High
+CUST-01289,Upper Egypt,Two year,No,0.039,6163.81,3,True,Normal
+CUST-01290,Giza,One year,No,0.179,6877.44,1,False,Normal
+CUST-01291,Delta,One year,No,0.097,3456.06,0,False,Normal
+CUST-01292,Cairo,Month-to-month,Yes,0.69,2943.44,0,False,Normal
+CUST-01293,Delta,One year,No,0.058,7866.34,2,False,Normal
+CUST-01294,Upper Egypt,Month-to-month,No,0.164,7778.95,2,True,Normal
+CUST-01295,Delta,Month-to-month,No,0.371,4463.08,0,False,Normal
+CUST-01296,Alexandria,Month-to-month,No,0.473,6944.07,1,False,Normal
+CUST-01297,Alexandria,One year,No,0.088,4925.22,0,False,Normal
+CUST-01298,Giza,Month-to-month,No,0.495,3864.42,0,False,Normal
+CUST-01299,Alexandria,Month-to-month,Yes,0.833,4011.82,0,False,Normal
+CUST-01300,Delta,Month-to-month,No,0.258,4113.44,3,False,Normal
+CUST-01301,Upper Egypt,One year,No,0.075,7613.84,1,False,Normal
+CUST-01302,Giza,Month-to-month,No,0.421,3668.37,0,False,Normal
+CUST-01303,Cairo,Month-to-month,No,0.402,5918.59,1,False,Normal
+CUST-01304,Alexandria,Month-to-month,No,0.475,3871.41,0,False,Normal
+CUST-01305,Cairo,One year,Yes,0.533,5285.74,3,False,Normal
+CUST-01306,Cairo,Month-to-month,No,0.426,6645.37,1,False,Normal
+CUST-01307,Giza,Two year,No,0.082,6452.51,1,False,Normal
+CUST-01308,Delta,Month-to-month,No,0.381,3274.06,0,False,Normal
+CUST-01309,Cairo,Month-to-month,No,0.524,4819.19,3,False,Normal
+CUST-01310,Cairo,Month-to-month,Yes,0.734,5505.66,1,False,Normal
+CUST-01311,Cairo,Month-to-month,No,0.338,6961.91,1,False,Normal
+CUST-01312,Upper Egypt,Month-to-month,Yes,0.582,2665.07,0,True,Normal
+CUST-01313,Delta,Month-to-month,Yes,0.716,5347.75,1,False,Normal
+CUST-01314,Cairo,Two year,No,0.089,5013.33,0,False,Normal
+CUST-01315,Cairo,Month-to-month,No,0.486,5781.51,1,False,Normal
+CUST-01316,Alexandria,Month-to-month,No,0.466,4844.01,1,False,Normal
+CUST-01317,Cairo,Month-to-month,Yes,0.652,5526.08,2,True,Normal
+CUST-01318,Alexandria,Month-to-month,No,0.2,2368.97,0,False,Normal
+CUST-01319,Giza,Month-to-month,No,0.271,5520.17,3,False,Normal
+CUST-01320,Upper Egypt,Month-to-month,No,0.137,5564.89,2,False,Normal
+CUST-01321,Cairo,Month-to-month,No,0.56,4652.64,0,False,Normal
+CUST-01322,Alexandria,Month-to-month,No,0.427,4696.3,3,False,Normal
+CUST-01323,Cairo,Two year,Yes,0.493,5348.9,0,False,Normal
+CUST-01324,Upper Egypt,One year,Yes,0.657,7099.93,1,False,High
+CUST-01325,Upper Egypt,Two year,No,0.021,5234.07,2,False,Normal
+CUST-01326,Delta,Month-to-month,No,0.242,6629.01,2,True,Normal
+CUST-01327,Giza,Two year,No,0.071,6053.17,0,False,Normal
+CUST-01328,Cairo,Month-to-month,No,0.417,5301.16,2,False,Normal
+CUST-01329,Delta,Month-to-month,No,0.21,6383.7,1,False,Normal
+CUST-01330,Delta,One year,No,0.054,3656.83,2,False,Normal
+CUST-01331,Cairo,Month-to-month,No,0.357,3886.48,2,True,Normal
+CUST-01332,Giza,Month-to-month,Yes,0.743,5903.92,1,False,Normal
+CUST-01333,Giza,One year,No,0.199,5210.94,0,False,Normal
+CUST-01334,Delta,One year,No,0.124,3569.18,0,False,Normal
+CUST-01335,Delta,Month-to-month,Yes,0.807,3565.54,0,False,Normal
+CUST-01336,Alexandria,Month-to-month,No,0.359,3459.41,0,False,Normal
+CUST-01337,Alexandria,Month-to-month,No,0.327,5436.38,3,False,Normal
+CUST-01338,Cairo,Two year,No,0.088,7670.71,3,False,Normal
+CUST-01339,Giza,Month-to-month,No,0.225,4527.14,2,False,Normal
+CUST-01340,Cairo,Month-to-month,No,0.361,3860.48,0,False,Normal
+CUST-01341,Delta,Month-to-month,No,0.391,5571.46,1,False,Normal
+CUST-01342,Giza,Two year,No,0.079,6648.95,3,False,Normal
+CUST-01343,Giza,One year,No,0.101,5007.49,0,False,Normal
+CUST-01344,Cairo,Month-to-month,No,0.29,3907.81,2,False,Normal
+CUST-01345,Cairo,Two year,No,0.087,6187.82,2,False,Normal
+CUST-01346,Alexandria,Month-to-month,No,0.396,6166.02,1,False,Normal
+CUST-01347,Cairo,Two year,No,0.05,6973.45,1,False,Normal
+CUST-01348,Cairo,Month-to-month,No,0.516,4464.63,3,False,Normal
+CUST-01349,Delta,Month-to-month,No,0.412,4611.85,0,False,Normal
+CUST-01350,Giza,Month-to-month,No,0.397,4919.93,3,False,Normal
+CUST-01351,Giza,Two year,No,0.077,9207.31,1,False,Normal
+CUST-01352,Giza,Two year,No,0.121,7442.08,1,False,Normal
+CUST-01353,Delta,One year,No,0.196,7214.31,3,False,Normal
+CUST-01354,Giza,Month-to-month,No,0.288,2860.92,0,False,Normal
+CUST-01355,Delta,Month-to-month,No,0.182,4393.75,2,False,Normal
+CUST-01356,Upper Egypt,Month-to-month,No,0.321,3252.0,0,False,Normal
+CUST-01357,Alexandria,Month-to-month,No,0.359,3716.95,3,False,Normal
+CUST-01358,Giza,Month-to-month,No,0.263,5312.71,3,False,Normal
+CUST-01359,Delta,One year,No,0.047,6246.73,1,False,Normal
+CUST-01360,Giza,One year,No,0.157,6781.65,1,False,Normal
+CUST-01361,Giza,Two year,Yes,0.551,6502.13,3,False,Normal
+CUST-01362,Alexandria,Month-to-month,No,0.541,5869.68,1,False,Normal
+CUST-01363,Cairo,Month-to-month,Yes,0.747,5165.41,1,False,Normal
+CUST-01364,Cairo,Month-to-month,No,0.286,5004.46,1,False,Normal
+CUST-01365,Giza,Month-to-month,Yes,0.714,5706.61,1,False,Normal
+CUST-01366,Cairo,One year,No,0.105,5556.7,3,False,Normal
+CUST-01367,Giza,One year,No,0.115,6706.55,1,False,Normal
+CUST-01368,Alexandria,Month-to-month,No,0.582,5358.61,1,False,Normal
+CUST-01369,Upper Egypt,Month-to-month,No,0.301,3718.71,0,False,Normal
+CUST-01370,Cairo,Two year,No,0.157,7663.1,1,False,Normal
+CUST-01371,Alexandria,Month-to-month,No,0.284,6992.46,2,False,Normal
+CUST-01372,Giza,Month-to-month,No,0.271,2335.34,0,False,Normal
+CUST-01373,Cairo,One year,No,0.064,6623.2,1,False,Normal
+CUST-01374,Cairo,One year,No,0.114,5152.72,3,False,Normal
+CUST-01375,Cairo,Month-to-month,No,0.356,4915.79,2,False,Normal
+CUST-01376,Cairo,One year,No,0.14,4030.96,3,False,Normal
+CUST-01377,Cairo,Two year,No,0.151,8242.61,1,False,Normal
+CUST-01378,Giza,Month-to-month,No,0.443,5355.04,1,False,Normal
+CUST-01379,Alexandria,Month-to-month,No,0.221,3732.28,0,False,Normal
+CUST-01380,Cairo,One year,No,0.11,7067.17,3,False,Normal
+CUST-01381,Cairo,One year,No,0.053,5540.22,2,False,Normal
+CUST-01382,Cairo,Month-to-month,No,0.473,4683.0,0,False,Normal
+CUST-01383,Alexandria,Month-to-month,Yes,0.867,3918.2,0,False,Normal
+CUST-01384,Giza,One year,Yes,0.598,7064.04,1,False,Normal
+CUST-01385,Alexandria,Month-to-month,Yes,0.731,6931.48,1,False,High
+CUST-01386,Cairo,Month-to-month,No,0.184,4631.97,3,False,Normal
+CUST-01387,Cairo,Month-to-month,Yes,0.597,2857.49,0,False,Normal
+CUST-01388,Upper Egypt,Month-to-month,No,0.349,5544.05,2,False,Normal
+CUST-01389,Cairo,Two year,No,0.069,7004.77,1,False,Normal
+CUST-01390,Cairo,One year,No,0.163,6766.1,1,False,Normal
+CUST-01391,Cairo,Month-to-month,No,0.193,3207.19,0,False,Normal
+CUST-01392,Upper Egypt,Two year,No,0.063,8982.02,1,False,Normal
+CUST-01393,Alexandria,Month-to-month,No,0.214,3538.27,0,False,Normal
+CUST-01394,Alexandria,Month-to-month,No,0.349,4880.22,0,False,Normal
+CUST-01395,Upper Egypt,Month-to-month,Yes,0.701,6840.1,1,False,High
+CUST-01396,Cairo,One year,No,0.103,6903.95,1,False,Normal
+CUST-01397,Upper Egypt,One year,No,0.157,5499.13,2,False,Normal
+CUST-01398,Cairo,One year,No,0.083,7103.72,1,False,Normal
+CUST-01399,Alexandria,Month-to-month,Yes,0.561,4650.84,0,False,Normal
+CUST-01400,Giza,Month-to-month,No,0.458,4881.46,1,False,Normal
+CUST-01401,Giza,Month-to-month,No,0.126,3819.89,2,False,Normal
+CUST-01402,Upper Egypt,Two year,No,0.026,6087.23,1,False,Normal
+CUST-01403,Cairo,Month-to-month,Yes,0.55,4316.59,2,False,Normal
+CUST-01404,Upper Egypt,One year,No,0.026,5548.54,2,False,Normal
+CUST-01405,Giza,One year,Yes,0.632,7054.17,3,False,High
+CUST-01406,Alexandria,Month-to-month,Yes,0.782,5911.38,1,False,Normal
+CUST-01407,Upper Egypt,Month-to-month,No,0.255,6420.17,3,False,Normal
+CUST-01408,Cairo,Month-to-month,No,0.455,4809.06,1,False,Normal
+CUST-01409,Upper Egypt,One year,Yes,0.542,6699.47,1,False,Normal
+CUST-01410,Alexandria,Two year,No,0.068,4857.24,0,False,Normal
+CUST-01411,Delta,Month-to-month,No,0.291,4885.32,1,False,Normal
+CUST-01412,Cairo,Two year,No,0.107,5738.22,0,False,Normal
+CUST-01413,Alexandria,Month-to-month,No,0.408,2362.03,0,False,Normal
+CUST-01414,Alexandria,Month-to-month,No,0.498,6433.26,3,False,Normal
+CUST-01415,Giza,Two year,No,0.099,5207.74,0,False,Normal
+CUST-01416,Cairo,Two year,No,0.046,5502.19,0,False,Normal
+CUST-01417,Cairo,Month-to-month,Yes,0.666,3918.49,0,False,Normal
+CUST-01418,Delta,One year,No,0.185,7607.68,1,False,Normal
+CUST-01419,Cairo,Two year,Yes,0.552,6256.16,2,False,Normal
+CUST-01420,Delta,One year,Yes,0.533,5599.51,1,False,Normal
+CUST-01421,Upper Egypt,One year,No,0.04,5904.04,2,False,Normal
+CUST-01422,Cairo,Month-to-month,No,0.398,6757.2,1,False,Normal
+CUST-01423,Cairo,Month-to-month,No,0.496,5500.37,1,False,Normal
+CUST-01424,Alexandria,One year,No,0.144,5604.04,0,False,Normal
+CUST-01425,Cairo,Month-to-month,No,0.516,5329.76,3,False,Normal
+CUST-01426,Alexandria,Month-to-month,No,0.158,2979.12,0,False,Normal
+CUST-01427,Delta,Month-to-month,No,0.313,5227.09,1,False,Normal
+CUST-01428,Alexandria,Month-to-month,No,0.386,3167.31,0,False,Normal
+CUST-01429,Giza,Month-to-month,No,0.386,5586.02,1,False,Normal
+CUST-01430,Delta,Month-to-month,Yes,0.632,4797.57,3,False,Normal
+CUST-01431,Alexandria,Month-to-month,No,0.297,5514.18,1,False,Normal
+CUST-01432,Cairo,Month-to-month,No,0.397,4806.99,3,False,Normal
+CUST-01433,Alexandria,Two year,No,0.047,4393.06,0,False,Normal
+CUST-01434,Upper Egypt,One year,No,0.057,5652.93,3,False,Normal
+CUST-01435,Alexandria,Month-to-month,No,0.26,4930.0,1,False,Normal
+CUST-01436,Giza,Month-to-month,No,0.335,4659.15,0,False,Normal
+CUST-01437,Giza,Month-to-month,No,0.2,4253.05,0,False,Normal
+CUST-01438,Cairo,One year,No,0.042,4984.65,3,False,Normal
+CUST-01439,Cairo,One year,No,0.17,4708.23,0,False,Normal
+CUST-01440,Cairo,One year,No,0.099,7363.12,1,False,Normal
+CUST-01441,Upper Egypt,One year,No,0.129,4999.2,0,False,Normal
+CUST-01442,Cairo,Month-to-month,No,0.34,3904.5,0,False,Normal
+CUST-01443,Delta,Month-to-month,No,0.17,4030.22,2,False,Normal
+CUST-01444,Cairo,Month-to-month,No,0.503,3402.08,0,False,Normal
+CUST-01445,Cairo,Month-to-month,No,0.387,5168.77,0,False,Normal
+CUST-01446,Giza,Month-to-month,No,0.354,6857.79,1,False,Normal
+CUST-01447,Giza,One year,No,0.045,4895.83,2,False,Normal
+CUST-01448,Delta,Month-to-month,No,0.112,5401.67,2,False,Normal
+CUST-01449,Upper Egypt,One year,No,0.137,5598.32,3,False,Normal
+CUST-01450,Upper Egypt,Month-to-month,No,0.324,3867.34,0,False,Normal
+CUST-01451,Cairo,Month-to-month,No,0.537,5298.86,3,False,Normal
+CUST-01452,Delta,One year,No,0.111,4328.87,0,False,Normal
+CUST-01453,Cairo,Month-to-month,No,0.283,4877.94,3,False,Normal
+CUST-01454,Upper Egypt,Month-to-month,No,0.41,5990.28,1,False,Normal
+CUST-01455,Giza,Month-to-month,No,0.458,5566.79,1,False,Normal
+CUST-01456,Giza,One year,No,0.082,2567.7,0,False,Normal
+CUST-01457,Cairo,Month-to-month,No,0.259,3690.17,0,False,Normal
+CUST-01458,Cairo,Two year,No,0.021,4945.86,0,False,Normal
+CUST-01459,Cairo,Two year,No,0.062,7751.67,2,False,Normal
+CUST-01460,Upper Egypt,One year,No,0.093,4334.34,0,False,Normal
+CUST-01461,Delta,Month-to-month,No,0.492,3368.58,3,False,Normal
+CUST-01462,Upper Egypt,One year,No,0.098,5246.14,0,False,Normal
+CUST-01463,Cairo,Month-to-month,No,0.35,3085.78,0,False,Normal
+CUST-01464,Alexandria,Two year,No,0.079,5272.13,0,False,Normal
+CUST-01465,Cairo,Month-to-month,No,0.253,5785.74,3,False,Normal
+CUST-01466,Alexandria,Month-to-month,No,0.22,5595.24,3,False,Normal
+CUST-01467,Giza,Month-to-month,Yes,0.759,5704.02,1,False,Normal
+CUST-01468,Cairo,One year,No,0.05,2869.0,0,False,Normal
+CUST-01469,Alexandria,Two year,No,0.065,6005.95,3,True,Normal
+CUST-01470,Cairo,Month-to-month,No,0.264,4207.78,2,False,Normal
+CUST-01471,Giza,Month-to-month,No,0.254,4592.84,2,False,Normal
+CUST-01472,Alexandria,One year,No,0.112,5299.67,3,False,Normal
+CUST-01473,Cairo,Two year,No,0.038,6058.27,3,False,Normal
+CUST-01474,Upper Egypt,One year,No,0.052,5453.08,0,False,Normal
+CUST-01475,Giza,Month-to-month,No,0.26,5647.43,1,False,Normal
+CUST-01476,Delta,One year,Yes,0.601,6548.79,1,False,High
+CUST-01477,Alexandria,Two year,Yes,0.674,8887.13,1,False,High
+CUST-01478,Delta,Month-to-month,No,0.34,3828.03,3,False,Normal
+CUST-01479,Delta,Month-to-month,No,0.351,4809.55,0,False,Normal
+CUST-01480,Upper Egypt,Month-to-month,No,0.441,6490.36,1,False,Normal
+CUST-01481,Alexandria,Month-to-month,No,0.519,6030.47,1,False,Normal
+CUST-01482,Cairo,One year,No,0.158,6471.84,3,False,Normal
+CUST-01483,Cairo,Month-to-month,Yes,0.626,3979.93,0,False,Normal
+CUST-01484,Alexandria,Month-to-month,No,0.479,4450.24,0,False,Normal
+CUST-01485,Cairo,Month-to-month,No,0.173,6706.5,1,False,Normal
+CUST-01486,Cairo,Two year,No,0.087,9084.18,1,False,Normal
+CUST-01487,Cairo,Two year,No,0.067,7682.59,1,False,Normal
+CUST-01488,Alexandria,Month-to-month,No,0.339,4659.01,3,False,Normal
+CUST-01489,Cairo,One year,Yes,0.606,5203.23,3,True,Normal
+CUST-01490,Alexandria,Month-to-month,No,0.397,4521.06,0,False,Normal
+CUST-01491,Delta,Two year,No,0.042,4598.48,0,False,Normal
+CUST-01492,Delta,One year,Yes,0.485,5997.19,0,False,Normal
+CUST-01493,Cairo,Month-to-month,Yes,0.656,4331.09,3,False,Normal
+CUST-01494,Alexandria,Two year,No,0.126,7802.57,1,True,Normal
+CUST-01495,Alexandria,Month-to-month,No,0.406,5749.67,3,False,Normal
+CUST-01496,Giza,One year,No,0.109,7594.88,1,False,Normal
+CUST-01497,Alexandria,Month-to-month,No,0.566,3885.04,0,False,Normal
+CUST-01498,Cairo,One year,No,0.086,6682.14,3,False,Normal
+CUST-01499,Upper Egypt,Month-to-month,No,0.252,3289.95,0,False,Normal
+CUST-01500,Cairo,Month-to-month,Yes,0.604,6317.56,1,False,High
+CUST-01501,Delta,Month-to-month,No,0.352,4744.37,0,False,Normal
+CUST-01502,Alexandria,Two year,No,0.039,8277.52,1,False,Normal
+CUST-01503,Cairo,Month-to-month,No,0.366,5966.5,3,False,Normal
+CUST-01504,Delta,One year,No,0.135,5436.28,2,True,Normal
+CUST-01505,Cairo,Month-to-month,No,0.434,4650.03,0,False,Normal
+CUST-01506,Delta,Two year,No,0.165,8472.41,3,False,Normal
+CUST-01507,Alexandria,Month-to-month,No,0.423,3468.07,0,True,Normal
+CUST-01508,Cairo,One year,No,0.181,3907.18,0,False,Normal
+CUST-01509,Cairo,Two year,No,0.083,6731.74,3,False,Normal
+CUST-01510,Delta,Month-to-month,No,0.418,5878.48,1,False,Normal
+CUST-01511,Cairo,Month-to-month,No,0.386,5910.57,1,False,Normal
+CUST-01512,Upper Egypt,Two year,No,0.061,5376.91,0,False,Normal
+CUST-01513,Delta,Month-to-month,No,0.508,3325.22,0,False,Normal
+CUST-01514,Delta,Month-to-month,No,0.547,4126.77,0,False,Normal
+CUST-01515,Cairo,Month-to-month,No,0.455,4914.32,1,False,Normal
+CUST-01516,Delta,One year,Yes,0.672,6344.02,1,False,High
+CUST-01517,Upper Egypt,Two year,No,0.027,6240.09,2,False,Normal
+CUST-01518,Cairo,One year,No,0.062,4917.72,2,False,Normal
+CUST-01519,Giza,One year,No,0.054,3601.64,0,False,Normal
+CUST-01520,Cairo,Month-to-month,No,0.48,4874.57,3,False,Normal
+CUST-01521,Giza,Month-to-month,Yes,0.628,6800.42,1,False,High
+CUST-01522,Delta,Month-to-month,No,0.307,3268.11,0,False,Normal
+CUST-01523,Giza,Month-to-month,No,0.49,4938.64,0,False,Normal
+CUST-01524,Alexandria,Month-to-month,No,0.38,4427.13,0,False,Normal
+CUST-01525,Cairo,One year,No,0.074,7280.61,2,False,Normal
+CUST-01526,Cairo,Month-to-month,Yes,0.58,6081.33,1,False,Normal
+CUST-01527,Cairo,Month-to-month,No,0.567,6449.56,1,False,Normal
+CUST-01528,Delta,Month-to-month,No,0.667,4751.25,0,False,Normal
+CUST-01529,Alexandria,Month-to-month,Yes,0.773,6695.95,1,False,High
+CUST-01530,Giza,Month-to-month,Yes,0.696,5428.76,3,False,Normal
+CUST-01531,Delta,Month-to-month,No,0.581,5053.98,1,False,Normal
+CUST-01532,Cairo,Month-to-month,No,0.377,6193.55,1,False,Normal
+CUST-01533,Cairo,Month-to-month,No,0.465,4958.29,0,False,Normal
+CUST-01534,Cairo,One year,No,0.183,4331.6,0,False,Normal
+CUST-01535,Upper Egypt,Two year,No,0.091,8915.16,1,False,Normal
+CUST-01536,Delta,One year,No,0.15,4913.41,0,False,Normal
+CUST-01537,Alexandria,One year,No,0.058,4987.11,3,False,Normal
+CUST-01538,Cairo,Two year,No,0.043,5498.54,0,False,Normal
+CUST-01539,Cairo,Month-to-month,No,0.51,5219.66,3,False,Normal
+CUST-01540,Alexandria,One year,No,0.031,4528.63,2,False,Normal
+CUST-01541,Giza,Month-to-month,No,0.356,5321.2,1,False,Normal
+CUST-01542,Upper Egypt,Month-to-month,Yes,0.679,3095.88,3,True,Normal
+CUST-01543,Delta,Month-to-month,Yes,0.687,3485.36,0,False,Normal
+CUST-01544,Giza,Month-to-month,No,0.519,4578.23,3,False,Normal
+CUST-01545,Delta,One year,No,0.161,4966.23,0,False,Normal
+CUST-01546,Upper Egypt,Month-to-month,No,0.417,3877.36,0,False,Normal
+CUST-01547,Giza,One year,No,0.155,3604.53,0,False,Normal
+CUST-01548,Alexandria,Two year,No,0.027,5358.54,0,False,Normal
+CUST-01549,Upper Egypt,Month-to-month,Yes,0.641,3805.17,3,False,Normal
+CUST-01550,Cairo,Month-to-month,Yes,0.593,5378.38,1,False,Normal
+CUST-01551,Upper Egypt,Month-to-month,No,0.367,4646.26,2,False,Normal
+CUST-01552,Cairo,Month-to-month,No,0.379,5237.76,1,False,Normal
+CUST-01553,Alexandria,Two year,No,0.079,6357.29,0,False,Normal
+CUST-01554,Delta,One year,No,0.173,6342.8,1,False,Normal
+CUST-01555,Alexandria,One year,No,0.174,7433.83,1,False,Normal
+CUST-01556,Giza,Month-to-month,No,0.159,3637.17,0,False,Normal
+CUST-01557,Alexandria,One year,No,0.087,3184.62,0,False,Normal
+CUST-01558,Cairo,One year,No,0.073,5628.44,1,False,Normal
+CUST-01559,Cairo,Month-to-month,Yes,0.678,6607.48,1,False,High
+CUST-01560,Cairo,Month-to-month,Yes,0.774,5079.09,3,False,Normal
+CUST-01561,Alexandria,Month-to-month,No,0.365,3946.77,0,False,Normal
+CUST-01562,Giza,Month-to-month,No,0.255,5825.99,1,False,Normal
+CUST-01563,Cairo,Two year,No,0.133,8249.57,1,False,Normal
+CUST-01564,Upper Egypt,One year,No,0.036,5851.18,2,False,Normal
+CUST-01565,Giza,Month-to-month,No,0.407,4783.79,3,False,Normal
+CUST-01566,Giza,Two year,No,0.041,7879.67,2,False,Normal
+CUST-01567,Giza,Month-to-month,No,0.24,3826.06,0,False,Normal
+CUST-01568,Cairo,Month-to-month,No,0.196,3480.6,2,False,Normal
+CUST-01569,Delta,Two year,No,0.149,9228.55,1,False,Normal
+CUST-01570,Giza,Two year,No,0.051,5907.43,0,False,Normal
+CUST-01571,Cairo,One year,No,0.175,6359.98,1,False,Normal
+CUST-01572,Upper Egypt,Month-to-month,Yes,0.688,3160.89,0,False,Normal
+CUST-01573,Delta,Two year,No,0.082,6115.73,1,False,Normal
+CUST-01574,Delta,One year,No,0.049,5903.01,2,False,Normal
+CUST-01575,Upper Egypt,One year,No,0.153,5437.3,1,False,Normal
+CUST-01576,Upper Egypt,Month-to-month,Yes,0.78,5183.04,3,False,Normal
+CUST-01577,Giza,Month-to-month,Yes,0.557,5089.84,2,False,Normal
+CUST-01578,Alexandria,Two year,No,0.034,7291.5,3,False,Normal
+CUST-01579,Alexandria,Two year,No,0.056,7167.49,1,False,Normal
+CUST-01580,Cairo,One year,No,0.096,4620.74,2,False,Normal
+CUST-01581,Cairo,Month-to-month,No,0.589,5566.93,1,False,Normal
+CUST-01582,Cairo,One year,No,0.073,7871.23,1,False,Normal
+CUST-01583,Alexandria,Month-to-month,No,0.242,3824.49,0,False,Normal
+CUST-01584,Delta,Month-to-month,Yes,0.763,6755.98,1,False,High
+CUST-01585,Delta,Month-to-month,No,0.584,4435.69,3,False,Normal
+CUST-01586,Cairo,Month-to-month,No,0.612,4599.75,3,False,Normal
+CUST-01587,Cairo,One year,No,0.133,5590.82,3,False,Normal
+CUST-01588,Giza,Month-to-month,No,0.466,3459.03,0,False,Normal
+CUST-01589,Alexandria,Month-to-month,No,0.28,2995.55,0,False,Normal
+CUST-01590,Upper Egypt,Two year,No,0.041,6692.25,1,False,Normal
+CUST-01591,Upper Egypt,One year,No,0.103,2825.67,0,False,Normal
+CUST-01592,Upper Egypt,Month-to-month,No,0.276,3590.66,0,False,Normal
+CUST-01593,Delta,Month-to-month,No,0.554,4531.37,0,False,Normal
+CUST-01594,Upper Egypt,One year,No,0.09,5520.31,3,False,Normal
+CUST-01595,Giza,Month-to-month,Yes,0.718,4627.29,0,False,Normal
+CUST-01596,Cairo,Month-to-month,No,0.382,5303.38,2,False,Normal
+CUST-01597,Cairo,Month-to-month,No,0.149,4931.76,2,False,Normal
+CUST-01598,Giza,Month-to-month,No,0.465,5583.61,1,False,Normal
+CUST-01599,Cairo,One year,Yes,0.433,5724.31,0,False,Normal
+CUST-01600,Cairo,Month-to-month,No,0.478,4041.9,0,False,Normal
+CUST-01601,Upper Egypt,Month-to-month,No,0.261,5651.41,3,False,Normal
+CUST-01602,Cairo,Month-to-month,No,0.455,7304.64,1,True,Normal
+CUST-01603,Upper Egypt,Month-to-month,No,0.353,5897.02,1,False,Normal
+CUST-01604,Delta,Month-to-month,No,0.356,4630.07,2,False,Normal
+CUST-01605,Alexandria,Two year,No,0.062,7070.1,3,False,Normal
+CUST-01606,Alexandria,Month-to-month,No,0.57,3350.15,0,False,Normal
+CUST-01607,Giza,Month-to-month,No,0.254,2729.52,0,False,Normal
+CUST-01608,Alexandria,Month-to-month,No,0.43,2309.95,0,False,Normal
+CUST-01609,Cairo,One year,No,0.193,4994.23,1,False,Normal
+CUST-01610,Upper Egypt,Month-to-month,No,0.248,6088.85,1,False,Normal
+CUST-01611,Cairo,Two year,No,0.045,7845.06,2,False,Normal
+CUST-01612,Cairo,One year,Yes,0.604,8221.09,1,True,High
+CUST-01613,Delta,Month-to-month,No,0.312,4141.87,0,False,Normal
+CUST-01614,Alexandria,One year,No,0.07,3891.9,0,False,Normal
+CUST-01615,Giza,Month-to-month,Yes,0.775,4704.65,1,False,Normal
+CUST-01616,Alexandria,Two year,No,0.074,7090.59,1,False,Normal
+CUST-01617,Cairo,Two year,No,0.045,5005.84,0,False,Normal
+CUST-01618,Alexandria,Month-to-month,Yes,0.81,3945.69,0,False,Normal
+CUST-01619,Cairo,One year,No,0.182,7417.14,1,False,Normal
+CUST-01620,Cairo,Month-to-month,No,0.277,4237.59,0,False,Normal
+CUST-01621,Cairo,Month-to-month,Yes,0.658,3600.13,3,False,Normal
+CUST-01622,Giza,One year,No,0.167,6305.1,2,False,Normal
+CUST-01623,Giza,Two year,No,0.104,7241.85,1,False,Normal
+CUST-01624,Giza,Month-to-month,No,0.335,5727.32,2,False,Normal
+CUST-01625,Cairo,One year,No,0.081,4889.55,2,False,Normal
+CUST-01626,Cairo,One year,No,0.095,4288.17,0,False,Normal
+CUST-01627,Alexandria,Month-to-month,No,0.508,5569.76,1,False,Normal
+CUST-01628,Cairo,One year,No,0.186,5335.75,3,False,Normal
+CUST-01629,Delta,One year,No,0.094,4864.02,0,False,Normal
+CUST-01630,Upper Egypt,One year,No,0.058,3426.09,0,False,Normal
+CUST-01631,Giza,Two year,No,0.055,7065.99,0,False,Normal
+CUST-01632,Upper Egypt,Month-to-month,No,0.218,6896.38,1,False,Normal
+CUST-01633,Cairo,Month-to-month,No,0.522,5288.57,1,False,Normal
+CUST-01634,Cairo,Month-to-month,No,0.148,5983.76,1,False,Normal
+CUST-01635,Delta,Month-to-month,No,0.431,5935.69,1,False,Normal
+CUST-01636,Delta,Month-to-month,No,0.174,5059.96,2,False,Normal
+CUST-01637,Delta,Two year,No,0.045,4414.3,2,False,Normal
+CUST-01638,Cairo,Month-to-month,No,0.475,5166.31,3,False,Normal
+CUST-01639,Delta,One year,No,0.204,4356.27,0,False,Normal
+CUST-01640,Giza,Month-to-month,No,0.436,4882.71,1,False,Normal
+CUST-01641,Cairo,Month-to-month,No,0.489,5766.38,1,False,Normal
+CUST-01642,Cairo,Two year,No,0.046,7566.5,1,False,Normal
+CUST-01643,Upper Egypt,One year,No,0.093,3301.42,0,False,Normal
+CUST-01644,Cairo,Month-to-month,Yes,0.721,4615.0,0,False,Normal
+CUST-01645,Delta,Two year,No,0.031,7034.91,3,False,Normal
+CUST-01646,Alexandria,Month-to-month,No,0.295,4725.06,0,False,Normal
+CUST-01647,Delta,Month-to-month,No,0.378,5347.44,1,False,Normal
+CUST-01648,Delta,Month-to-month,No,0.116,4212.18,0,False,Normal
+CUST-01649,Delta,One year,No,0.068,5435.66,2,False,Normal
+CUST-01650,Cairo,Month-to-month,No,0.437,4272.11,2,False,Normal
+CUST-01651,Cairo,Two year,No,0.135,7870.01,1,False,Normal
+CUST-01652,Alexandria,Month-to-month,No,0.358,3673.51,0,False,Normal
+CUST-01653,Giza,Month-to-month,No,0.469,3684.33,0,False,Normal
+CUST-01654,Cairo,Two year,No,0.046,3965.49,0,False,Normal
+CUST-01655,Cairo,Month-to-month,No,0.469,4352.24,1,False,Normal
+CUST-01656,Giza,Month-to-month,No,0.739,5799.75,1,False,Normal
+CUST-01657,Cairo,Month-to-month,No,0.279,3717.15,2,False,Normal
+CUST-01658,Cairo,Month-to-month,No,0.487,6560.11,1,False,Normal
+CUST-01659,Upper Egypt,Month-to-month,Yes,0.793,4851.03,0,False,Normal
+CUST-01660,Cairo,Month-to-month,No,0.295,5302.62,2,False,Normal
+CUST-01661,Upper Egypt,One year,No,0.13,3491.77,0,False,Normal
+CUST-01662,Upper Egypt,Month-to-month,No,0.159,5480.83,2,False,Normal
+CUST-01663,Cairo,Month-to-month,No,0.183,5392.66,2,False,Normal
+CUST-01664,Delta,One year,No,0.155,5008.14,0,False,Normal
+CUST-01665,Alexandria,Month-to-month,No,0.677,5243.34,1,False,Normal
+CUST-01666,Delta,One year,No,0.131,5507.71,1,False,Normal
+CUST-01667,Cairo,One year,No,0.127,8143.75,1,False,Normal
+CUST-01668,Cairo,Month-to-month,No,0.449,3163.77,0,False,Normal
+CUST-01669,Cairo,Month-to-month,No,0.416,5021.97,1,False,Normal
+CUST-01670,Alexandria,Month-to-month,No,0.349,5462.54,1,False,Normal
+CUST-01671,Upper Egypt,Month-to-month,No,0.184,4117.92,0,False,Normal
+CUST-01672,Alexandria,Month-to-month,No,0.718,4618.84,3,False,Normal
+CUST-01673,Delta,One year,Yes,0.545,5528.92,1,False,Normal
+CUST-01674,Upper Egypt,One year,No,0.119,6633.81,1,False,Normal
+CUST-01675,Alexandria,Month-to-month,No,0.389,3027.56,0,False,Normal
+CUST-01676,Cairo,Two year,No,0.046,4715.35,0,False,Normal
+CUST-01677,Upper Egypt,Month-to-month,Yes,0.729,3750.34,0,False,Normal
+CUST-01678,Giza,Two year,No,0.075,6146.19,3,False,Normal
+CUST-01679,Cairo,One year,No,0.154,3715.91,0,False,Normal
+CUST-01680,Giza,Month-to-month,Yes,0.735,3445.58,3,False,Normal
+CUST-01681,Upper Egypt,Month-to-month,No,0.442,4764.13,1,False,Normal
+CUST-01682,Cairo,Month-to-month,No,0.376,6728.9,1,False,Normal
+CUST-01683,Giza,Two year,Yes,0.545,9014.33,1,False,Normal
+CUST-01684,Cairo,Month-to-month,No,0.424,4975.38,0,False,Normal
+CUST-01685,Cairo,Two year,Yes,0.495,8102.98,1,False,Normal
+CUST-01686,Cairo,Month-to-month,No,0.495,3012.66,0,False,Normal
+CUST-01687,Delta,Month-to-month,No,0.382,3594.76,0,False,Normal
+CUST-01688,Upper Egypt,One year,No,0.109,4751.32,3,False,Normal
+CUST-01689,Cairo,Month-to-month,Yes,0.76,5350.34,1,False,Normal
+CUST-01690,Cairo,Month-to-month,Yes,0.648,5144.53,3,False,Normal
+CUST-01691,Cairo,Two year,No,0.066,8155.27,3,False,Normal
+CUST-01692,Cairo,Month-to-month,Yes,0.682,4330.85,2,False,Normal
+CUST-01693,Alexandria,Two year,No,0.032,5695.17,0,False,Normal
+CUST-01694,Delta,Two year,No,0.065,8082.06,1,False,Normal
+CUST-01695,Alexandria,Month-to-month,No,0.307,3607.7,0,False,Normal
+CUST-01696,Giza,Month-to-month,No,0.537,4060.38,0,False,Normal
+CUST-01697,Alexandria,Month-to-month,Yes,0.721,6120.85,1,False,Normal
+CUST-01698,Cairo,One year,No,0.117,7424.61,1,False,Normal
+CUST-01699,Cairo,Two year,No,0.038,7141.49,1,False,Normal
+CUST-01700,Upper Egypt,Two year,No,0.031,5034.87,0,False,Normal
+CUST-01701,Delta,Two year,No,0.07,7706.1,1,False,Normal
+CUST-01702,Upper Egypt,Month-to-month,No,0.199,5877.59,1,False,Normal
+CUST-01703,Upper Egypt,Month-to-month,No,0.306,6149.42,3,False,Normal
+CUST-01704,Alexandria,Month-to-month,Yes,0.611,7011.13,1,False,High
+CUST-01705,Upper Egypt,Two year,No,0.111,5365.44,3,False,Normal
+CUST-01706,Giza,Month-to-month,No,0.33,5529.06,1,False,Normal
+CUST-01707,Cairo,Month-to-month,Yes,0.679,5371.6,1,False,Normal
+CUST-01708,Cairo,Month-to-month,No,0.2,4796.79,2,False,Normal
+CUST-01709,Cairo,Month-to-month,No,0.347,2946.11,0,False,Normal
+CUST-01710,Cairo,Month-to-month,No,0.177,5013.41,2,False,Normal
+CUST-01711,Giza,Month-to-month,Yes,0.582,3828.53,0,False,Normal
+CUST-01712,Delta,Two year,No,0.225,8249.04,1,False,Normal
+CUST-01713,Delta,One year,Yes,0.585,6417.52,3,False,Normal
+CUST-01714,Alexandria,Month-to-month,No,0.12,4135.2,2,False,Normal
+CUST-01715,Cairo,One year,No,0.076,3697.19,0,False,Normal
+CUST-01716,Delta,Month-to-month,Yes,0.636,6537.24,1,False,High
+CUST-01717,Giza,One year,No,0.083,5750.67,3,False,Normal
+CUST-01718,Cairo,Month-to-month,No,0.371,4418.78,0,False,Normal
+CUST-01719,Cairo,One year,No,0.182,4584.98,0,False,Normal
+CUST-01720,Giza,Month-to-month,No,0.319,2466.27,0,False,Normal
+CUST-01721,Cairo,Month-to-month,No,0.396,4781.91,2,False,Normal
+CUST-01722,Delta,One year,No,0.067,5057.85,0,False,Normal
+CUST-01723,Delta,One year,No,0.061,5189.6,0,False,Normal
+CUST-01724,Delta,One year,No,0.063,5653.59,2,False,Normal
+CUST-01725,Cairo,Month-to-month,No,0.434,6417.36,1,False,Normal
+CUST-01726,Delta,Month-to-month,No,0.381,4567.67,0,False,Normal
+CUST-01727,Alexandria,One year,Yes,0.603,4476.15,0,False,Normal
+CUST-01728,Cairo,Month-to-month,No,0.154,4981.17,2,False,Normal
+CUST-01729,Alexandria,Month-to-month,Yes,0.781,5518.46,1,False,Normal
+CUST-01730,Giza,Month-to-month,No,0.315,3737.47,0,False,Normal
+CUST-01731,Giza,Month-to-month,No,0.52,6018.68,1,False,Normal
+CUST-01732,Cairo,Month-to-month,No,0.607,5683.56,1,False,Normal
+CUST-01733,Giza,Month-to-month,No,0.382,4516.47,0,False,Normal
+CUST-01734,Cairo,One year,Yes,0.458,3912.35,0,False,Normal
+CUST-01735,Cairo,One year,No,0.216,3774.42,0,False,Normal
+CUST-01736,Cairo,One year,No,0.043,8467.83,1,False,Normal
+CUST-01737,Upper Egypt,One year,No,0.054,4478.6,0,False,Normal
+CUST-01738,Cairo,Month-to-month,No,0.373,2595.09,0,True,Normal
+CUST-01739,Giza,Two year,Yes,0.621,7417.25,1,False,High
+CUST-01740,Giza,One year,No,0.057,5677.63,2,False,Normal
+CUST-01741,Upper Egypt,Month-to-month,Yes,0.613,5392.52,1,False,Normal
+CUST-01742,Alexandria,Month-to-month,Yes,0.708,5259.35,1,False,Normal
+CUST-01743,Upper Egypt,One year,No,0.054,9178.17,1,False,Normal
+CUST-01744,Cairo,One year,No,0.103,4518.55,0,False,Normal
+CUST-01745,Cairo,One year,No,0.154,4284.23,0,False,Normal
+CUST-01746,Alexandria,One year,No,0.154,5383.31,1,False,Normal
+CUST-01747,Giza,Two year,No,0.05,7658.8,3,False,Normal
+CUST-01748,Delta,Two year,No,0.043,7599.75,2,False,Normal
+CUST-01749,Upper Egypt,One year,No,0.036,3512.74,0,False,Normal
+CUST-01750,Giza,Two year,No,0.078,7084.02,1,False,Normal
+CUST-01751,Upper Egypt,Two year,Yes,0.609,9499.64,1,False,High
+CUST-01752,Alexandria,Month-to-month,No,0.47,4751.46,1,False,Normal
+CUST-01753,Cairo,One year,No,0.103,5128.54,0,False,Normal
+CUST-01754,Giza,Month-to-month,Yes,0.596,4137.36,0,False,Normal
+CUST-01755,Cairo,Month-to-month,Yes,0.711,3072.28,0,False,Normal
+CUST-01756,Delta,Month-to-month,Yes,0.829,4494.28,3,True,Normal
+CUST-01757,Cairo,Month-to-month,No,0.367,5169.73,2,True,Normal
+CUST-01758,Cairo,Month-to-month,Yes,0.585,4332.14,2,False,Normal
+CUST-01759,Alexandria,Month-to-month,No,0.525,2300.34,0,False,Normal
+CUST-01760,Cairo,Month-to-month,Yes,0.724,5079.01,3,False,Normal
+CUST-01761,Cairo,One year,No,0.071,7728.01,1,False,Normal
+CUST-01762,Delta,Two year,No,0.096,7423.17,2,False,Normal
+CUST-01763,Cairo,Two year,No,0.057,3716.7,0,False,Normal
+CUST-01764,Giza,Month-to-month,No,0.547,4451.17,0,False,Normal
+CUST-01765,Giza,Month-to-month,Yes,0.881,4474.52,3,False,Normal
+CUST-01766,Cairo,Two year,No,0.037,7267.66,1,False,Normal
+CUST-01767,Cairo,Month-to-month,Yes,0.71,4823.48,3,False,Normal
+CUST-01768,Delta,Two year,No,0.086,5705.86,0,False,Normal
+CUST-01769,Upper Egypt,One year,No,0.161,7688.65,3,False,Normal
+CUST-01770,Cairo,Month-to-month,Yes,0.828,5898.96,1,False,Normal
+CUST-01771,Upper Egypt,Month-to-month,Yes,0.673,4793.03,0,False,Normal
+CUST-01772,Alexandria,Month-to-month,No,0.383,4562.37,2,False,Normal
+CUST-01773,Alexandria,Month-to-month,No,0.194,4965.92,2,False,Normal
+CUST-01774,Delta,Month-to-month,No,0.375,2966.44,0,False,Normal
+CUST-01775,Delta,Two year,No,0.072,7457.34,1,False,Normal
+CUST-01776,Delta,One year,Yes,0.561,3764.5,0,False,Normal
+CUST-01777,Giza,Month-to-month,No,0.356,2922.48,0,False,Normal
+CUST-01778,Alexandria,Month-to-month,No,0.472,6281.29,1,False,Normal
+CUST-01779,Giza,Month-to-month,No,0.419,4601.85,0,False,Normal
+CUST-01780,Cairo,Month-to-month,No,0.377,4250.81,0,False,Normal
+CUST-01781,Alexandria,One year,No,0.114,6435.84,3,False,Normal
+CUST-01782,Cairo,One year,No,0.057,5877.35,2,False,Normal
+CUST-01783,Cairo,One year,No,0.124,5574.21,0,False,Normal
+CUST-01784,Cairo,Month-to-month,No,0.281,3915.45,0,False,Normal
+CUST-01785,Cairo,Month-to-month,No,0.37,6598.32,1,False,Normal
+CUST-01786,Alexandria,Two year,No,0.068,5964.93,0,False,Normal
+CUST-01787,Alexandria,One year,No,0.147,3467.46,0,False,Normal
+CUST-01788,Giza,One year,No,0.101,7723.84,1,False,Normal
+CUST-01789,Cairo,Month-to-month,No,0.502,5554.33,1,False,Normal
+CUST-01790,Giza,Two year,No,0.093,4873.13,0,False,Normal
+CUST-01791,Giza,Month-to-month,Yes,0.626,4549.01,3,False,Normal
+CUST-01792,Delta,Month-to-month,Yes,0.681,3484.41,0,False,Normal
+CUST-01793,Alexandria,One year,No,0.106,5415.92,3,False,Normal
+CUST-01794,Giza,Month-to-month,No,0.282,4898.43,0,False,Normal
+CUST-01795,Giza,One year,No,0.107,3433.72,0,False,Normal
+CUST-01796,Upper Egypt,Month-to-month,Yes,0.623,5012.64,2,False,Normal
+CUST-01797,Delta,Month-to-month,No,0.276,6610.66,1,False,Normal
+CUST-01798,Giza,Month-to-month,Yes,0.768,5475.44,1,False,Normal
+CUST-01799,Giza,Two year,No,0.048,8285.66,1,False,Normal
+CUST-01800,Cairo,One year,No,0.156,6137.79,3,True,Normal
+CUST-01801,Upper Egypt,Month-to-month,Yes,0.651,4235.99,0,False,Normal
+CUST-01802,Cairo,Month-to-month,Yes,0.719,4865.22,3,False,Normal
+CUST-01803,Cairo,Month-to-month,No,0.592,4994.84,0,False,Normal
+CUST-01804,Upper Egypt,Month-to-month,No,0.455,5986.01,1,False,Normal
+CUST-01805,Delta,One year,No,0.183,6929.98,3,False,Normal
+CUST-01806,Cairo,Month-to-month,No,0.263,5241.88,2,False,Normal
+CUST-01807,Cairo,Month-to-month,Yes,0.645,3599.09,2,False,Normal
+CUST-01808,Cairo,Month-to-month,No,0.491,5099.99,3,False,Normal
+CUST-01809,Alexandria,One year,No,0.129,4491.35,3,True,Normal
+CUST-01810,Cairo,One year,No,0.111,5372.4,0,False,Normal
+CUST-01811,Upper Egypt,One year,No,0.037,6808.25,1,False,Normal
+CUST-01812,Upper Egypt,One year,No,0.017,5513.35,2,False,Normal
+CUST-01813,Alexandria,Two year,No,0.08,6150.13,0,False,Normal
+CUST-01814,Alexandria,Month-to-month,Yes,0.739,5646.94,1,False,Normal
+CUST-01815,Cairo,Two year,No,0.071,6574.99,1,False,Normal
+CUST-01816,Cairo,One year,No,0.127,4968.99,3,False,Normal
+CUST-01817,Delta,Month-to-month,No,0.435,3885.46,0,False,Normal
+CUST-01818,Cairo,One year,No,0.12,4600.3,2,False,Normal
+CUST-01819,Cairo,One year,No,0.064,6523.62,1,False,Normal
+CUST-01820,Cairo,One year,No,0.139,2807.95,0,False,Normal
+CUST-01821,Cairo,Month-to-month,No,0.388,3727.0,0,False,Normal
+CUST-01822,Giza,Month-to-month,No,0.453,3304.14,0,False,Normal
+CUST-01823,Delta,Two year,No,0.062,6349.32,2,False,Normal
+CUST-01824,Delta,Month-to-month,No,0.283,3858.22,0,False,Normal
+CUST-01825,Alexandria,Month-to-month,No,0.287,4949.15,3,False,Normal
+CUST-01826,Delta,Month-to-month,No,0.356,4863.59,0,False,Normal
+CUST-01827,Giza,Month-to-month,No,0.283,3892.35,2,False,Normal
+CUST-01828,Delta,Two year,No,0.074,7240.52,2,False,Normal
+CUST-01829,Giza,One year,Yes,0.666,4754.72,0,False,Normal
+CUST-01830,Cairo,Two year,No,0.076,4226.91,0,False,Normal
+CUST-01831,Upper Egypt,Month-to-month,No,0.269,4973.14,1,False,Normal
+CUST-01832,Cairo,Month-to-month,No,0.364,5213.51,1,False,Normal
+CUST-01833,Cairo,Month-to-month,No,0.223,4881.25,2,False,Normal
+CUST-01834,Cairo,Month-to-month,No,0.305,4735.31,3,False,Normal
+CUST-01835,Giza,One year,No,0.217,6046.41,3,False,Normal
+CUST-01836,Giza,Month-to-month,No,0.29,3550.43,0,False,Normal
+CUST-01837,Alexandria,Month-to-month,No,0.211,5489.47,2,False,Normal
+CUST-01838,Upper Egypt,Two year,No,0.069,5509.43,0,False,Normal
+CUST-01839,Cairo,One year,No,0.239,4009.89,0,False,Normal
+CUST-01840,Alexandria,Month-to-month,No,0.487,4631.56,3,False,Normal
+CUST-01841,Giza,One year,No,0.053,5572.23,0,False,Normal
+CUST-01842,Delta,Month-to-month,No,0.352,3755.27,3,False,Normal
+CUST-01843,Cairo,Two year,No,0.071,8794.7,2,False,Normal
+CUST-01844,Cairo,One year,No,0.071,7943.41,1,False,Normal
+CUST-01845,Giza,Month-to-month,No,0.496,6785.26,1,False,Normal
+CUST-01846,Alexandria,Month-to-month,No,0.526,3408.22,0,False,Normal
+CUST-01847,Delta,Month-to-month,Yes,0.645,3775.23,2,False,Normal
+CUST-01848,Alexandria,One year,No,0.175,5633.12,1,False,Normal
+CUST-01849,Delta,Month-to-month,No,0.203,5854.57,2,False,Normal
+CUST-01850,Giza,One year,No,0.121,6975.19,3,False,Normal
+CUST-01851,Cairo,Month-to-month,No,0.175,3470.37,0,False,Normal
+CUST-01852,Cairo,Month-to-month,Yes,0.68,4747.09,3,False,Normal
+CUST-01853,Cairo,Month-to-month,No,0.286,6866.88,3,False,Normal
+CUST-01854,Giza,Month-to-month,Yes,0.587,5749.37,1,False,Normal
+CUST-01855,Giza,Month-to-month,No,0.511,4985.48,1,False,Normal
+CUST-01856,Giza,One year,No,0.134,3116.53,0,False,Normal
+CUST-01857,Alexandria,Two year,No,0.049,5955.69,2,False,Normal
+CUST-01858,Giza,Month-to-month,Yes,0.541,6148.34,1,False,Normal
+CUST-01859,Alexandria,One year,No,0.13,4323.52,0,False,Normal
+CUST-01860,Alexandria,Month-to-month,No,0.383,3612.88,0,False,Normal
+CUST-01861,Cairo,One year,No,0.061,7380.22,1,False,Normal
+CUST-01862,Giza,Month-to-month,Yes,0.622,5495.28,1,False,Normal
+CUST-01863,Alexandria,One year,No,0.077,3579.36,0,False,Normal
+CUST-01864,Alexandria,Month-to-month,Yes,0.693,3890.95,0,False,Normal
+CUST-01865,Cairo,Month-to-month,No,0.31,4360.09,0,False,Normal
+CUST-01866,Giza,One year,No,0.053,4919.63,0,False,Normal
+CUST-01867,Delta,Month-to-month,No,0.162,4429.5,2,False,Normal
+CUST-01868,Alexandria,Month-to-month,No,0.258,5327.53,2,False,Normal
+CUST-01869,Cairo,Month-to-month,No,0.378,3158.9,0,False,Normal
+CUST-01870,Giza,Two year,No,0.057,4428.69,0,False,Normal
+CUST-01871,Upper Egypt,Month-to-month,Yes,0.649,2191.26,0,False,Normal
+CUST-01872,Cairo,Month-to-month,Yes,0.455,6018.68,1,False,Normal
+CUST-01873,Delta,Two year,No,0.039,8692.33,1,False,Normal
+CUST-01874,Cairo,One year,No,0.042,4488.36,0,False,Normal
+CUST-01875,Giza,Month-to-month,No,0.582,6768.75,1,False,Normal
+CUST-01876,Giza,One year,No,0.181,4421.4,0,False,Normal
+CUST-01877,Cairo,Month-to-month,No,0.271,4343.24,0,False,Normal
+CUST-01878,Upper Egypt,Month-to-month,No,0.246,3381.96,0,False,Normal
+CUST-01879,Giza,Month-to-month,Yes,0.641,4757.13,0,False,Normal
+CUST-01880,Upper Egypt,One year,No,0.024,7743.99,2,False,Normal
+CUST-01881,Cairo,Two year,No,0.065,3721.25,0,False,Normal
+CUST-01882,Upper Egypt,Month-to-month,Yes,0.793,6849.36,1,False,High
+CUST-01883,Upper Egypt,Month-to-month,Yes,0.765,4699.31,1,False,Normal
+CUST-01884,Alexandria,Month-to-month,No,0.405,3107.97,3,False,Normal
+CUST-01885,Cairo,Month-to-month,No,0.48,5687.42,1,False,Normal
+CUST-01886,Delta,Month-to-month,Yes,0.837,5435.28,3,False,Normal
+CUST-01887,Alexandria,One year,No,0.084,8405.57,1,False,Normal
+CUST-01888,Upper Egypt,Month-to-month,No,0.474,2853.55,0,False,Normal
+CUST-01889,Giza,Two year,No,0.063,8204.19,1,False,Normal
+CUST-01890,Cairo,Month-to-month,No,0.325,3863.3,0,False,Normal
+CUST-01891,Cairo,Month-to-month,No,0.214,6184.98,2,False,Normal
+CUST-01892,Delta,Month-to-month,Yes,0.728,6952.27,1,False,High
+CUST-01893,Upper Egypt,One year,No,0.044,8136.0,3,False,Normal
+CUST-01894,Cairo,Month-to-month,No,0.445,5528.94,1,False,Normal
+CUST-01895,Delta,Month-to-month,No,0.284,5136.59,2,False,Normal
+CUST-01896,Upper Egypt,Month-to-month,No,0.357,4949.75,1,False,Normal
+CUST-01897,Cairo,One year,No,0.093,3525.51,0,False,Normal
+CUST-01898,Cairo,Two year,No,0.112,5199.91,0,False,Normal
+CUST-01899,Delta,Month-to-month,No,0.17,6100.71,1,False,Normal
+CUST-01900,Alexandria,Month-to-month,No,0.197,6115.69,2,False,Normal
+CUST-01901,Cairo,Month-to-month,No,0.316,3250.56,0,False,Normal
+CUST-01902,Delta,Month-to-month,Yes,0.768,6019.45,3,False,Normal
+CUST-01903,Alexandria,Two year,No,0.044,8493.71,3,False,Normal
+CUST-01904,Upper Egypt,Month-to-month,No,0.314,7032.26,1,False,Normal
+CUST-01905,Upper Egypt,One year,No,0.138,5719.4,0,False,Normal
+CUST-01906,Delta,Two year,No,0.046,6875.52,3,False,Normal
+CUST-01907,Giza,One year,No,0.122,6927.01,1,False,Normal
+CUST-01908,Cairo,Month-to-month,No,0.425,3295.19,0,False,Normal
+CUST-01909,Giza,One year,No,0.113,3683.65,0,False,Normal
+CUST-01910,Cairo,Month-to-month,No,0.202,6852.45,1,False,Normal
+CUST-01911,Alexandria,Month-to-month,Yes,0.674,6001.29,1,False,Normal
+CUST-01912,Cairo,Two year,No,0.103,8151.16,1,False,Normal
+CUST-01913,Giza,Month-to-month,No,0.177,3172.05,0,False,Normal
+CUST-01914,Cairo,Month-to-month,No,0.568,4788.3,0,False,Normal
+CUST-01915,Cairo,Month-to-month,No,0.365,6163.86,1,False,Normal
+CUST-01916,Cairo,Month-to-month,No,0.41,3967.34,0,False,Normal
+CUST-01917,Alexandria,One year,Yes,0.517,3989.19,0,False,Normal
+CUST-01918,Delta,One year,No,0.232,6204.58,3,False,Normal
+CUST-01919,Cairo,One year,No,0.255,7176.28,1,False,Normal
+CUST-01920,Delta,Month-to-month,No,0.422,5329.77,1,False,Normal
+CUST-01921,Upper Egypt,Month-to-month,No,0.528,5639.13,1,False,Normal
+CUST-01922,Giza,Month-to-month,No,0.565,5793.1,1,False,Normal
+CUST-01923,Alexandria,Month-to-month,No,0.208,4972.2,2,False,Normal
+CUST-01924,Giza,One year,No,0.14,6210.66,3,False,Normal
+CUST-01925,Cairo,One year,No,0.162,5325.42,0,False,Normal
+CUST-01926,Alexandria,Two year,No,0.091,7126.1,1,False,Normal
+CUST-01927,Cairo,One year,No,0.08,6221.99,1,False,Normal
+CUST-01928,Upper Egypt,Month-to-month,No,0.366,5512.5,1,False,Normal
+CUST-01929,Upper Egypt,One year,No,0.145,6332.84,1,False,Normal
+CUST-01930,Delta,One year,No,0.104,4296.14,0,False,Normal
+CUST-01931,Alexandria,Two year,No,0.131,7886.52,1,False,Normal
+CUST-01932,Alexandria,Month-to-month,No,0.331,3954.29,2,False,Normal
+CUST-01933,Upper Egypt,One year,No,0.187,5508.58,0,False,Normal
+CUST-01934,Cairo,Month-to-month,No,0.266,2293.83,0,False,Normal
+CUST-01935,Cairo,One year,No,0.046,7297.78,2,False,Normal
+CUST-01936,Alexandria,Two year,No,0.038,7059.24,2,False,Normal
+CUST-01937,Giza,Two year,No,0.105,5498.43,0,False,Normal
+CUST-01938,Giza,Month-to-month,No,0.42,5980.58,1,True,Normal
+CUST-01939,Cairo,Month-to-month,No,0.417,6782.11,1,False,Normal
+CUST-01940,Alexandria,One year,No,0.125,8184.86,1,False,Normal
+CUST-01941,Cairo,One year,No,0.06,5669.44,2,False,Normal
+CUST-01942,Cairo,Two year,No,0.05,7767.2,1,False,Normal
+CUST-01943,Cairo,Month-to-month,No,0.396,6634.76,1,False,Normal
+CUST-01944,Giza,Two year,No,0.075,6204.78,1,False,Normal
+CUST-01945,Upper Egypt,One year,No,0.092,6226.96,3,False,Normal
+CUST-01946,Giza,Month-to-month,No,0.328,5717.68,1,False,Normal
+CUST-01947,Alexandria,Month-to-month,No,0.18,3820.94,0,False,Normal
+CUST-01948,Delta,One year,No,0.142,7110.18,1,False,Normal
+CUST-01949,Giza,Month-to-month,No,0.19,3201.68,0,True,Normal
+CUST-01950,Delta,One year,No,0.123,5609.24,3,False,Normal
+CUST-01951,Delta,One year,No,0.215,4925.11,0,False,Normal
+CUST-01952,Alexandria,Month-to-month,No,0.435,5053.14,3,False,Normal
+CUST-01953,Cairo,Month-to-month,No,0.426,5017.28,3,False,Normal
+CUST-01954,Cairo,Two year,No,0.07,6459.43,0,False,Normal
+CUST-01955,Upper Egypt,One year,No,0.082,5264.5,3,False,Normal
+CUST-01956,Delta,One year,No,0.077,4309.77,0,False,Normal
+CUST-01957,Upper Egypt,One year,No,0.11,7419.53,1,False,Normal
+CUST-01958,Upper Egypt,One year,No,0.042,5529.53,0,False,Normal
+CUST-01959,Cairo,Two year,No,0.182,9135.91,1,False,Normal
+CUST-01960,Delta,One year,Yes,0.464,5652.47,1,False,Normal
+CUST-01961,Giza,Month-to-month,No,0.594,4633.32,3,False,Normal
+CUST-01962,Delta,Month-to-month,No,0.329,5696.86,1,False,Normal
+CUST-01963,Cairo,Month-to-month,Yes,0.651,5509.03,1,False,Normal
+CUST-01964,Cairo,One year,No,0.092,5177.84,2,False,Normal
+CUST-01965,Delta,Month-to-month,No,0.144,3876.43,2,False,Normal
+CUST-01966,Delta,One year,No,0.151,7251.87,1,False,Normal
+CUST-01967,Alexandria,Two year,No,0.082,7128.9,1,False,Normal
+CUST-01968,Cairo,Month-to-month,No,0.154,4920.95,2,False,Normal
+CUST-01969,Cairo,Month-to-month,Yes,0.562,3575.11,0,False,Normal
+CUST-01970,Upper Egypt,One year,No,0.139,3845.48,0,False,Normal
+CUST-01971,Giza,Month-to-month,Yes,0.52,2722.52,0,False,Normal
+CUST-01972,Giza,One year,No,0.079,6675.36,3,False,Normal
+CUST-01973,Alexandria,Month-to-month,Yes,0.654,6005.71,1,False,Normal
+CUST-01974,Giza,Month-to-month,Yes,0.697,4498.17,0,False,Normal
+CUST-01975,Alexandria,One year,No,0.114,8289.49,1,False,Normal
+CUST-01976,Giza,Month-to-month,No,0.27,4684.51,1,False,Normal
+CUST-01977,Delta,Month-to-month,No,0.24,3747.98,2,False,Normal
+CUST-01978,Upper Egypt,Month-to-month,No,0.467,5570.84,1,False,Normal
+CUST-01979,Upper Egypt,Month-to-month,No,0.349,4143.96,3,False,Normal
+CUST-01980,Alexandria,Two year,No,0.076,7822.57,1,False,Normal
+CUST-01981,Giza,Month-to-month,No,0.311,4609.31,3,False,Normal
+CUST-01982,Delta,Month-to-month,Yes,0.722,4013.07,0,False,Normal
+CUST-01983,Delta,Month-to-month,No,0.351,4062.97,0,False,Normal
+CUST-01984,Alexandria,Month-to-month,No,0.344,3085.58,0,False,Normal
+CUST-01985,Delta,Month-to-month,No,0.153,5782.04,2,False,Normal
+CUST-01986,Delta,One year,No,0.043,8519.5,1,False,Normal
+CUST-01987,Alexandria,Month-to-month,Yes,0.85,4743.7,3,False,Normal
+CUST-01988,Delta,One year,No,0.073,6314.14,2,False,Normal
+CUST-01989,Cairo,Month-to-month,Yes,0.738,5684.81,1,False,Normal
+CUST-01990,Giza,Month-to-month,Yes,0.801,5781.08,1,False,Normal
+CUST-01991,Alexandria,Month-to-month,No,0.559,5766.7,1,False,Normal
+CUST-01992,Cairo,One year,No,0.041,7295.99,2,True,Normal
+CUST-01993,Delta,Two year,No,0.062,6835.2,2,False,Normal
+CUST-01994,Alexandria,Month-to-month,Yes,0.678,4616.18,0,False,Normal
+CUST-01995,Cairo,Two year,No,0.05,6876.57,3,False,Normal
+CUST-01996,Delta,Month-to-month,No,0.274,3447.31,0,False,Normal
+CUST-01997,Delta,One year,No,0.102,4817.82,0,False,Normal
+CUST-01998,Delta,One year,No,0.062,6120.16,3,False,Normal
+CUST-01999,Giza,Month-to-month,No,0.259,5993.41,2,False,Normal
+CUST-02000,Delta,Month-to-month,No,0.369,4816.12,1,False,Normal
+CUST-02001,Giza,Month-to-month,No,0.246,3669.71,0,False,Normal
+CUST-02002,Alexandria,One year,No,0.179,7302.7,1,False,Normal
+CUST-02003,Cairo,Month-to-month,No,0.204,6735.64,1,False,Normal
+CUST-02004,Alexandria,Two year,No,0.069,6664.85,3,False,Normal
+CUST-02005,Delta,Month-to-month,Yes,0.779,5780.25,1,False,Normal
+CUST-02006,Alexandria,Two year,No,0.067,7216.36,1,False,Normal
+CUST-02007,Giza,Month-to-month,No,0.241,3885.82,2,False,Normal
+CUST-02008,Delta,One year,No,0.069,4917.09,2,False,Normal
+CUST-02009,Delta,Month-to-month,No,0.435,5836.55,1,False,Normal
+CUST-02010,Cairo,Month-to-month,No,0.497,5512.21,3,False,Normal
+CUST-02011,Upper Egypt,Month-to-month,Yes,0.81,4002.17,0,False,Normal
+CUST-02012,Delta,One year,No,0.107,6343.1,1,False,Normal
+CUST-02013,Upper Egypt,Month-to-month,No,0.123,6213.26,2,False,Normal
+CUST-02014,Upper Egypt,One year,No,0.083,5613.25,1,False,Normal
+CUST-02015,Upper Egypt,Two year,No,0.031,7311.24,1,False,Normal
+CUST-02016,Delta,Month-to-month,Yes,0.61,5566.87,0,False,Normal
+CUST-02017,Alexandria,Month-to-month,No,0.293,7029.53,1,False,Normal
+CUST-02018,Cairo,Month-to-month,No,0.227,4966.06,2,False,Normal
+CUST-02019,Alexandria,Month-to-month,No,0.302,3754.6,0,False,Normal
+CUST-02020,Delta,Month-to-month,No,0.197,5557.23,2,False,Normal
+CUST-02021,Alexandria,One year,No,0.038,8434.98,1,False,Normal
+CUST-02022,Upper Egypt,Month-to-month,No,0.195,4956.2,2,False,Normal
+CUST-02023,Cairo,Month-to-month,Yes,0.743,3729.81,0,False,Normal
+CUST-02024,Giza,One year,No,0.09,7751.11,1,False,Normal
+CUST-02025,Giza,Month-to-month,Yes,0.799,4090.51,0,False,Normal
+CUST-02026,Giza,One year,Yes,0.593,7585.37,1,False,Normal
+CUST-02027,Cairo,Two year,No,0.076,4032.56,0,False,Normal
+CUST-02028,Cairo,Month-to-month,No,0.436,5175.34,1,False,Normal
+CUST-02029,Delta,Month-to-month,No,0.438,4555.09,0,False,Normal
+CUST-02030,Giza,One year,No,0.155,5866.73,3,False,Normal
+CUST-02031,Cairo,One year,No,0.108,5191.58,0,False,Normal
+CUST-02032,Cairo,One year,Yes,0.484,7747.5,1,False,Normal
+CUST-02033,Giza,One year,Yes,0.662,6130.15,1,True,Normal
+CUST-02034,Cairo,Month-to-month,No,0.319,7852.68,1,False,Normal
+CUST-02035,Delta,Month-to-month,No,0.359,6189.64,1,False,Normal
+CUST-02036,Delta,One year,No,0.101,3630.7,0,False,Normal
+CUST-02037,Cairo,One year,No,0.133,5587.2,3,False,Normal
+CUST-02038,Alexandria,One year,No,0.148,6047.54,1,False,Normal
+CUST-02039,Cairo,Month-to-month,Yes,0.776,4538.81,3,False,Normal
+CUST-02040,Cairo,Two year,No,0.099,7915.79,1,False,Normal
+CUST-02041,Upper Egypt,Month-to-month,Yes,0.663,5654.34,1,False,Normal
+CUST-02042,Alexandria,Month-to-month,Yes,0.612,3828.11,0,False,Normal
+CUST-02043,Upper Egypt,Month-to-month,No,0.516,5480.55,1,False,Normal
+CUST-02044,Cairo,Month-to-month,No,0.49,3829.85,0,False,Normal
+CUST-02045,Giza,One year,No,0.16,6353.37,3,False,Normal
+CUST-02046,Giza,Month-to-month,Yes,0.658,6972.7,3,True,High
+CUST-02047,Giza,One year,No,0.05,7541.92,1,False,Normal
+CUST-02048,Upper Egypt,Month-to-month,No,0.197,4446.65,2,False,Normal
+CUST-02049,Cairo,Month-to-month,Yes,0.699,2690.75,0,False,Normal
+CUST-02050,Delta,Month-to-month,No,0.503,4846.79,1,False,Normal
+CUST-02051,Upper Egypt,Month-to-month,No,0.498,6796.37,1,False,Normal
+CUST-02052,Alexandria,One year,Yes,0.459,4902.21,3,False,Normal
+CUST-02053,Giza,Month-to-month,No,0.29,3209.31,0,False,Normal
+CUST-02054,Giza,Month-to-month,No,0.421,4984.0,1,False,Normal
+CUST-02055,Cairo,Month-to-month,Yes,0.572,4766.53,1,False,Normal
+CUST-02056,Delta,Month-to-month,Yes,0.428,4845.68,2,False,Normal
+CUST-02057,Giza,Month-to-month,Yes,0.692,3597.92,0,False,Normal
+CUST-02058,Upper Egypt,Two year,No,0.044,5874.78,0,False,Normal
+CUST-02059,Alexandria,Month-to-month,No,0.538,4470.69,3,False,Normal
+CUST-02060,Giza,Month-to-month,Yes,0.539,6294.07,1,False,Normal
+CUST-02061,Delta,Two year,No,0.064,7654.75,2,False,Normal
+CUST-02062,Giza,One year,No,0.111,6546.03,3,False,Normal
+CUST-02063,Upper Egypt,Month-to-month,No,0.449,4844.98,0,False,Normal
+CUST-02064,Cairo,One year,No,0.088,6253.78,1,False,Normal
+CUST-02065,Upper Egypt,Two year,No,0.086,5104.41,0,False,Normal
+CUST-02066,Delta,Month-to-month,Yes,0.698,3723.92,3,False,Normal
+CUST-02067,Upper Egypt,Month-to-month,No,0.349,5940.9,1,False,Normal
+CUST-02068,Giza,Two year,No,0.11,8545.3,1,False,Normal
+CUST-02069,Delta,One year,No,0.108,6801.01,1,False,Normal
+CUST-02070,Cairo,Two year,No,0.029,7158.39,3,False,Normal
+CUST-02071,Delta,Month-to-month,No,0.209,7063.87,1,False,Normal
+CUST-02072,Cairo,Two year,No,0.097,3854.92,0,False,Normal
+CUST-02073,Cairo,Month-to-month,Yes,0.789,5037.81,1,False,Normal
+CUST-02074,Giza,One year,No,0.192,4942.62,3,False,Normal
+CUST-02075,Giza,Two year,No,0.052,5301.08,0,False,Normal
+CUST-02076,Giza,Month-to-month,No,0.118,4326.42,2,False,Normal
+CUST-02077,Delta,Month-to-month,No,0.462,4713.59,0,False,Normal
+CUST-02078,Cairo,One year,No,0.092,3451.59,0,False,Normal
+CUST-02079,Delta,Two year,No,0.052,6181.8,2,False,Normal
+CUST-02080,Cairo,Month-to-month,No,0.462,6760.29,1,False,Normal
+CUST-02081,Delta,Two year,No,0.079,4756.78,0,False,Normal
+CUST-02082,Delta,Month-to-month,No,0.206,5058.52,1,False,Normal
+CUST-02083,Giza,Month-to-month,No,0.591,5436.19,1,False,Normal
+CUST-02084,Delta,Month-to-month,Yes,0.773,3305.35,0,False,Normal
+CUST-02085,Upper Egypt,Two year,No,0.04,5460.75,0,False,Normal
+CUST-02086,Delta,Month-to-month,Yes,0.759,4105.47,0,False,Normal
+CUST-02087,Giza,One year,Yes,0.583,5415.79,1,False,Normal
+CUST-02088,Giza,Month-to-month,No,0.365,4669.11,2,False,Normal
+CUST-02089,Delta,Two year,No,0.045,4721.33,0,False,Normal
+CUST-02090,Cairo,One year,No,0.114,8112.7,1,False,Normal
+CUST-02091,Delta,Month-to-month,No,0.497,4557.25,0,False,Normal
+CUST-02092,Giza,Month-to-month,No,0.273,6673.01,1,False,Normal
+CUST-02093,Delta,Month-to-month,No,0.196,5878.83,1,False,Normal
+CUST-02094,Cairo,Month-to-month,No,0.404,5774.33,1,False,Normal
+CUST-02095,Cairo,One year,Yes,0.526,6831.84,1,False,Normal
+CUST-02096,Upper Egypt,One year,No,0.092,5765.37,1,False,Normal
+CUST-02097,Upper Egypt,Month-to-month,Yes,0.66,3877.86,0,False,Normal
+CUST-02098,Upper Egypt,One year,Yes,0.7,7579.7,3,False,High
+CUST-02099,Upper Egypt,Month-to-month,No,0.482,7004.54,1,False,Normal
+CUST-02100,Giza,Month-to-month,Yes,0.613,4125.24,0,False,Normal
+CUST-02101,Cairo,Month-to-month,No,0.208,5703.98,2,False,Normal
+CUST-02102,Cairo,Month-to-month,No,0.457,2902.06,0,False,Normal
+CUST-02103,Giza,One year,No,0.06,5597.46,2,False,Normal
+CUST-02104,Cairo,Month-to-month,No,0.402,4623.02,0,False,Normal
+CUST-02105,Upper Egypt,One year,No,0.089,5973.58,1,False,Normal
+CUST-02106,Cairo,Month-to-month,No,0.536,6642.77,1,False,Normal
+CUST-02107,Cairo,One year,No,0.109,2771.22,0,False,Normal
+CUST-02108,Cairo,Month-to-month,No,0.309,5907.39,1,False,Normal
+CUST-02109,Cairo,Month-to-month,No,0.35,5633.62,1,False,Normal
+CUST-02110,Cairo,Month-to-month,Yes,0.759,5552.95,1,False,Normal
+CUST-02111,Alexandria,Month-to-month,No,0.464,5629.0,1,False,Normal
+CUST-02112,Giza,Month-to-month,No,0.602,4704.16,1,False,Normal
+CUST-02113,Alexandria,Month-to-month,No,0.388,4889.79,1,False,Normal
+CUST-02114,Upper Egypt,One year,No,0.12,5281.64,3,False,Normal
+CUST-02115,Alexandria,Month-to-month,No,0.55,5233.98,1,False,Normal
+CUST-02116,Delta,One year,No,0.177,5712.58,1,False,Normal
+CUST-02117,Giza,One year,No,0.12,5409.04,1,False,Normal
+CUST-02118,Cairo,Month-to-month,No,0.221,6733.18,1,False,Normal
+CUST-02119,Giza,One year,No,0.181,5175.33,3,False,Normal
+CUST-02120,Upper Egypt,Month-to-month,No,0.296,3431.6,0,False,Normal
+CUST-02121,Alexandria,One year,No,0.075,5657.96,1,False,Normal
+CUST-02122,Cairo,One year,No,0.213,6601.71,3,False,Normal
+CUST-02123,Giza,One year,No,0.154,5444.45,3,False,Normal
+CUST-02124,Delta,Month-to-month,No,0.602,4145.81,0,False,Normal
+CUST-02125,Alexandria,One year,No,0.099,4096.27,3,False,Normal
+CUST-02126,Alexandria,Month-to-month,Yes,0.754,3990.83,3,False,Normal
+CUST-02127,Upper Egypt,Month-to-month,No,0.399,5575.98,3,False,Normal
+CUST-02128,Alexandria,Month-to-month,No,0.36,4784.9,0,False,Normal
+CUST-02129,Alexandria,Month-to-month,Yes,0.655,5069.46,3,False,Normal
+CUST-02130,Cairo,One year,No,0.136,4093.46,0,False,Normal
+CUST-02131,Cairo,Two year,No,0.086,7303.32,1,False,Normal
+CUST-02132,Upper Egypt,Month-to-month,No,0.128,5095.72,1,False,Normal
+CUST-02133,Alexandria,One year,No,0.214,7715.78,1,False,Normal
+CUST-02134,Giza,One year,No,0.173,5497.74,3,False,Normal
+CUST-02135,Alexandria,Two year,No,0.084,7355.33,1,False,Normal
+CUST-02136,Cairo,One year,Yes,0.432,4213.7,3,False,Normal
+CUST-02137,Delta,Month-to-month,No,0.372,5555.75,1,False,Normal
+CUST-02138,Cairo,Month-to-month,No,0.32,4385.36,0,False,Normal
+CUST-02139,Delta,One year,No,0.097,6903.03,1,False,Normal
+CUST-02140,Alexandria,Month-to-month,No,0.224,6315.17,1,False,Normal
+CUST-02141,Cairo,Two year,No,0.026,8464.76,2,True,Normal
+CUST-02142,Cairo,Two year,No,0.078,8280.21,1,False,Normal
+CUST-02143,Delta,Two year,No,0.046,5411.52,0,False,Normal
+CUST-02144,Cairo,Month-to-month,No,0.558,5691.03,1,False,Normal
+CUST-02145,Cairo,One year,No,0.092,5442.49,0,False,Normal
+CUST-02146,Delta,One year,No,0.1,3218.56,0,False,Normal
+CUST-02147,Giza,Month-to-month,No,0.224,4974.06,2,False,Normal
+CUST-02148,Giza,Month-to-month,No,0.214,5455.78,2,False,Normal
+CUST-02149,Cairo,Month-to-month,No,0.441,4464.48,0,False,Normal
+CUST-02150,Delta,Month-to-month,No,0.678,4105.83,0,False,Normal
+CUST-02151,Cairo,Two year,No,0.089,5300.33,0,False,Normal
+CUST-02152,Cairo,Two year,No,0.06,6705.64,0,False,Normal
+CUST-02153,Cairo,Month-to-month,No,0.503,6532.21,1,False,Normal
+CUST-02154,Cairo,Month-to-month,No,0.527,2593.99,0,True,Normal
+CUST-02155,Cairo,Month-to-month,No,0.168,3978.92,2,False,Normal
+CUST-02156,Cairo,Month-to-month,No,0.49,3588.27,0,False,Normal
+CUST-02157,Cairo,Month-to-month,No,0.312,2998.95,0,False,Normal
+CUST-02158,Giza,One year,No,0.067,2825.04,2,False,Normal
+CUST-02159,Upper Egypt,One year,No,0.062,3695.86,0,False,Normal
+CUST-02160,Cairo,Two year,No,0.136,4342.56,0,False,Normal
+CUST-02161,Cairo,Two year,No,0.079,6499.45,2,False,Normal
+CUST-02162,Upper Egypt,Month-to-month,No,0.179,4854.98,2,False,Normal
+CUST-02163,Upper Egypt,One year,No,0.106,7410.02,1,False,Normal
+CUST-02164,Alexandria,Month-to-month,Yes,0.527,6061.65,1,False,Normal
+CUST-02165,Cairo,Month-to-month,No,0.144,3631.24,0,False,Normal
+CUST-02166,Giza,Month-to-month,Yes,0.564,5975.75,1,False,Normal
+CUST-02167,Cairo,Month-to-month,No,0.422,4620.79,3,False,Normal
+CUST-02168,Cairo,Month-to-month,No,0.345,4088.17,2,False,Normal
+CUST-02169,Giza,Month-to-month,No,0.317,6655.33,1,False,Normal
+CUST-02170,Alexandria,Month-to-month,No,0.333,4556.61,0,False,Normal
+CUST-02171,Giza,Two year,No,0.068,7661.61,1,False,Normal
+CUST-02172,Alexandria,Month-to-month,Yes,0.613,5077.31,1,False,Normal
+CUST-02173,Cairo,Month-to-month,No,0.214,4700.2,3,False,Normal
+CUST-02174,Giza,Two year,No,0.051,4487.13,3,False,Normal
+CUST-02175,Delta,One year,No,0.108,7388.34,1,False,Normal
+CUST-02176,Upper Egypt,Month-to-month,No,0.516,3983.06,3,False,Normal
+CUST-02177,Giza,Two year,No,0.072,7418.52,1,False,Normal
+CUST-02178,Alexandria,Month-to-month,No,0.171,6503.83,2,False,Normal
+CUST-02179,Cairo,Month-to-month,Yes,0.605,3767.45,0,False,Normal
+CUST-02180,Cairo,Month-to-month,No,0.433,4950.99,3,False,Normal
+CUST-02181,Delta,Month-to-month,No,0.454,3731.98,0,False,Normal
+CUST-02182,Cairo,One year,No,0.12,5601.76,0,False,Normal
+CUST-02183,Giza,Month-to-month,No,0.358,5286.61,0,False,Normal
+CUST-02184,Giza,One year,No,0.143,4935.79,0,False,Normal
+CUST-02185,Cairo,One year,No,0.054,3737.79,0,False,Normal
+CUST-02186,Cairo,Two year,No,0.047,4729.91,0,False,Normal
+CUST-02187,Giza,Month-to-month,No,0.398,5925.45,3,False,Normal
+CUST-02188,Upper Egypt,Month-to-month,No,0.558,4586.9,3,False,Normal
+CUST-02189,Alexandria,Two year,No,0.082,5909.07,0,False,Normal
+CUST-02190,Giza,One year,No,0.074,5159.81,3,False,Normal
+CUST-02191,Cairo,Month-to-month,Yes,0.633,5413.57,1,False,Normal
+CUST-02192,Alexandria,Month-to-month,No,0.343,6191.44,1,False,Normal
+CUST-02193,Cairo,One year,No,0.085,4850.02,3,False,Normal
+CUST-02194,Alexandria,One year,No,0.033,5608.04,2,False,Normal
+CUST-02195,Delta,One year,No,0.092,8226.3,1,True,Normal
+CUST-02196,Giza,Two year,No,0.029,6107.53,2,False,Normal
+CUST-02197,Cairo,Month-to-month,No,0.334,6712.15,3,False,Normal
+CUST-02198,Cairo,Month-to-month,No,0.664,6048.3,1,False,Normal
+CUST-02199,Cairo,One year,No,0.042,5216.66,2,False,Normal
+CUST-02200,Giza,Two year,No,0.083,5775.63,0,False,Normal
+CUST-02201,Upper Egypt,Month-to-month,No,0.167,5862.62,2,False,Normal
+CUST-02202,Cairo,One year,No,0.126,5710.97,1,False,Normal
+CUST-02203,Alexandria,Month-to-month,No,0.311,5447.69,3,False,Normal
+CUST-02204,Delta,Month-to-month,No,0.209,4524.57,2,False,Normal
+CUST-02205,Cairo,Two year,No,0.049,7157.83,2,False,Normal
+CUST-02206,Cairo,Month-to-month,Yes,0.823,3719.78,0,False,Normal
+CUST-02207,Giza,Month-to-month,No,0.312,4516.67,0,False,Normal
+CUST-02208,Alexandria,One year,No,0.212,5451.81,1,False,Normal
+CUST-02209,Giza,Month-to-month,No,0.266,5802.7,1,False,Normal
+CUST-02210,Delta,Month-to-month,No,0.388,3173.58,0,False,Normal
+CUST-02211,Upper Egypt,One year,No,0.081,4497.4,0,False,Normal
+CUST-02212,Delta,Month-to-month,No,0.247,3565.4,3,False,Normal
+CUST-02213,Upper Egypt,One year,No,0.079,3667.65,3,False,Normal
+CUST-02214,Delta,Month-to-month,No,0.499,3425.62,0,False,Normal
+CUST-02215,Delta,Month-to-month,No,0.184,4923.24,2,False,Normal
+CUST-02216,Delta,One year,No,0.222,7459.95,1,False,Normal
+CUST-02217,Delta,Month-to-month,No,0.506,6150.21,1,False,Normal
+CUST-02218,Delta,Two year,No,0.056,8052.36,1,False,Normal
+CUST-02219,Upper Egypt,Two year,No,0.049,4346.07,0,False,Normal
+CUST-02220,Giza,Two year,No,0.061,7500.45,1,False,Normal
+CUST-02221,Alexandria,Month-to-month,No,0.242,6766.05,1,False,Normal
+CUST-02222,Giza,Month-to-month,Yes,0.607,3594.75,0,False,Normal
+CUST-02223,Delta,Two year,No,0.039,7416.26,2,False,Normal
+CUST-02224,Giza,Month-to-month,No,0.291,4189.84,0,False,Normal
+CUST-02225,Delta,One year,No,0.153,5895.83,3,False,Normal
+CUST-02226,Delta,Two year,No,0.11,5982.64,1,False,Normal
+CUST-02227,Upper Egypt,Month-to-month,No,0.151,5477.77,2,False,Normal
+CUST-02228,Cairo,Month-to-month,No,0.385,3851.66,0,False,Normal
+CUST-02229,Delta,One year,No,0.075,4199.02,0,False,Normal
+CUST-02230,Delta,One year,No,0.097,2904.35,0,False,Normal
+CUST-02231,Upper Egypt,Month-to-month,Yes,0.817,5202.57,3,False,Normal
+CUST-02232,Upper Egypt,One year,No,0.054,6737.7,1,False,Normal
+CUST-02233,Alexandria,One year,No,0.136,6788.11,1,False,Normal
+CUST-02234,Alexandria,Month-to-month,No,0.153,3940.91,2,False,Normal
+CUST-02235,Cairo,Month-to-month,No,0.375,4708.7,0,False,Normal
+CUST-02236,Upper Egypt,One year,No,0.138,6048.75,3,False,Normal
+CUST-02237,Cairo,One year,Yes,0.532,4862.47,0,False,Normal
+CUST-02238,Delta,Two year,No,0.073,6593.62,1,False,Normal
+CUST-02239,Delta,Month-to-month,No,0.459,4516.48,0,False,Normal
+CUST-02240,Giza,Two year,No,0.062,7717.32,2,False,Normal
+CUST-02241,Cairo,One year,No,0.044,4833.63,2,False,Normal
+CUST-02242,Cairo,One year,No,0.12,6181.88,1,False,Normal
+CUST-02243,Delta,Month-to-month,No,0.562,6893.52,1,False,Normal
+CUST-02244,Giza,Month-to-month,No,0.221,4847.8,3,False,Normal
+CUST-02245,Cairo,Month-to-month,No,0.271,4845.25,3,False,Normal
+CUST-02246,Delta,Month-to-month,No,0.224,4413.97,2,False,Normal
+CUST-02247,Cairo,Month-to-month,No,0.108,3157.45,2,False,Normal
+CUST-02248,Upper Egypt,Two year,No,0.042,5651.05,1,False,Normal
+CUST-02249,Cairo,Month-to-month,No,0.654,4749.34,3,False,Normal
+CUST-02250,Cairo,Two year,No,0.128,6261.37,1,False,Normal
+CUST-02251,Cairo,Month-to-month,No,0.334,3860.96,0,False,Normal
+CUST-02252,Giza,Two year,No,0.069,7452.27,1,False,Normal
+CUST-02253,Giza,Month-to-month,No,0.541,6640.57,1,False,Normal
+CUST-02254,Delta,One year,No,0.112,8561.77,1,False,Normal
+CUST-02255,Giza,One year,No,0.102,7068.01,1,False,Normal
+CUST-02256,Giza,Two year,Yes,0.569,7294.29,3,False,Normal
+CUST-02257,Cairo,Month-to-month,No,0.516,5087.14,1,False,Normal
+CUST-02258,Cairo,Month-to-month,No,0.234,6024.12,1,False,Normal
+CUST-02259,Upper Egypt,Two year,No,0.143,7180.89,1,False,Normal
+CUST-02260,Cairo,Month-to-month,Yes,0.528,3991.48,0,False,Normal
+CUST-02261,Upper Egypt,One year,No,0.107,4131.22,0,False,Normal
+CUST-02262,Giza,Month-to-month,No,0.316,4973.78,1,False,Normal
+CUST-02263,Cairo,Month-to-month,No,0.295,3186.23,0,False,Normal
+CUST-02264,Cairo,One year,No,0.156,6690.97,1,False,Normal
+CUST-02265,Cairo,One year,No,0.093,8012.05,1,False,Normal
+CUST-02266,Delta,One year,No,0.122,5046.48,2,False,Normal
+CUST-02267,Giza,Month-to-month,No,0.419,6453.56,1,False,Normal
+CUST-02268,Giza,One year,No,0.099,5061.02,0,False,Normal
+CUST-02269,Alexandria,Two year,No,0.055,6104.76,2,False,Normal
+CUST-02270,Alexandria,Month-to-month,No,0.303,4806.15,2,False,Normal
+CUST-02271,Upper Egypt,Month-to-month,No,0.485,4017.34,0,False,Normal
+CUST-02272,Upper Egypt,Month-to-month,No,0.2,5482.37,2,False,Normal
+CUST-02273,Delta,One year,No,0.052,5524.96,2,False,Normal
+CUST-02274,Delta,Month-to-month,No,0.346,4059.13,0,False,Normal
+CUST-02275,Delta,One year,Yes,0.61,7386.25,1,False,High
+CUST-02276,Giza,Month-to-month,Yes,0.748,4698.41,1,False,Normal
+CUST-02277,Delta,One year,No,0.195,5458.56,3,False,Normal
+CUST-02278,Cairo,Two year,No,0.059,7064.75,1,False,Normal
+CUST-02279,Delta,Month-to-month,No,0.457,6976.78,1,False,Normal
+CUST-02280,Upper Egypt,Month-to-month,No,0.161,4571.36,2,False,Normal
+CUST-02281,Cairo,Month-to-month,Yes,0.641,6310.82,1,False,High
+CUST-02282,Delta,Month-to-month,Yes,0.775,6577.01,1,False,High
+CUST-02283,Upper Egypt,Month-to-month,No,0.304,6137.03,1,False,Normal
+CUST-02284,Cairo,Two year,No,0.044,7447.95,1,False,Normal
+CUST-02285,Alexandria,Month-to-month,No,0.465,6592.06,1,False,Normal
+CUST-02286,Upper Egypt,Month-to-month,No,0.426,4794.78,0,False,Normal
+CUST-02287,Upper Egypt,Month-to-month,No,0.345,2981.09,0,False,Normal
+CUST-02288,Cairo,Month-to-month,No,0.3,6775.82,1,False,Normal
+CUST-02289,Giza,Two year,No,0.07,8006.57,1,False,Normal
+CUST-02290,Delta,Month-to-month,No,0.371,3756.76,0,False,Normal
+CUST-02291,Cairo,Month-to-month,No,0.455,3937.04,0,False,Normal
+CUST-02292,Giza,Month-to-month,No,0.28,4731.54,0,False,Normal
+CUST-02293,Cairo,Two year,No,0.185,8050.08,1,False,Normal
+CUST-02294,Cairo,Two year,No,0.064,4987.14,0,False,Normal
+CUST-02295,Alexandria,Month-to-month,No,0.541,4424.72,0,False,Normal
+CUST-02296,Alexandria,One year,Yes,0.61,7888.54,1,False,High
+CUST-02297,Alexandria,One year,No,0.036,6777.04,2,False,Normal
+CUST-02298,Delta,One year,No,0.139,8419.33,1,False,Normal
+CUST-02299,Giza,Month-to-month,No,0.481,4952.58,1,False,Normal
+CUST-02300,Cairo,One year,Yes,0.465,5849.9,3,False,Normal
+CUST-02301,Cairo,One year,No,0.104,5336.76,1,False,Normal
+CUST-02302,Cairo,Month-to-month,No,0.196,6105.83,2,False,Normal
+CUST-02303,Cairo,Month-to-month,No,0.48,5929.18,1,False,Normal
+CUST-02304,Cairo,Month-to-month,No,0.151,4758.19,2,False,Normal
+CUST-02305,Cairo,Month-to-month,Yes,0.737,5265.14,3,False,Normal
+CUST-02306,Cairo,Month-to-month,No,0.473,5867.24,1,False,Normal
+CUST-02307,Alexandria,Two year,No,0.05,6170.98,3,False,Normal
+CUST-02308,Alexandria,Two year,No,0.056,6612.76,2,False,Normal
+CUST-02309,Upper Egypt,Month-to-month,Yes,0.678,3662.74,2,False,Normal
+CUST-02310,Delta,Month-to-month,No,0.42,4151.68,0,False,Normal
+CUST-02311,Alexandria,One year,No,0.083,6035.39,3,False,Normal
+CUST-02312,Cairo,Month-to-month,No,0.49,3874.08,0,False,Normal
+CUST-02313,Alexandria,Month-to-month,No,0.167,7113.13,1,False,Normal
+CUST-02314,Cairo,One year,No,0.041,6628.12,1,False,Normal
+CUST-02315,Giza,Month-to-month,No,0.349,4501.06,1,False,Normal
+CUST-02316,Giza,Month-to-month,No,0.374,5596.99,1,False,Normal
+CUST-02317,Giza,One year,No,0.091,5581.34,1,False,Normal
+CUST-02318,Cairo,One year,No,0.141,2867.16,0,False,Normal
+CUST-02319,Delta,Month-to-month,No,0.404,4305.18,0,False,Normal
+CUST-02320,Delta,One year,No,0.126,7906.39,3,False,Normal
+CUST-02321,Delta,Two year,No,0.032,5371.38,3,False,Normal
+CUST-02322,Alexandria,Month-to-month,Yes,0.805,4311.96,3,False,Normal
+CUST-02323,Alexandria,One year,No,0.098,4417.95,0,False,Normal
+CUST-02324,Cairo,Month-to-month,No,0.311,5741.94,1,False,Normal
+CUST-02325,Delta,Month-to-month,No,0.186,4471.08,2,True,Normal
+CUST-02326,Alexandria,Month-to-month,No,0.464,4944.71,0,False,Normal
+CUST-02327,Cairo,Month-to-month,No,0.315,3846.74,0,False,Normal
+CUST-02328,Giza,Month-to-month,No,0.174,5547.53,3,True,Normal
+CUST-02329,Upper Egypt,One year,No,0.176,7258.95,1,False,Normal
+CUST-02330,Alexandria,Month-to-month,No,0.171,3728.07,0,False,Normal
+CUST-02331,Giza,Two year,No,0.057,4043.42,0,False,Normal
+CUST-02332,Alexandria,Month-to-month,No,0.252,6908.62,1,False,Normal
+CUST-02333,Giza,Two year,No,0.066,6871.15,1,False,Normal
+CUST-02334,Giza,Month-to-month,No,0.348,4938.52,1,False,Normal
+CUST-02335,Cairo,Month-to-month,Yes,0.737,3311.99,0,False,Normal
+CUST-02336,Giza,One year,No,0.074,4807.72,0,False,Normal
+CUST-02337,Delta,One year,No,0.168,8218.34,1,False,Normal
+CUST-02338,Cairo,Month-to-month,No,0.363,3549.66,0,False,Normal
+CUST-02339,Delta,Month-to-month,No,0.375,4131.92,0,False,Normal
+CUST-02340,Cairo,One year,No,0.177,6571.83,1,False,Normal
+CUST-02341,Delta,One year,No,0.15,5373.51,0,False,Normal
+CUST-02342,Alexandria,Month-to-month,No,0.249,4269.99,0,False,Normal
+CUST-02343,Alexandria,One year,No,0.038,4379.66,2,False,Normal
+CUST-02344,Alexandria,Month-to-month,No,0.474,2970.6,0,False,Normal
+CUST-02345,Upper Egypt,Month-to-month,Yes,0.74,5552.79,1,False,Normal
+CUST-02346,Giza,One year,No,0.334,6599.06,1,False,Normal
+CUST-02347,Delta,Two year,No,0.035,4227.42,2,False,Normal
+CUST-02348,Delta,Month-to-month,Yes,0.495,3859.12,0,False,Normal
+CUST-02349,Cairo,Month-to-month,Yes,0.653,6464.5,3,False,High
+CUST-02350,Cairo,Month-to-month,No,0.256,4915.88,3,False,Normal
+CUST-02351,Giza,One year,No,0.06,5055.85,0,False,Normal
+CUST-02352,Cairo,Month-to-month,Yes,0.602,5454.75,3,False,Normal
+CUST-02353,Giza,Month-to-month,No,0.187,5054.08,1,False,Normal
+CUST-02354,Giza,Month-to-month,Yes,0.73,2629.53,0,False,Normal
+CUST-02355,Alexandria,Two year,No,0.12,6878.05,3,False,Normal
+CUST-02356,Cairo,Month-to-month,Yes,0.662,3944.13,0,False,Normal
+CUST-02357,Delta,One year,No,0.159,6419.06,1,False,Normal
+CUST-02358,Giza,Month-to-month,No,0.356,3128.71,0,True,Normal
+CUST-02359,Delta,Month-to-month,No,0.438,6786.3,1,False,Normal
+CUST-02360,Cairo,Month-to-month,No,0.497,5784.47,1,False,Normal
+CUST-02361,Giza,Month-to-month,No,0.482,4523.77,0,False,Normal
+CUST-02362,Cairo,Month-to-month,Yes,0.662,3971.21,0,False,Normal
+CUST-02363,Alexandria,Month-to-month,No,0.423,2456.41,0,False,Normal
+CUST-02364,Giza,Month-to-month,No,0.445,5295.89,3,False,Normal
+CUST-02365,Upper Egypt,Month-to-month,No,0.299,5237.96,1,False,Normal
+CUST-02366,Giza,Month-to-month,Yes,0.736,5295.44,3,False,Normal
+CUST-02367,Alexandria,Month-to-month,Yes,0.631,3622.41,0,False,Normal
+CUST-02368,Cairo,Month-to-month,No,0.491,4893.7,2,False,Normal
+CUST-02369,Alexandria,Month-to-month,No,0.352,6750.25,1,False,Normal
+CUST-02370,Giza,One year,No,0.164,4470.27,0,False,Normal
+CUST-02371,Giza,Two year,No,0.101,8042.39,1,False,Normal
+CUST-02372,Cairo,One year,No,0.151,4999.52,0,False,Normal
+CUST-02373,Cairo,Month-to-month,Yes,0.769,3964.19,3,False,Normal
+CUST-02374,Cairo,Two year,No,0.043,8947.05,1,False,Normal
+CUST-02375,Upper Egypt,Two year,No,0.024,8060.5,1,False,Normal
+CUST-02376,Giza,Month-to-month,Yes,0.609,5147.21,2,False,Normal
+CUST-02377,Cairo,Month-to-month,No,0.187,4165.33,2,False,Normal
+CUST-02378,Upper Egypt,One year,No,0.106,7368.85,1,False,Normal
+CUST-02379,Cairo,Two year,Yes,0.55,6977.61,1,False,Normal
+CUST-02380,Giza,One year,No,0.196,5377.65,0,False,Normal
+CUST-02381,Delta,One year,No,0.087,4650.93,0,False,Normal
+CUST-02382,Upper Egypt,One year,No,0.067,6861.5,1,False,Normal
+CUST-02383,Delta,Two year,Yes,0.566,4347.43,3,False,Normal
+CUST-02384,Giza,Month-to-month,No,0.494,3501.45,0,False,Normal
+CUST-02385,Upper Egypt,Month-to-month,Yes,0.657,5851.44,1,False,Normal
+CUST-02386,Cairo,Two year,No,0.105,7341.26,2,False,Normal
+CUST-02387,Upper Egypt,Month-to-month,No,0.196,5717.16,1,False,Normal
+CUST-02388,Delta,Month-to-month,No,0.107,5655.86,2,False,Normal
+CUST-02389,Upper Egypt,Month-to-month,Yes,0.79,4826.62,0,False,Normal
+CUST-02390,Cairo,Month-to-month,Yes,0.727,3828.64,0,False,Normal
+CUST-02391,Cairo,Month-to-month,No,0.402,5290.8,3,False,Normal
+CUST-02392,Alexandria,One year,No,0.147,7561.86,1,False,Normal
+CUST-02393,Giza,Month-to-month,No,0.454,5216.95,1,False,Normal
+CUST-02394,Alexandria,One year,No,0.274,6792.06,1,False,Normal
+CUST-02395,Upper Egypt,Month-to-month,No,0.212,3348.75,2,False,Normal
+CUST-02396,Alexandria,Two year,No,0.06,5356.13,0,False,Normal
+CUST-02397,Cairo,One year,No,0.126,4067.75,3,False,Normal
+CUST-02398,Giza,Two year,No,0.036,5031.43,2,False,Normal
+CUST-02399,Cairo,Month-to-month,No,0.29,3798.34,0,False,Normal
+CUST-02400,Cairo,Month-to-month,No,0.189,5761.43,2,False,Normal
+CUST-02401,Cairo,One year,No,0.113,4740.56,3,False,Normal
+CUST-02402,Delta,Two year,No,0.057,7081.34,1,False,Normal
+CUST-02403,Delta,Month-to-month,No,0.243,4287.86,2,False,Normal
+CUST-02404,Alexandria,One year,No,0.049,4333.81,2,False,Normal
+CUST-02405,Giza,One year,No,0.07,6378.71,2,False,Normal
+CUST-02406,Alexandria,Month-to-month,Yes,0.756,4568.49,0,False,Normal
+CUST-02407,Delta,One year,No,0.221,5363.06,0,False,Normal
+CUST-02408,Upper Egypt,Month-to-month,Yes,0.661,4636.41,1,False,Normal
+CUST-02409,Alexandria,Month-to-month,Yes,0.754,4311.34,1,False,Normal
+CUST-02410,Delta,Two year,No,0.051,4032.38,0,False,Normal
+CUST-02411,Giza,Month-to-month,No,0.482,5743.67,1,False,Normal
+CUST-02412,Giza,One year,No,0.093,6687.79,1,False,Normal
+CUST-02413,Upper Egypt,One year,No,0.203,8464.99,1,False,Normal
+CUST-02414,Giza,Two year,No,0.05,6314.0,2,False,Normal
+CUST-02415,Giza,Month-to-month,No,0.414,3583.42,0,False,Normal
+CUST-02416,Cairo,Month-to-month,No,0.218,4303.91,0,False,Normal
+CUST-02417,Giza,Month-to-month,No,0.498,4661.59,0,False,Normal
+CUST-02418,Alexandria,One year,No,0.095,4520.35,3,False,Normal
+CUST-02419,Alexandria,Month-to-month,Yes,0.748,4657.25,0,False,Normal
+CUST-02420,Giza,One year,No,0.072,6155.21,2,True,Normal
+CUST-02421,Cairo,Month-to-month,No,0.276,4731.65,0,False,Normal
+CUST-02422,Upper Egypt,Month-to-month,No,0.253,4132.84,0,False,Normal
+CUST-02423,Giza,Two year,No,0.058,6881.38,1,False,Normal
+CUST-02424,Upper Egypt,Two year,No,0.039,4156.14,0,False,Normal
+CUST-02425,Cairo,Month-to-month,No,0.452,6424.2,3,False,Normal
+CUST-02426,Alexandria,One year,No,0.113,6087.03,1,False,Normal
+CUST-02427,Alexandria,Month-to-month,No,0.344,5103.53,0,False,Normal
+CUST-02428,Delta,One year,No,0.106,4900.74,0,False,Normal
+CUST-02429,Cairo,Month-to-month,No,0.25,4331.2,0,False,Normal
+CUST-02430,Upper Egypt,Month-to-month,No,0.324,3007.16,0,False,Normal
+CUST-02431,Alexandria,Month-to-month,No,0.268,4640.54,0,False,Normal
+CUST-02432,Alexandria,Month-to-month,Yes,0.651,6783.89,3,True,High
+CUST-02433,Giza,One year,Yes,0.613,7289.38,1,False,High
+CUST-02434,Cairo,Month-to-month,No,0.393,6108.65,1,False,Normal
+CUST-02435,Giza,Month-to-month,No,0.409,6062.23,1,False,Normal
+CUST-02436,Cairo,Month-to-month,No,0.629,5569.79,1,False,Normal
+CUST-02437,Giza,Month-to-month,Yes,0.693,4715.96,3,False,Normal
+CUST-02438,Alexandria,One year,No,0.158,4770.14,0,False,Normal
+CUST-02439,Giza,Month-to-month,No,0.298,7001.62,1,False,Normal
+CUST-02440,Cairo,One year,No,0.074,5886.26,1,False,Normal
+CUST-02441,Cairo,Two year,No,0.112,8114.5,1,False,Normal
+CUST-02442,Cairo,Month-to-month,No,0.174,4218.06,3,False,Normal
+CUST-02443,Cairo,One year,No,0.089,5642.57,2,False,Normal
+CUST-02444,Alexandria,Month-to-month,Yes,0.717,5222.21,3,False,Normal
+CUST-02445,Cairo,Month-to-month,No,0.438,5310.17,1,False,Normal
+CUST-02446,Upper Egypt,Month-to-month,No,0.338,2777.22,3,True,Normal
+CUST-02447,Cairo,Month-to-month,Yes,0.79,4876.51,1,False,Normal
+CUST-02448,Cairo,Month-to-month,No,0.366,4137.56,0,False,Normal
+CUST-02449,Upper Egypt,Month-to-month,No,0.457,4537.5,0,False,Normal
+CUST-02450,Cairo,Two year,No,0.054,4804.87,0,False,Normal
+CUST-02451,Giza,Month-to-month,No,0.493,6555.44,1,False,Normal
+CUST-02452,Upper Egypt,Two year,No,0.056,7132.5,1,False,Normal
+CUST-02453,Upper Egypt,Month-to-month,No,0.447,2879.68,0,False,Normal
+CUST-02454,Delta,One year,No,0.304,5465.26,3,False,Normal
+CUST-02455,Cairo,Month-to-month,No,0.63,6045.28,1,False,Normal
+CUST-02456,Alexandria,Month-to-month,No,0.108,6757.64,2,False,Normal
+CUST-02457,Upper Egypt,Month-to-month,No,0.305,5387.79,1,False,Normal
+CUST-02458,Upper Egypt,Two year,No,0.213,9410.94,1,False,Normal
+CUST-02459,Cairo,Two year,No,0.044,5536.49,0,False,Normal
+CUST-02460,Giza,Month-to-month,No,0.566,5880.9,1,False,Normal
+CUST-02461,Cairo,One year,No,0.212,6133.06,1,False,Normal
+CUST-02462,Cairo,One year,No,0.128,6200.02,3,False,Normal
+CUST-02463,Delta,One year,No,0.084,6777.26,1,False,Normal
+CUST-02464,Cairo,Month-to-month,No,0.46,5276.97,1,False,Normal
+CUST-02465,Giza,One year,Yes,0.521,5279.16,0,False,Normal
+CUST-02466,Cairo,One year,No,0.092,3627.75,0,False,Normal
+CUST-02467,Giza,Month-to-month,No,0.318,5403.87,1,False,Normal
+CUST-02468,Cairo,Month-to-month,No,0.504,6907.88,1,False,Normal
+CUST-02469,Giza,Month-to-month,No,0.312,6416.72,1,False,Normal
+CUST-02470,Cairo,Two year,No,0.088,4271.39,0,False,Normal
+CUST-02471,Upper Egypt,Month-to-month,Yes,0.717,6880.85,1,False,High
+CUST-02472,Cairo,Month-to-month,No,0.565,3103.9,0,False,Normal
+CUST-02473,Alexandria,Month-to-month,Yes,0.642,5375.75,1,False,Normal
+CUST-02474,Cairo,Two year,No,0.039,6951.11,1,False,Normal
+CUST-02475,Cairo,One year,No,0.101,5149.72,1,False,Normal
+CUST-02476,Cairo,Month-to-month,Yes,0.849,5752.75,1,False,Normal
+CUST-02477,Cairo,Month-to-month,No,0.191,5630.48,2,False,Normal
+CUST-02478,Cairo,One year,No,0.105,2360.62,3,True,Normal
+CUST-02479,Giza,Month-to-month,Yes,0.739,4138.89,0,False,Normal
+CUST-02480,Alexandria,Month-to-month,No,0.384,5333.95,0,False,Normal
+CUST-02481,Cairo,Two year,No,0.056,7207.03,3,False,Normal
+CUST-02482,Giza,Month-to-month,No,0.318,3702.98,0,False,Normal
+CUST-02483,Alexandria,Month-to-month,Yes,0.769,4767.95,0,False,Normal
+CUST-02484,Cairo,Month-to-month,No,0.323,5926.89,1,False,Normal
+CUST-02485,Giza,One year,No,0.139,6250.37,1,False,Normal
+CUST-02486,Cairo,One year,No,0.092,6428.81,3,False,Normal
+CUST-02487,Cairo,Month-to-month,Yes,0.81,4574.22,0,False,Normal
+CUST-02488,Giza,One year,No,0.085,5429.89,0,False,Normal
+CUST-02489,Upper Egypt,Two year,No,0.069,4233.79,2,False,Normal
+CUST-02490,Upper Egypt,One year,No,0.025,4405.55,2,False,Normal
+CUST-02491,Upper Egypt,Month-to-month,Yes,0.616,6717.44,1,False,High
+CUST-02492,Giza,Month-to-month,No,0.283,5023.27,1,False,Normal
+CUST-02493,Cairo,Two year,No,0.043,6579.6,1,False,Normal
+CUST-02494,Giza,Month-to-month,No,0.36,5736.52,2,False,Normal
+CUST-02495,Cairo,Month-to-month,No,0.444,6723.07,1,False,Normal
+CUST-02496,Cairo,Month-to-month,Yes,0.66,4932.87,0,False,Normal
+CUST-02497,Cairo,Two year,No,0.033,6869.23,1,False,Normal
+CUST-02498,Giza,Month-to-month,Yes,0.787,5546.51,1,False,Normal
+CUST-02499,Giza,Month-to-month,Yes,0.592,4775.06,0,False,Normal
+CUST-02500,Cairo,One year,No,0.257,6348.84,3,False,Normal
+CUST-02501,Delta,Month-to-month,Yes,0.704,5685.32,1,False,Normal
+CUST-02502,Giza,Month-to-month,No,0.464,7171.85,1,False,Normal
+CUST-02503,Delta,Month-to-month,No,0.213,4256.2,2,False,Normal
+CUST-02504,Cairo,Month-to-month,No,0.389,3725.93,0,False,Normal
+CUST-02505,Alexandria,Two year,No,0.072,2918.1,0,False,Normal
+CUST-02506,Cairo,Month-to-month,Yes,0.62,6512.9,1,False,High
+CUST-02507,Giza,Two year,No,0.062,7166.41,2,False,Normal
+CUST-02508,Cairo,Month-to-month,Yes,0.684,4238.19,3,False,Normal
+CUST-02509,Cairo,Month-to-month,No,0.49,5534.55,1,False,Normal
+CUST-02510,Alexandria,Month-to-month,No,0.39,5838.86,1,False,Normal
+CUST-02511,Cairo,Month-to-month,Yes,0.767,3636.43,0,False,Normal
+CUST-02512,Cairo,Month-to-month,No,0.594,5323.84,1,False,Normal
+CUST-02513,Upper Egypt,Month-to-month,No,0.289,5334.84,1,False,Normal
+CUST-02514,Cairo,Two year,No,0.055,4870.21,0,False,Normal
+CUST-02515,Alexandria,Month-to-month,No,0.331,3144.49,0,False,Normal
+CUST-02516,Alexandria,Two year,No,0.049,4877.2,0,False,Normal
+CUST-02517,Cairo,Month-to-month,Yes,0.441,4775.93,0,False,Normal
+CUST-02518,Giza,Month-to-month,No,0.644,5714.95,3,False,Normal
+CUST-02519,Cairo,One year,No,0.094,6783.96,1,False,Normal
+CUST-02520,Delta,Month-to-month,No,0.368,4580.09,0,False,Normal
+CUST-02521,Cairo,Month-to-month,No,0.415,4569.84,2,False,Normal
+CUST-02522,Cairo,Month-to-month,No,0.402,5148.84,3,False,Normal
+CUST-02523,Cairo,Month-to-month,No,0.298,5405.38,3,False,Normal
+CUST-02524,Upper Egypt,One year,No,0.072,8049.65,2,False,Normal
+CUST-02525,Delta,Month-to-month,Yes,0.67,4828.14,3,False,Normal
+CUST-02526,Upper Egypt,Two year,No,0.027,5779.8,2,False,Normal
+CUST-02527,Alexandria,Month-to-month,No,0.168,4343.06,2,False,Normal
+CUST-02528,Alexandria,Month-to-month,No,0.479,5752.66,1,False,Normal
+CUST-02529,Giza,Month-to-month,Yes,0.72,4442.76,0,False,Normal
+CUST-02530,Upper Egypt,Month-to-month,No,0.635,5539.62,1,False,Normal
+CUST-02531,Giza,Two year,No,0.073,6698.03,1,False,Normal
+CUST-02532,Giza,Two year,No,0.065,7992.05,1,False,Normal
+CUST-02533,Alexandria,Month-to-month,Yes,0.737,5174.21,1,False,Normal
+CUST-02534,Alexandria,Month-to-month,No,0.513,5262.72,2,False,Normal
+CUST-02535,Cairo,Two year,No,0.049,8631.33,1,False,Normal
+CUST-02536,Giza,Month-to-month,No,0.266,4088.5,3,False,Normal
+CUST-02537,Cairo,Month-to-month,No,0.29,4193.79,0,False,Normal
+CUST-02538,Delta,Month-to-month,No,0.386,6089.7,1,False,Normal
+CUST-02539,Giza,Month-to-month,No,0.565,5285.66,1,False,Normal
+CUST-02540,Delta,Month-to-month,No,0.498,5756.47,1,False,Normal
+CUST-02541,Giza,Month-to-month,No,0.262,5611.87,3,False,Normal
+CUST-02542,Delta,Two year,No,0.06,5884.95,0,False,Normal
+CUST-02543,Cairo,Month-to-month,No,0.348,5354.38,1,False,Normal
+CUST-02544,Upper Egypt,Two year,No,0.039,5913.44,0,False,Normal
+CUST-02545,Giza,One year,No,0.076,4889.8,2,False,Normal
+CUST-02546,Cairo,Month-to-month,No,0.411,3087.32,0,False,Normal
+CUST-02547,Cairo,Month-to-month,No,0.386,3565.05,0,False,Normal
+CUST-02548,Cairo,Month-to-month,No,0.434,3146.92,0,False,Normal
+CUST-02549,Giza,Two year,Yes,0.608,3941.45,0,False,Normal
+CUST-02550,Delta,Month-to-month,Yes,0.634,4072.03,0,False,Normal
+CUST-02551,Upper Egypt,Two year,No,0.06,7391.13,1,False,Normal
+CUST-02552,Alexandria,One year,No,0.059,5071.07,0,False,Normal
+CUST-02553,Alexandria,One year,No,0.088,2741.49,0,False,Normal
+CUST-02554,Giza,Month-to-month,No,0.247,3597.34,0,False,Normal
+CUST-02555,Delta,One year,No,0.058,4823.02,0,False,Normal
+CUST-02556,Delta,One year,No,0.175,6380.95,1,False,Normal
+CUST-02557,Cairo,One year,No,0.112,4392.12,0,False,Normal
+CUST-02558,Upper Egypt,Month-to-month,Yes,0.778,3184.03,0,False,Normal
+CUST-02559,Giza,One year,No,0.164,6346.1,1,False,Normal
+CUST-02560,Delta,Month-to-month,No,0.251,4742.74,2,False,Normal
+CUST-02561,Upper Egypt,One year,No,0.057,6478.48,1,False,Normal
+CUST-02562,Delta,Month-to-month,Yes,0.684,4808.03,3,False,Normal
+CUST-02563,Cairo,Month-to-month,No,0.603,5769.33,1,False,Normal
+CUST-02564,Alexandria,One year,No,0.081,4772.8,0,False,Normal
+CUST-02565,Cairo,Month-to-month,No,0.517,5352.65,2,False,Normal
+CUST-02566,Delta,One year,No,0.139,7133.41,1,False,Normal
+CUST-02567,Cairo,One year,No,0.133,5563.46,0,False,Normal
+CUST-02568,Delta,One year,No,0.054,7112.12,2,False,Normal
+CUST-02569,Upper Egypt,One year,No,0.125,4628.18,0,False,Normal
+CUST-02570,Cairo,Month-to-month,No,0.273,4768.84,2,False,Normal
+CUST-02571,Giza,Month-to-month,Yes,0.641,5406.44,1,False,Normal
+CUST-02572,Alexandria,One year,Yes,0.583,6060.17,1,False,Normal
+CUST-02573,Giza,Month-to-month,No,0.395,5341.51,1,False,Normal
+CUST-02574,Cairo,Month-to-month,No,0.342,4395.6,3,False,Normal
+CUST-02575,Cairo,Month-to-month,No,0.442,2870.28,0,False,Normal
+CUST-02576,Giza,Month-to-month,No,0.307,3190.49,0,False,Normal
+CUST-02577,Alexandria,Two year,No,0.042,7115.04,1,False,Normal
+CUST-02578,Alexandria,Month-to-month,No,0.449,6586.45,1,False,Normal
+CUST-02579,Cairo,Month-to-month,No,0.416,5244.16,0,False,Normal
+CUST-02580,Giza,Two year,No,0.079,3502.46,0,False,Normal
+CUST-02581,Giza,Two year,No,0.059,6530.29,2,False,Normal
+CUST-02582,Cairo,Month-to-month,Yes,0.711,5849.76,2,False,Normal
+CUST-02583,Delta,Two year,No,0.064,6892.61,3,False,Normal
+CUST-02584,Cairo,Month-to-month,No,0.362,4525.17,0,False,Normal
+CUST-02585,Alexandria,One year,No,0.079,5816.83,0,False,Normal
+CUST-02586,Upper Egypt,Month-to-month,No,0.353,3864.99,0,False,Normal
+CUST-02587,Alexandria,Month-to-month,No,0.431,6608.96,1,False,Normal
+CUST-02588,Alexandria,Month-to-month,Yes,0.757,5546.67,1,False,Normal
+CUST-02589,Cairo,One year,No,0.122,5438.1,0,False,Normal
+CUST-02590,Cairo,Month-to-month,Yes,0.726,5744.45,3,False,Normal
+CUST-02591,Cairo,Month-to-month,No,0.39,5089.61,1,False,Normal
+CUST-02592,Delta,One year,No,0.215,5587.43,3,False,Normal
+CUST-02593,Delta,Month-to-month,No,0.232,4102.92,0,False,Normal
+CUST-02594,Cairo,Two year,No,0.079,4263.35,0,False,Normal
+CUST-02595,Cairo,Month-to-month,No,0.406,5443.53,1,False,Normal
+CUST-02596,Giza,Month-to-month,Yes,0.599,5849.33,1,False,Normal
+CUST-02597,Alexandria,Month-to-month,No,0.622,4861.56,0,False,Normal
+CUST-02598,Alexandria,Month-to-month,No,0.392,5161.49,2,False,Normal
+CUST-02599,Delta,Month-to-month,Yes,0.589,5817.26,2,False,Normal
+CUST-02600,Upper Egypt,Month-to-month,No,0.162,5700.81,2,False,Normal
+CUST-02601,Cairo,One year,No,0.178,6313.82,3,False,Normal
+CUST-02602,Alexandria,Month-to-month,Yes,0.669,5556.13,1,False,Normal
+CUST-02603,Alexandria,Month-to-month,Yes,0.694,4622.46,3,False,Normal
+CUST-02604,Cairo,One year,No,0.073,4766.57,3,False,Normal
+CUST-02605,Upper Egypt,Month-to-month,No,0.429,3861.59,0,False,Normal
+CUST-02606,Cairo,One year,No,0.096,5681.99,1,False,Normal
+CUST-02607,Delta,Two year,No,0.063,9251.72,2,False,Normal
+CUST-02608,Delta,Month-to-month,No,0.135,5693.4,2,False,Normal
+CUST-02609,Upper Egypt,One year,No,0.076,4602.3,0,False,Normal
+CUST-02610,Giza,Two year,No,0.127,7929.91,1,False,Normal
+CUST-02611,Giza,Month-to-month,No,0.317,5266.93,1,False,Normal
+CUST-02612,Delta,Two year,No,0.091,6401.72,1,False,Normal
+CUST-02613,Delta,Month-to-month,Yes,0.712,4887.09,1,False,Normal
+CUST-02614,Giza,One year,No,0.177,5383.87,3,False,Normal
+CUST-02615,Delta,Month-to-month,No,0.287,4873.31,1,False,Normal
+CUST-02616,Cairo,Month-to-month,No,0.588,3957.19,0,False,Normal
+CUST-02617,Alexandria,Two year,No,0.06,8493.43,1,False,Normal
+CUST-02618,Upper Egypt,Month-to-month,No,0.198,2445.26,0,False,Normal
+CUST-02619,Cairo,Two year,No,0.028,7269.05,2,False,Normal
+CUST-02620,Giza,One year,No,0.089,4138.47,0,False,Normal
+CUST-02621,Upper Egypt,Two year,No,0.043,7763.88,1,False,Normal
+CUST-02622,Delta,Two year,No,0.064,3950.56,0,False,Normal
+CUST-02623,Upper Egypt,One year,No,0.11,8155.25,1,False,Normal
+CUST-02624,Giza,Two year,Yes,0.558,4907.74,0,False,Normal
+CUST-02625,Upper Egypt,One year,No,0.13,8171.81,1,False,Normal
+CUST-02626,Cairo,Month-to-month,No,0.327,5974.92,1,False,Normal
+CUST-02627,Giza,One year,No,0.059,8117.8,1,False,Normal
+CUST-02628,Giza,Month-to-month,Yes,0.554,4017.93,2,False,Normal
+CUST-02629,Delta,Month-to-month,Yes,0.729,6942.61,1,False,High
+CUST-02630,Upper Egypt,Month-to-month,No,0.225,3382.15,2,False,Normal
+CUST-02631,Delta,Month-to-month,Yes,0.606,5406.93,1,False,Normal
+CUST-02632,Alexandria,Month-to-month,No,0.226,4926.49,2,False,Normal
+CUST-02633,Giza,Month-to-month,Yes,0.632,4987.38,2,False,Normal
+CUST-02634,Giza,One year,No,0.107,6633.58,3,False,Normal
+CUST-02635,Giza,One year,No,0.091,5712.7,2,False,Normal
+CUST-02636,Cairo,Two year,No,0.095,5642.38,0,False,Normal
+CUST-02637,Giza,Two year,No,0.05,7242.43,2,False,Normal
+CUST-02638,Delta,Two year,No,0.074,10129.35,1,False,Normal
+CUST-02639,Delta,One year,No,0.13,6728.33,1,False,Normal
+CUST-02640,Delta,Month-to-month,No,0.227,6474.3,3,False,Normal
+CUST-02641,Giza,Two year,No,0.061,4684.79,2,False,Normal
+CUST-02642,Alexandria,Month-to-month,No,0.106,6174.99,2,True,Normal
+CUST-02643,Cairo,Month-to-month,Yes,0.685,4550.82,3,False,Normal
+CUST-02644,Giza,Month-to-month,No,0.62,5860.29,1,False,Normal
+CUST-02645,Giza,One year,No,0.302,7293.95,1,False,Normal
+CUST-02646,Cairo,One year,No,0.075,6584.67,1,False,Normal
+CUST-02647,Cairo,Month-to-month,No,0.438,5752.93,1,False,Normal
+CUST-02648,Delta,One year,No,0.181,4916.62,3,False,Normal
+CUST-02649,Giza,Month-to-month,No,0.219,5712.88,3,False,Normal
+CUST-02650,Giza,Month-to-month,Yes,0.675,5950.69,1,False,Normal
+CUST-02651,Cairo,Month-to-month,No,0.229,3547.24,0,False,Normal
+CUST-02652,Alexandria,Month-to-month,No,0.313,4054.49,0,False,Normal
+CUST-02653,Giza,One year,No,0.065,5104.29,2,False,Normal
+CUST-02654,Giza,Month-to-month,Yes,0.727,5313.35,3,False,Normal
+CUST-02655,Alexandria,Month-to-month,No,0.168,4469.96,2,False,Normal
+CUST-02656,Cairo,Month-to-month,No,0.177,5785.74,2,False,Normal
+CUST-02657,Upper Egypt,One year,No,0.088,6561.7,3,False,Normal
+CUST-02658,Cairo,Two year,No,0.059,6262.2,1,False,Normal
+CUST-02659,Giza,One year,No,0.16,5699.51,0,False,Normal
+CUST-02660,Cairo,One year,No,0.132,4615.36,0,False,Normal
+CUST-02661,Alexandria,Two year,No,0.07,6437.15,2,False,Normal
+CUST-02662,Cairo,Month-to-month,No,0.181,4441.1,2,False,Normal
+CUST-02663,Upper Egypt,Month-to-month,Yes,0.523,5679.48,1,False,Normal
+CUST-02664,Giza,Month-to-month,No,0.436,4717.03,2,False,Normal
+CUST-02665,Alexandria,Month-to-month,No,0.698,6094.52,1,False,Normal
+CUST-02666,Cairo,Month-to-month,Yes,0.753,5706.02,1,False,Normal
+CUST-02667,Cairo,Month-to-month,No,0.329,4521.81,2,False,Normal
+CUST-02668,Giza,Month-to-month,No,0.204,5380.08,1,False,Normal
+CUST-02669,Alexandria,Month-to-month,No,0.162,5157.18,2,False,Normal
+CUST-02670,Giza,Month-to-month,No,0.139,4372.42,2,False,Normal
+CUST-02671,Upper Egypt,Month-to-month,No,0.338,6014.16,1,False,Normal
+CUST-02672,Delta,Two year,No,0.065,3846.45,0,False,Normal
+CUST-02673,Upper Egypt,One year,No,0.093,8334.12,1,False,Normal
+CUST-02674,Cairo,Month-to-month,Yes,0.731,4470.43,0,False,Normal
+CUST-02675,Delta,Month-to-month,Yes,0.745,5616.2,1,False,Normal
+CUST-02676,Alexandria,Month-to-month,Yes,0.744,4852.87,1,False,Normal
+CUST-02677,Alexandria,Month-to-month,No,0.173,4014.31,2,False,Normal
+CUST-02678,Upper Egypt,Month-to-month,No,0.414,4768.69,3,False,Normal
+CUST-02679,Alexandria,Month-to-month,No,0.495,4927.26,3,False,Normal
+CUST-02680,Upper Egypt,Two year,No,0.081,7598.98,3,False,Normal
+CUST-02681,Delta,Two year,No,0.069,5479.99,0,False,Normal
+CUST-02682,Cairo,One year,No,0.123,4731.69,3,False,Normal
+CUST-02683,Delta,One year,No,0.116,5424.76,0,False,Normal
+CUST-02684,Giza,One year,No,0.117,5247.86,3,False,Normal
+CUST-02685,Upper Egypt,One year,No,0.083,7670.15,1,False,Normal
+CUST-02686,Delta,Two year,No,0.093,5484.21,0,False,Normal
+CUST-02687,Cairo,One year,No,0.119,5806.97,2,False,Normal
+CUST-02688,Cairo,One year,No,0.124,5172.16,0,False,Normal
+CUST-02689,Cairo,One year,No,0.093,5596.63,1,False,Normal
+CUST-02690,Giza,One year,Yes,0.491,7592.45,1,False,Normal
+CUST-02691,Cairo,Month-to-month,No,0.384,5401.01,1,False,Normal
+CUST-02692,Delta,Month-to-month,Yes,0.661,5898.64,1,False,Normal
+CUST-02693,Alexandria,Month-to-month,No,0.391,4666.21,3,False,Normal
+CUST-02694,Delta,Month-to-month,Yes,0.714,6430.31,3,False,High
+CUST-02695,Cairo,Month-to-month,No,0.304,5058.21,2,False,Normal
+CUST-02696,Giza,Month-to-month,No,0.3,2961.83,0,False,Normal
+CUST-02697,Cairo,Month-to-month,Yes,0.717,5598.47,1,False,Normal
+CUST-02698,Upper Egypt,Two year,Yes,0.639,7729.49,1,False,High
+CUST-02699,Cairo,Month-to-month,Yes,0.698,4176.67,0,False,Normal
+CUST-02700,Cairo,Month-to-month,No,0.382,4601.29,0,False,Normal
+CUST-02701,Cairo,Month-to-month,Yes,0.518,3936.61,0,False,Normal
+CUST-02702,Delta,Month-to-month,No,0.387,4004.23,0,False,Normal
+CUST-02703,Cairo,One year,No,0.202,5478.0,0,False,Normal
+CUST-02704,Alexandria,One year,No,0.128,5490.76,3,True,Normal
+CUST-02705,Delta,Month-to-month,Yes,0.681,3742.38,3,False,Normal
+CUST-02706,Delta,Month-to-month,No,0.171,3983.93,0,False,Normal
+CUST-02707,Cairo,Month-to-month,No,0.507,2858.8,0,False,Normal
+CUST-02708,Cairo,One year,No,0.192,5357.26,0,False,Normal
+CUST-02709,Giza,Two year,No,0.056,6491.89,1,False,Normal
+CUST-02710,Cairo,Two year,No,0.065,6387.5,0,False,Normal
+CUST-02711,Delta,Month-to-month,Yes,0.635,5758.43,1,False,Normal
+CUST-02712,Giza,One year,No,0.091,7503.34,1,False,Normal
+CUST-02713,Giza,One year,No,0.074,5806.15,2,False,Normal
+CUST-02714,Cairo,Two year,No,0.126,7223.8,1,False,Normal
+CUST-02715,Alexandria,Month-to-month,No,0.419,3598.33,3,False,Normal
+CUST-02716,Cairo,Month-to-month,No,0.461,7660.42,1,False,Normal
+CUST-02717,Alexandria,Month-to-month,No,0.316,4747.83,0,False,Normal
+CUST-02718,Cairo,Month-to-month,Yes,0.674,5946.29,1,False,Normal
+CUST-02719,Upper Egypt,One year,No,0.038,7774.93,1,False,Normal
+CUST-02720,Delta,Month-to-month,No,0.521,6505.89,1,False,Normal
+CUST-02721,Cairo,Month-to-month,Yes,0.541,3270.91,0,False,Normal
+CUST-02722,Cairo,Two year,No,0.061,6220.94,1,False,Normal
+CUST-02723,Giza,Month-to-month,Yes,0.69,3934.44,0,False,Normal
+CUST-02724,Cairo,Two year,No,0.063,3826.13,0,False,Normal
+CUST-02725,Cairo,One year,No,0.196,3768.31,0,False,Normal
+CUST-02726,Upper Egypt,Two year,No,0.047,7104.34,1,False,Normal
+CUST-02727,Alexandria,One year,No,0.145,6402.04,1,False,Normal
+CUST-02728,Cairo,Month-to-month,Yes,0.788,3868.01,0,False,Normal
+CUST-02729,Alexandria,Month-to-month,No,0.452,6291.2,1,False,Normal
+CUST-02730,Cairo,Two year,No,0.072,7265.17,2,False,Normal
+CUST-02731,Upper Egypt,Month-to-month,No,0.356,6877.15,1,False,Normal
+CUST-02732,Cairo,Month-to-month,Yes,0.645,6033.41,1,False,Normal
+CUST-02733,Delta,One year,No,0.191,5972.72,3,False,Normal
+CUST-02734,Delta,Month-to-month,No,0.191,2543.09,2,False,Normal
+CUST-02735,Cairo,Month-to-month,No,0.38,5175.02,3,False,Normal
+CUST-02736,Cairo,Month-to-month,No,0.464,4375.2,0,False,Normal
+CUST-02737,Giza,Month-to-month,No,0.326,3414.26,0,True,Normal
+CUST-02738,Upper Egypt,One year,No,0.079,4625.28,2,False,Normal
+CUST-02739,Alexandria,Month-to-month,Yes,0.616,4889.53,1,False,Normal
+CUST-02740,Alexandria,Month-to-month,Yes,0.588,5925.13,1,False,Normal
+CUST-02741,Delta,Month-to-month,Yes,0.556,5496.14,1,False,Normal
+CUST-02742,Delta,One year,No,0.083,8440.0,1,False,Normal
+CUST-02743,Giza,Month-to-month,No,0.291,5608.52,2,False,Normal
+CUST-02744,Giza,Month-to-month,No,0.279,2977.17,0,False,Normal
+CUST-02745,Delta,One year,No,0.278,6969.92,1,False,Normal
+CUST-02746,Cairo,Month-to-month,No,0.286,4066.16,0,False,Normal
+CUST-02747,Delta,One year,No,0.134,4957.48,3,False,Normal
+CUST-02748,Cairo,Month-to-month,No,0.245,5556.05,1,False,Normal
+CUST-02749,Cairo,Month-to-month,Yes,0.553,4795.84,0,False,Normal
+CUST-02750,Delta,Month-to-month,No,0.216,3950.99,0,False,Normal
+CUST-02751,Giza,Two year,Yes,0.53,4689.76,2,False,Normal
+CUST-02752,Cairo,Month-to-month,No,0.363,3491.22,3,False,Normal
+CUST-02753,Cairo,Month-to-month,Yes,0.512,6130.95,1,False,Normal
+CUST-02754,Alexandria,Month-to-month,No,0.409,4407.8,0,False,Normal
+CUST-02755,Delta,Month-to-month,No,0.363,3788.19,3,False,Normal
+CUST-02756,Cairo,One year,No,0.137,5706.09,1,False,Normal
+CUST-02757,Cairo,Two year,No,0.045,4890.09,0,False,Normal
+CUST-02758,Giza,Month-to-month,Yes,0.632,4307.53,0,False,Normal
+CUST-02759,Upper Egypt,Month-to-month,No,0.169,3002.72,0,False,Normal
+CUST-02760,Cairo,Month-to-month,No,0.413,4004.07,0,False,Normal
+CUST-02761,Upper Egypt,Two year,No,0.072,7850.9,1,False,Normal
+CUST-02762,Upper Egypt,Month-to-month,No,0.496,3473.4,0,False,Normal
+CUST-02763,Cairo,Month-to-month,No,0.318,5036.2,0,False,Normal
+CUST-02764,Delta,Two year,No,0.083,7097.0,1,False,Normal
+CUST-02765,Delta,Two year,No,0.046,5135.55,2,False,Normal
+CUST-02766,Giza,Month-to-month,No,0.331,3961.89,0,False,Normal
+CUST-02767,Giza,Month-to-month,No,0.528,4950.42,2,False,Normal
+CUST-02768,Delta,One year,No,0.159,5189.54,3,False,Normal
+CUST-02769,Delta,Two year,No,0.039,7271.92,3,False,Normal
+CUST-02770,Delta,Month-to-month,No,0.384,6622.34,1,False,Normal
+CUST-02771,Upper Egypt,Month-to-month,No,0.41,3097.36,0,False,Normal
+CUST-02772,Giza,Month-to-month,No,0.241,4131.7,0,False,Normal
+CUST-02773,Delta,Month-to-month,No,0.258,5273.79,1,False,Normal
+CUST-02774,Upper Egypt,Month-to-month,Yes,0.591,4217.65,0,False,Normal
+CUST-02775,Cairo,One year,No,0.249,7430.86,1,False,Normal
+CUST-02776,Cairo,Month-to-month,No,0.108,2393.91,0,True,Normal
+CUST-02777,Giza,Month-to-month,No,0.366,5276.08,1,False,Normal
+CUST-02778,Delta,Two year,Yes,0.575,9468.05,1,False,Normal
+CUST-02779,Cairo,Month-to-month,Yes,0.538,5945.34,1,False,Normal
+CUST-02780,Delta,Month-to-month,No,0.249,3485.58,0,False,Normal
+CUST-02781,Cairo,Two year,No,0.105,4764.43,0,False,Normal
+CUST-02782,Giza,Month-to-month,Yes,0.762,5711.17,1,False,Normal
+CUST-02783,Alexandria,Two year,No,0.046,6968.23,2,False,Normal
+CUST-02784,Cairo,Month-to-month,No,0.21,5091.54,1,False,Normal
+CUST-02785,Upper Egypt,Month-to-month,Yes,0.751,5677.1,1,False,Normal
+CUST-02786,Cairo,One year,No,0.093,6328.65,1,False,Normal
+CUST-02787,Upper Egypt,Month-to-month,Yes,0.731,3553.08,0,False,Normal
+CUST-02788,Cairo,Month-to-month,No,0.305,5711.89,1,False,Normal
+CUST-02789,Upper Egypt,Month-to-month,No,0.362,6301.76,3,False,Normal
+CUST-02790,Alexandria,One year,No,0.04,3577.05,2,False,Normal
+CUST-02791,Cairo,Month-to-month,Yes,0.735,5738.08,1,False,Normal
+CUST-02792,Cairo,One year,Yes,0.597,5450.19,3,False,Normal
+CUST-02793,Cairo,One year,No,0.168,6017.75,1,False,Normal
+CUST-02794,Alexandria,Month-to-month,No,0.188,8155.25,1,True,Normal
+CUST-02795,Delta,Month-to-month,No,0.193,5477.04,2,False,Normal
+CUST-02796,Giza,Month-to-month,No,0.497,5028.34,1,False,Normal
+CUST-02797,Giza,One year,No,0.075,6593.28,1,False,Normal
+CUST-02798,Alexandria,Month-to-month,No,0.449,5849.55,1,False,Normal
+CUST-02799,Alexandria,One year,No,0.089,5496.45,3,False,Normal
+CUST-02800,Delta,Month-to-month,No,0.379,5711.98,1,False,Normal
+CUST-02801,Giza,Month-to-month,Yes,0.619,6987.07,1,False,High
+CUST-02802,Delta,One year,Yes,0.532,6260.28,3,False,Normal
+CUST-02803,Upper Egypt,Month-to-month,No,0.261,2414.9,0,False,Normal
+CUST-02804,Giza,Month-to-month,No,0.292,6569.05,1,False,Normal
+CUST-02805,Cairo,One year,No,0.116,4491.29,0,False,Normal
+CUST-02806,Cairo,One year,No,0.168,5519.22,1,False,Normal
+CUST-02807,Alexandria,Month-to-month,No,0.433,4072.32,3,False,Normal
+CUST-02808,Giza,Month-to-month,No,0.231,4020.57,0,False,Normal
+CUST-02809,Upper Egypt,Month-to-month,No,0.285,6875.16,1,False,Normal
+CUST-02810,Alexandria,One year,No,0.064,3597.8,0,False,Normal
+CUST-02811,Alexandria,Month-to-month,Yes,0.717,4153.81,0,False,Normal
+CUST-02812,Delta,One year,Yes,0.551,5711.51,2,False,Normal
+CUST-02813,Cairo,One year,No,0.124,5086.37,3,False,Normal
+CUST-02814,Delta,Two year,No,0.049,8405.03,1,False,Normal
+CUST-02815,Cairo,Month-to-month,No,0.195,4608.93,2,False,Normal
+CUST-02816,Alexandria,Month-to-month,Yes,0.752,6083.63,1,False,Normal
+CUST-02817,Upper Egypt,Month-to-month,No,0.235,6049.73,1,False,Normal
+CUST-02818,Delta,Month-to-month,No,0.395,5527.9,3,False,Normal
+CUST-02819,Delta,Month-to-month,No,0.433,5992.79,1,False,Normal
+CUST-02820,Giza,Two year,No,0.04,7081.34,1,False,Normal
+CUST-02821,Delta,Month-to-month,Yes,0.626,3270.62,0,False,Normal
+CUST-02822,Alexandria,Month-to-month,Yes,0.615,2377.31,0,False,Normal
+CUST-02823,Alexandria,Month-to-month,No,0.293,4342.98,0,False,Normal
+CUST-02824,Cairo,Two year,No,0.064,7121.38,3,False,Normal
+CUST-02825,Cairo,Month-to-month,No,0.288,7009.9,1,False,Normal
+CUST-02826,Alexandria,One year,No,0.13,6436.82,1,False,Normal
+CUST-02827,Cairo,Two year,No,0.055,3341.99,2,True,Normal
+CUST-02828,Delta,Month-to-month,No,0.265,5600.97,1,False,Normal
+CUST-02829,Delta,One year,No,0.119,8267.27,1,False,Normal
+CUST-02830,Upper Egypt,Month-to-month,No,0.221,6312.81,2,False,Normal
+CUST-02831,Cairo,Month-to-month,Yes,0.614,3514.72,3,False,Normal
+CUST-02832,Upper Egypt,Month-to-month,Yes,0.627,5398.93,3,False,Normal
+CUST-02833,Cairo,Month-to-month,No,0.562,5084.98,3,False,Normal
+CUST-02834,Giza,One year,No,0.279,5639.37,0,False,Normal
+CUST-02835,Delta,Two year,No,0.057,4966.97,0,False,Normal
+CUST-02836,Cairo,Month-to-month,No,0.428,5880.26,1,False,Normal
+CUST-02837,Cairo,One year,No,0.116,5618.47,0,False,Normal
+CUST-02838,Cairo,Month-to-month,Yes,0.647,3722.44,0,False,Normal
+CUST-02839,Giza,Month-to-month,No,0.458,5417.47,1,False,Normal
+CUST-02840,Delta,One year,No,0.124,5749.82,0,False,Normal
+CUST-02841,Cairo,Month-to-month,No,0.518,4153.97,0,False,Normal
+CUST-02842,Cairo,One year,No,0.083,8491.41,1,False,Normal
+CUST-02843,Alexandria,Month-to-month,No,0.519,4942.67,1,False,Normal
+CUST-02844,Cairo,One year,Yes,0.551,4625.27,0,False,Normal
+CUST-02845,Delta,Month-to-month,No,0.41,4746.45,0,False,Normal
+CUST-02846,Upper Egypt,Month-to-month,No,0.234,4903.48,0,False,Normal
+CUST-02847,Delta,One year,No,0.098,7846.85,1,False,Normal
+CUST-02848,Upper Egypt,Month-to-month,No,0.568,4099.16,0,False,Normal
+CUST-02849,Giza,Month-to-month,Yes,0.686,6716.1,1,False,High
+CUST-02850,Delta,Two year,No,0.067,4096.2,0,False,Normal
+CUST-02851,Cairo,Month-to-month,No,0.251,4911.51,3,False,Normal
+CUST-02852,Cairo,Month-to-month,No,0.283,4047.86,0,False,Normal
+CUST-02853,Alexandria,Month-to-month,Yes,0.664,4862.75,2,False,Normal
+CUST-02854,Cairo,One year,No,0.112,4319.7,0,False,Normal
+CUST-02855,Upper Egypt,One year,No,0.147,7216.91,1,False,Normal
+CUST-02856,Delta,Two year,No,0.049,7617.5,2,False,Normal
+CUST-02857,Upper Egypt,Month-to-month,No,0.395,4223.88,0,False,Normal
+CUST-02858,Cairo,Month-to-month,Yes,0.715,5844.07,1,False,Normal
+CUST-02859,Giza,Month-to-month,Yes,0.712,4623.46,0,False,Normal
+CUST-02860,Delta,Month-to-month,No,0.268,3930.81,0,False,Normal
+CUST-02861,Cairo,One year,No,0.078,3920.36,0,False,Normal
+CUST-02862,Alexandria,Month-to-month,No,0.268,6173.57,1,False,Normal
+CUST-02863,Alexandria,One year,No,0.111,5604.27,3,False,Normal
+CUST-02864,Upper Egypt,One year,No,0.135,6701.41,3,False,Normal
+CUST-02865,Delta,One year,No,0.06,5276.91,2,False,Normal
+CUST-02866,Cairo,Month-to-month,No,0.282,6473.75,1,False,Normal
+CUST-02867,Giza,Month-to-month,Yes,0.687,2695.1,0,True,Normal
+CUST-02868,Alexandria,Two year,No,0.031,8250.45,1,False,Normal
+CUST-02869,Cairo,One year,No,0.1,5436.28,2,False,Normal
+CUST-02870,Giza,Month-to-month,Yes,0.805,4706.56,1,False,Normal
+CUST-02871,Cairo,One year,No,0.074,7437.2,1,False,Normal
+CUST-02872,Cairo,Two year,No,0.051,7443.43,3,False,Normal
+CUST-02873,Giza,Month-to-month,No,0.501,4552.21,0,False,Normal
+CUST-02874,Cairo,Two year,No,0.107,5602.0,0,False,Normal
+CUST-02875,Alexandria,Month-to-month,No,0.654,5409.1,1,False,Normal
+CUST-02876,Cairo,Two year,No,0.044,4047.18,0,False,Normal
+CUST-02877,Delta,Month-to-month,No,0.326,2909.29,0,False,Normal
+CUST-02878,Cairo,Month-to-month,No,0.314,4584.51,0,False,Normal
+CUST-02879,Upper Egypt,Month-to-month,No,0.429,2866.75,0,False,Normal
+CUST-02880,Cairo,One year,No,0.088,3083.6,0,False,Normal
+CUST-02881,Alexandria,Two year,No,0.152,8710.04,1,False,Normal
+CUST-02882,Giza,Month-to-month,No,0.299,4631.37,0,False,Normal
+CUST-02883,Cairo,Month-to-month,No,0.358,5342.45,1,False,Normal
+CUST-02884,Giza,Month-to-month,No,0.282,5041.2,1,False,Normal
+CUST-02885,Delta,Month-to-month,Yes,0.6,6847.69,1,False,High
+CUST-02886,Upper Egypt,One year,No,0.082,3761.45,0,False,Normal
+CUST-02887,Cairo,Month-to-month,No,0.145,4012.11,2,True,Normal
+CUST-02888,Cairo,Two year,No,0.036,6304.95,0,False,Normal
+CUST-02889,Delta,Two year,No,0.053,5940.06,0,False,Normal
+CUST-02890,Alexandria,Month-to-month,Yes,0.737,4588.06,0,False,Normal
+CUST-02891,Cairo,Month-to-month,No,0.442,3954.66,0,False,Normal
+CUST-02892,Delta,Two year,No,0.047,7893.77,1,False,Normal
+CUST-02893,Giza,Two year,No,0.108,5031.96,0,False,Normal
+CUST-02894,Alexandria,One year,No,0.123,6756.62,1,False,Normal
+CUST-02895,Giza,Month-to-month,No,0.162,2481.96,2,False,Normal
+CUST-02896,Giza,Month-to-month,No,0.479,5897.76,1,False,Normal
+CUST-02897,Cairo,One year,No,0.129,6404.71,3,False,Normal
+CUST-02898,Delta,Month-to-month,No,0.196,4733.92,0,False,Normal
+CUST-02899,Cairo,One year,No,0.144,5455.32,0,False,Normal
+CUST-02900,Delta,One year,No,0.11,2741.44,0,True,Normal
+CUST-02901,Delta,Month-to-month,No,0.511,5338.21,1,False,Normal
+CUST-02902,Delta,Month-to-month,Yes,0.806,5652.13,3,False,Normal
+CUST-02903,Cairo,Month-to-month,No,0.295,2916.56,0,False,Normal
+CUST-02904,Cairo,Two year,No,0.049,6350.89,3,False,Normal
+CUST-02905,Giza,Month-to-month,No,0.492,5845.84,1,False,Normal
+CUST-02906,Alexandria,Month-to-month,No,0.435,4506.02,3,False,Normal
+CUST-02907,Upper Egypt,Two year,No,0.098,7660.35,1,False,Normal
+CUST-02908,Giza,One year,No,0.082,5711.67,2,False,Normal
+CUST-02909,Upper Egypt,Month-to-month,Yes,0.716,5513.11,1,False,Normal
+CUST-02910,Cairo,Two year,No,0.021,6513.78,2,False,Normal
+CUST-02911,Giza,Month-to-month,Yes,0.688,6079.85,1,False,Normal
+CUST-02912,Cairo,Two year,No,0.087,6856.84,1,False,Normal
+CUST-02913,Delta,Two year,No,0.066,4620.78,0,False,Normal
+CUST-02914,Cairo,Month-to-month,No,0.525,5276.45,1,False,Normal
+CUST-02915,Cairo,Month-to-month,Yes,0.847,5207.64,3,False,Normal
+CUST-02916,Delta,Month-to-month,Yes,0.435,3409.86,0,False,Normal
+CUST-02917,Alexandria,One year,No,0.104,7141.67,3,False,Normal
+CUST-02918,Cairo,One year,No,0.071,6990.73,1,False,Normal
+CUST-02919,Cairo,Month-to-month,No,0.458,4404.2,0,False,Normal
+CUST-02920,Giza,Two year,No,0.053,9051.96,2,False,Normal
+CUST-02921,Cairo,Month-to-month,No,0.482,3144.49,0,False,Normal
+CUST-02922,Cairo,One year,No,0.058,5131.07,0,False,Normal
+CUST-02923,Alexandria,One year,No,0.153,4270.55,0,False,Normal
+CUST-02924,Cairo,Month-to-month,No,0.645,5171.65,1,False,Normal
+CUST-02925,Alexandria,Month-to-month,No,0.243,4053.32,0,False,Normal
+CUST-02926,Giza,One year,No,0.051,5049.54,0,False,Normal
+CUST-02927,Cairo,One year,No,0.179,7118.92,1,False,Normal
+CUST-02928,Cairo,Month-to-month,No,0.272,4156.77,3,False,Normal
+CUST-02929,Cairo,One year,No,0.058,4922.48,2,False,Normal
+CUST-02930,Cairo,Month-to-month,Yes,0.744,6695.16,1,False,High
+CUST-02931,Cairo,Month-to-month,No,0.37,3813.16,0,False,Normal
+CUST-02932,Upper Egypt,Two year,No,0.033,3975.61,0,False,Normal
+CUST-02933,Delta,Month-to-month,Yes,0.709,4229.12,3,False,Normal
+CUST-02934,Giza,One year,No,0.056,3613.97,2,False,Normal
+CUST-02935,Alexandria,One year,No,0.048,5182.66,2,False,Normal
+CUST-02936,Alexandria,Month-to-month,No,0.615,5586.2,1,False,Normal
+CUST-02937,Delta,Month-to-month,No,0.341,6577.25,1,False,Normal
+CUST-02938,Cairo,Month-to-month,No,0.318,6022.54,1,False,Normal
+CUST-02939,Cairo,Month-to-month,No,0.246,4862.65,3,False,Normal
+CUST-02940,Cairo,One year,No,0.094,3954.89,0,False,Normal
+CUST-02941,Cairo,Month-to-month,No,0.484,4208.05,0,False,Normal
+CUST-02942,Cairo,Two year,No,0.098,6066.59,0,False,Normal
+CUST-02943,Upper Egypt,Month-to-month,No,0.48,5458.06,1,False,Normal
+CUST-02944,Upper Egypt,Month-to-month,Yes,0.646,2228.96,0,False,Normal
+CUST-02945,Cairo,Two year,Yes,0.557,7770.57,3,False,Normal
+CUST-02946,Giza,Month-to-month,Yes,0.701,4436.12,3,False,Normal
+CUST-02947,Giza,One year,No,0.142,4201.74,0,False,Normal
+CUST-02948,Giza,One year,No,0.12,6515.77,1,False,Normal
+CUST-02949,Alexandria,Two year,No,0.038,5452.1,0,False,Normal
+CUST-02950,Cairo,Month-to-month,No,0.216,3606.9,2,False,Normal
+CUST-02951,Delta,Month-to-month,No,0.222,4490.45,3,False,Normal
+CUST-02952,Upper Egypt,Two year,No,0.055,7831.43,1,False,Normal
+CUST-02953,Alexandria,Month-to-month,No,0.43,5857.95,1,False,Normal
+CUST-02954,Alexandria,One year,No,0.029,5880.08,2,False,Normal
+CUST-02955,Alexandria,One year,No,0.034,5665.08,2,False,Normal
+CUST-02956,Giza,One year,No,0.165,7719.38,1,False,Normal
+CUST-02957,Cairo,One year,No,0.045,3643.68,0,False,Normal
+CUST-02958,Alexandria,Two year,No,0.048,3995.71,0,False,Normal
+CUST-02959,Cairo,Month-to-month,No,0.548,3569.34,0,False,Normal
+CUST-02960,Delta,One year,No,0.105,7242.77,1,False,Normal
+CUST-02961,Giza,One year,No,0.168,7981.33,1,False,Normal
+CUST-02962,Giza,Month-to-month,No,0.312,5767.72,3,False,Normal
+CUST-02963,Giza,Two year,No,0.05,6238.68,2,False,Normal
+CUST-02964,Upper Egypt,Month-to-month,Yes,0.606,6976.17,1,False,High
+CUST-02965,Cairo,Month-to-month,Yes,0.646,4600.4,3,False,Normal
+CUST-02966,Cairo,Two year,No,0.058,5511.5,2,True,Normal
+CUST-02967,Cairo,Two year,No,0.077,6827.06,1,False,Normal
+CUST-02968,Alexandria,Month-to-month,Yes,0.79,5609.76,1,False,Normal
+CUST-02969,Upper Egypt,One year,No,0.096,3552.08,0,False,Normal
+CUST-02970,Cairo,Month-to-month,No,0.55,3962.39,0,False,Normal
+CUST-02971,Upper Egypt,Month-to-month,No,0.165,4119.72,0,False,Normal
+CUST-02972,Cairo,Month-to-month,Yes,0.746,5692.92,1,False,Normal
+CUST-02973,Alexandria,Two year,No,0.067,6187.33,0,False,Normal
+CUST-02974,Cairo,Month-to-month,No,0.614,5548.26,1,False,Normal
+CUST-02975,Giza,Month-to-month,No,0.18,3938.41,2,False,Normal
+CUST-02976,Alexandria,One year,No,0.058,3301.32,0,False,Normal
+CUST-02977,Alexandria,Month-to-month,No,0.669,3826.87,0,False,Normal
+CUST-02978,Cairo,Month-to-month,No,0.14,5216.0,2,False,Normal
+CUST-02979,Delta,Month-to-month,No,0.267,3897.65,0,False,Normal
+CUST-02980,Upper Egypt,One year,No,0.126,5452.73,2,False,Normal
+CUST-02981,Giza,One year,No,0.14,6196.08,1,False,Normal
+CUST-02982,Alexandria,One year,No,0.047,7810.36,2,False,Normal
+CUST-02983,Delta,Month-to-month,Yes,0.592,3263.07,0,False,Normal
+CUST-02984,Cairo,Month-to-month,Yes,0.806,4562.98,3,False,Normal
+CUST-02985,Upper Egypt,One year,No,0.101,4387.03,0,False,Normal
+CUST-02986,Cairo,Month-to-month,No,0.215,4261.97,0,False,Normal
+CUST-02987,Delta,Month-to-month,No,0.229,4052.89,0,False,Normal
+CUST-02988,Cairo,Month-to-month,No,0.41,5349.07,1,False,Normal
+CUST-02989,Cairo,Month-to-month,No,0.293,6306.3,1,False,Normal
+CUST-02990,Alexandria,Month-to-month,Yes,0.676,5453.81,3,False,Normal
+CUST-02991,Alexandria,Two year,No,0.027,4960.6,0,False,Normal
+CUST-02992,Delta,Month-to-month,No,0.659,3772.01,0,False,Normal
+CUST-02993,Upper Egypt,One year,No,0.066,4324.54,3,False,Normal
+CUST-02994,Cairo,Month-to-month,No,0.225,3877.61,2,False,Normal
+CUST-02995,Cairo,One year,No,0.037,6338.48,2,False,Normal
+CUST-02996,Giza,One year,No,0.115,5983.09,3,False,Normal
+CUST-02997,Giza,Two year,No,0.048,5954.01,0,False,Normal
+CUST-02998,Giza,Month-to-month,No,0.314,5775.54,1,False,Normal
+CUST-02999,Delta,One year,Yes,0.55,5495.92,1,False,Normal
+CUST-03000,Delta,Month-to-month,No,0.43,3674.29,0,False,Normal
