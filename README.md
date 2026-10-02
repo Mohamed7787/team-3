@@ -1,4 +1,4 @@
-# Team 3 — Customer 360 Intelligence
+# Customer 360 Intelligence
 
 End-to-end machine learning project for **NileConnect**, a fictional telecom / digital-services company. Using one synthetic customer dataset, the project answers five business questions: who will churn, how much revenue each customer will bring, which natural customer groups exist, how to see the data in fewer dimensions, and which customers behave unusually.
 
